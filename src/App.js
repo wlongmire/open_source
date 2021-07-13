@@ -14,7 +14,7 @@ class Source {
   }
 
   getRoute = () => {
-    return (`/footnote/${this.id}`);
+    return (`/opensource/footnote/${this.id}`);
   }
 
   getShortCode = () => {
