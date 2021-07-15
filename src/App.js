@@ -38,7 +38,7 @@ function App() {
               window.location.href = `${src.getURL()}`
             }, 2000);
           }
-        } />
+        } />)
       }
     </div>
   );
