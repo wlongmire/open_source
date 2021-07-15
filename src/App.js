@@ -33,7 +33,11 @@ function App() {
       </header>
       {
         sources.map(src => <Route key={src.id} path={src.getRoute()} render={
-          () => (window.location.href = `${src.getURL()}`)}
+          () => {
+            setTimeout(() => {
+              window.location.href = `${src.getURL()}`
+            }, 2000);
+          }
         />)
       }
     </div>
