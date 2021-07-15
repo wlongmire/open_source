@@ -29,10 +29,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Open Source Resources</h2>
+        <img width="500" src="images/open.png" />
       </header>
       {
-        sources.map(src => <Route key={src.id} path={src.getRoute()} render={() => (window.location.href = `${src.getURL()}`)} />)
+        sources.map(src => <Route key={src.id} path={src.getRoute()} render={
+          () => (window.location.href = `${src.getURL()}`)}
+        />)
       }
     </div>
   );
