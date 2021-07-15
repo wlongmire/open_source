@@ -29,14 +29,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img alt="images/open.png" width="500" src="images/open.png" />
+        <img alt="images/open.png" width="500" src="./images/open.png" />
       </header>
       {
         sources.map(src => <Route key={src.id} path={src.getRoute()} render={
           () => {
             setTimeout(() => {
               window.location.href = `${src.getURL()}`
-            }, 2000);
+            }, 3000);
           }
         } />)
       }
