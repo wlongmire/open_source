@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img alt="./images/open.png" width="70%" id="feature_img" src="open.png" />
+        <img alt="./open.png" width="70%" id="feature_img" src="./open.png" />
       </header>
       {
         sources.map(src => <Route key={src.id} path={src.getRoute()} render={
