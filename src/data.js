@@ -2,12 +2,12 @@ const data = [
   {
     id: 1,
     title: "baldwin",
-    url: "https://www.youtube.com/embed?v=0LmrqtD1E7c&t=62s"
+    url: "https://www.youtube.com/watch?v=0LmrqtD1E7c&t=62s"
   },
   {
     id: 2,
     title: "Strawberry Mansion",
-    url: "https://www.youtube.com/embed?v=SGGW51EGUrA"
+    url: "https://www.youtube.com/watch?v=SGGW51EGUrA"
   },
   {
     id: 3,
@@ -213,6 +213,36 @@ const data = [
     id: 45,
     title: "Strawberry Mansion",
     url: "https://www.google.com/search?q=baldwin"
+  },
+  {
+    id: 46,
+    title: "Hooptee",
+    baseRoute: "/opensource/hooptee",
+    url: "https://www.urbandictionary.com/define.php?term=hooptee"
+  },
+  {
+    id: 47,
+    title: "Autoimmune",
+    baseRoute: "/opensource/autoimmune",
+    url: "https://medlineplus.gov/autoimmunediseases.html"
+  },
+  {
+    id: 48,
+    title: "A Strange Place for Snow",
+    baseRoute: "/opensource/a_strange_place_for_snow",
+    url: "https://www.ecosia.org/search?q=a+strange+place+for+snw&addon=chrome&addonversion=3.4.0&method=topbar"
+  },
+  {
+    id: 49,
+    title: "No One Knows What They Are Doing At Microsoft.",
+    baseRoute: "/opensource/no_one_knows_what_they_are_doing_at_microsoft",
+    url: "https://www.microsoft.com/en-us/"
+  },
+  {
+    id: 50,
+    title: "Basic Income Experiment",
+    baseRoute: "/opensource/basic_income_experiment",
+    url: "https://www.vox.com/future-perfect/2020/2/19/21112570/universal-basic-income-ubi-map"
   }
 ];
 

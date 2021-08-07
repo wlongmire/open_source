@@ -1,30 +1,31 @@
 import { Route } from 'react-router-dom';
+
+import Iframe from 'react-iframe'
+
+import Source from './utils/Source';
 import data from './data';
+
 import './App.css';
 
-class Source {
-  constructor(title, url, id) {
-    this.title = title;
-    this.baseUrl = url;
-    this.id = id;
-  }
 
-  getURL = () => {
-    return (`https://www.google.com/search?q=${this.getShortCode()}`);
-  }
-
-  getRoute = () => {
-    return (`/opensource/footnote/${this.id}`);
-  }
-
-  getShortCode = () => {
-    return (this.title.toLowerCase().trim().replace(" ", "-"));
-  }
+const FrameComponent = () => {
+  return (<div class="page">
+    <Iframe url="http://www.youtube.com/embed/xDMP3i36naA"
+      width="450px"
+      height="1000px"
+      className="frame" />
+    <Iframe url="http://webcache.googleusercontent.com/search?q=cache:https://www.phillymag.com/news/2021/07/10/philly-inferiority-complex/"
+      width="450px"
+      height="1000px"
+      className="frame" />
+  </div>);
 }
 
 function App() {
 
-  const sources = data.map(src => new Source(src.title, src.url, src.id));
+  const sources = data.map(src => {
+    return (new Source(src.title, src.url, src.id, src.baseRoute));
+  });
 
   return (
     <div className="App">

@@ -27,3 +27,11 @@
   width:80%;
   max-width: 500px;
 }
+
+.frame {
+
+}
+
+.page {
+  display: flex;
+}
