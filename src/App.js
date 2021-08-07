@@ -1,12 +1,11 @@
 import { Route } from 'react-router-dom';
 
-import Iframe from 'react-iframe'
+// import Iframe from 'react-iframe'
 
 import Source from './utils/Source';
 import data from './data';
 
 import './App.css';
-
 
 function App() {
 
