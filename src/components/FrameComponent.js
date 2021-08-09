@@ -1,5 +1,5 @@
 import React from 'react';
-import Iframe from 'react-iframe'
+import Iframe from 'react-iframe';
 
 const FrameComponent = () => {
   return (<div class="page">

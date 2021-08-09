@@ -1,3 +1,7 @@
+html, body, #root, .page, .App {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -28,10 +32,48 @@
   max-width: 500px;
 }
 
-.frame {
-
+.rows, .columns {
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
 }
 
-.page {
-  display: flex;
+.rows {
+  flex-direction:column;
+}
+
+.columns {
+  flex-direction:row;
+}
+
+.box {
+  flex-grow: 1
+}
+
+.o66 {
+  flex-grow: 3;
+}
+
+.o75 {
+  flex-grow: 4
+}
+
+
+.red {
+  background:red;
+}
+
+.blue {
+  background:green;
+}
+
+.green {
+  background:blue;
+}
+
+.yellow {
+  background:yellow;
 }
