@@ -12,3 +12,7 @@ code {
     monospace;
 }
 
+
+.map, iframe {
+  border: 0px;
+}
