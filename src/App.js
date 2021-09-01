@@ -21,7 +21,7 @@ function App() {
               return(<Container>
                 <Header>
                   <p>{src.grid.index}. {src.grid.headline}</p>
-                  <img width="100px" height="100px" src="./open.png"/>
+                  <img width="100px" height="100px" src="./open.png" alt="open"/>
                 </Header>
                 <ContentGrid {...src.grid}/>
               </Container>);

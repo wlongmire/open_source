@@ -6,7 +6,7 @@ import {Modal, ModalButton, Container, Mosaic, Module} from './styles';
 
 const ContentGrid = (props)=> {
   const [playing, setPlaying] = useState(false);
-  const { headline, index, modules, rows, cols, m_rows, m_cols } = props;
+  const { headline, modules, rows, cols, m_rows, m_cols } = props;
 
   return(<Container>
     <Mosaic rows={rows} m_rows={m_rows} cols={cols} m_cols={m_cols}>
