@@ -6,7 +6,6 @@ import { Container, Header} from './styles';
 
 import ContentGrid from './ContentGrid';
 
-// import { MAP_TYPE, YOUTUBE_TYPE, ARTICLE_TYPE} from './ContentGrid/constants';
 import data from './data';
 
 function App() {

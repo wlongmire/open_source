@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import { MAP_TYPE, YOUTUBE_TYPE, ARTICLE_TYPE} from './constants';
+import { MAP_TYPE, YOUTUBE_TYPE} from './constants';
 
 const ContentPicker = (props) => {
     const { type } = props;

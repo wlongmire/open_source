@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import ContentPicker from './ContentPicker';
 
-import {Modal, ModalButton, Container, Mosaic, Item, Module} from './styles';
+import {Modal, ModalButton, Container, Mosaic, Module} from './styles';
 
 const ContentGrid = (props)=> {
   const [playing, setPlaying] = useState(false);

@@ -1,4 +1,4 @@
-import { MAP_TYPE, YOUTUBE_TYPE, ARTICLE_TYPE} from './ContentGrid/constants';
+import { MAP_TYPE, YOUTUBE_TYPE} from './ContentGrid/constants';
 
 const data = [
   {
