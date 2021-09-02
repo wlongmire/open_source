@@ -1,4 +1,5 @@
-import {  MAP_TYPE, VIDEO_TYPE, COLOR_TYPE, IMAGE_TYPE} from './ContentGrid/constants';
+import {  MAP_TYPE, VIDEO_TYPE, IMAGE_TYPE} from './ContentGrid/constants';
+// import {  COLOR_TYPE} from './ContentGrid/constants';
 
 const data = [
   {
