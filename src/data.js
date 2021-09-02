@@ -49,7 +49,7 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          muted: true,
+          muted: false,
           id: "SwaUa7Umu-A",
           row_range: {start: 1, end:6},
           col_range: {start: 1, end:10},
