@@ -40,11 +40,6 @@ export const Container = styled.div`
   height:100%;
   display:flex;
   flex-direction: column;
-  background-color: ${props => {
-    const value = "red";
-    console.log(props.bgColor);
-    return(props.bgColor || "white");
-  }}
 `;
 
 export const Mosaic = styled.div`
