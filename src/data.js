@@ -1,4 +1,4 @@
-import { MAP_TYPE, YOUTUBE_TYPE} from './ContentGrid/constants';
+import { MAP_TYPE, VIDEO_TYPE} from './ContentGrid/constants';
 
 const data = [
   {
@@ -24,8 +24,8 @@ const data = [
           m_col_range: {start: 1, end:4}
         },
         {
-          type: YOUTUBE_TYPE,
-          youtubeId: "SGGW51EGUrA",
+          type: VIDEO_TYPE,
+          id: "SGGW51EGUrA",
           row_range: {start: 1, end:5},
           col_range: {start: 2, end:4},
           m_row_range: {start: 1, end:3},
@@ -37,7 +37,41 @@ const data = [
   {
     id: 2,
     title: "The Invariant Be",
-    url: "https://ygdp.yale.edu/phenomena/invariant-be"
+    isGrid:true,
+    grid: {
+      index: 1,
+      headline: "Strawberry Mansion",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "SwaUa7Umu-A",
+          row_range: {start: 1, end:6},
+          col_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:10}
+        },
+        {
+          type:MAP_TYPE,
+          link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24454.867806501945!2d-75.19231844229078!3d39.98926793267725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c792ace88039%3A0x8b90a2aa5e25a819!2sStrawberry%20Mansion%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1630374856051!5m2!1sen!2sus",
+          col_range: {start: 10, end:15},
+          row_range: {start: 1, end:6},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 2, end:5}
+        },
+        {
+          type:MAP_TYPE,
+          link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24454.867806501945!2d-75.19231844229078!3d39.98926793267725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c792ace88039%3A0x8b90a2aa5e25a819!2sStrawberry%20Mansion%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1630374856051!5m2!1sen!2sus",
+          col_range: {start: 1, end:7},
+          row_range: {start: 1, end:2},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:2}
+        }
+      ]
+    }
   },
   {
     id: 3,
