@@ -40,6 +40,11 @@ export const Container = styled.div`
   height:100%;
   display:flex;
   flex-direction: column;
+  background-color: ${props => {
+    const value = "red";
+    console.log(props.bgColor);
+    return(props.bgColor || "white");
+  }}
 `;
 
 export const Mosaic = styled.div`
@@ -73,4 +78,8 @@ export const Module = styled(Item)`
     grid-row: ${props => `${props.m_row_range.start} / ${props.m_row_range.end}`};//3 / 7;
     grid-column: ${props => `${props.m_col_range.start} / ${props.m_col_range.end}`};//1 / 4;
   }
+`
+
+export const Image = styled.a`
+  overflow: hidden;
 `

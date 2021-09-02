@@ -15,6 +15,7 @@ export const Header = styled.header`
   color:white;
   display:flex;
   align-items: center;
+  z-index: 1000;
   justify-content: space-between;
 
   p {
