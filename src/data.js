@@ -21,7 +21,7 @@ const data = [
           loop: true,
           row_range: {start: 1, end:5},
           col_range: {start: 1, end:2},
-          m_row_range: {start: 3, end:7},
+          m_row_range: {start: 5, end:7},
           m_col_range: {start: 1, end:4}
         },
         {
@@ -29,7 +29,7 @@ const data = [
           id: "SGGW51EGUrA",
           row_range: {start: 1, end:5},
           col_range: {start: 2, end:4},
-          m_row_range: {start: 1, end:3},
+          m_row_range: {start: 1, end:5},
           m_col_range: {start: 1, end:4}
         }
       ]
@@ -38,6 +38,47 @@ const data = [
   {
     id: 2,
     title: "The Invariant Be",
+    isGrid:true,
+    grid: {
+      index: 1,
+      headline: "The Invariant Be",
+      rows: 10,
+      cols: 14,
+      m_rows: 11,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "SwaUa7Umu-A",
+          row_range: {start: 1, end:6},
+          col_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 6, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+          src: "footnote2.1.png",
+          col_range: {start: 10, end:15},
+          row_range: {start: 1, end:6},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 2, end:6}
+        },
+        {
+          type:IMAGE_TYPE,
+          href:"https://ygdp.yale.edu/phenomena/invariant-be",
+          src: "footnote2.2.png",
+          col_range: {start: 1, end:15},
+          row_range: {start: 6, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:2}
+        }
+      ]
+    }
+  },
+  {
+    id: 3,
+    title: "murder capital",
     isGrid:true,
     grid: {
       index: 1,
@@ -75,11 +116,6 @@ const data = [
         }
       ]
     }
-  },
-  {
-    id: 3,
-    title: "murder capital",
-    url: "https://www.youtube.com/watch?v=HbL5J9AGflc"
   },
   {
     id: 4,
