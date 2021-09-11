@@ -47,6 +47,7 @@ export const Mosaic = styled.div`
   box-sizing: border-box;
   height:100%;
 
+  background-color: ${props => props.gap_color || "white"};
   padding: 0.2em;
   grid-gap: 0.2em;
 
@@ -66,15 +67,19 @@ export const Item = styled.div`
   justify-content: center;
 `
 export const Module = styled(Item)`
-  grid-row: ${props => `${props.row_range.start} / ${props.row_range.end}`}; //1 / 5;
-  grid-column: ${props => `${props.col_range.start} / ${props.col_range.end}`};//1 / 2;
+  grid-row: ${props => `${props.row_range.start} / ${props.row_range.end}`}; 
+  grid-column: ${props => `${props.col_range.start} / ${props.col_range.end}`};
 
   @media (max-width: 768px) {
-    grid-row: ${props => `${props.m_row_range.start} / ${props.m_row_range.end}`};//3 / 7;
-    grid-column: ${props => `${props.m_col_range.start} / ${props.m_col_range.end}`};//1 / 4;
+    grid-row: ${props => `${props.m_row_range.start} / ${props.m_row_range.end}`};
+    grid-column: ${props => `${props.m_col_range.start} / ${props.m_col_range.end}`};
   }
 `
 
-export const Image = styled.a`
-  overflow: hidden;
+export const Image = styled.div`
+  background-image: ${props => `url(${props.src})`};
+  background-position: ${props => `${props.img_pos.x}% ${props.img_pos.y}%`};
+  background-size: ${props => `${props.img_size}%`};
+  width:100%;
+  height:100%;
 `

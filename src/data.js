@@ -17,8 +17,6 @@ const data = [
         {
           type:MAP_TYPE,
           link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24454.867806501945!2d-75.19231844229078!3d39.98926793267725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c792ace88039%3A0x8b90a2aa5e25a819!2sStrawberry%20Mansion%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1630374856051!5m2!1sen!2sus",
-          muted: true,
-          loop: true,
           row_range: {start: 1, end:5},
           col_range: {start: 1, end:2},
           m_row_range: {start: 5, end:7},
@@ -40,7 +38,8 @@ const data = [
     title: "The Invariant Be",
     isGrid:true,
     grid: {
-      index: 1,
+      index: 2,
+      gap_color: "black",
       headline: "The Invariant Be",
       rows: 10,
       cols: 14,
@@ -53,7 +52,7 @@ const data = [
           row_range: {start: 1, end:6},
           col_range: {start: 1, end:10},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 6, end:11}
+          m_row_range: {start: 7, end:12}
         },
         {
           type:IMAGE_TYPE,
@@ -62,57 +61,61 @@ const data = [
           col_range: {start: 10, end:15},
           row_range: {start: 1, end:6},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 2, end:6}
+          m_row_range: {start: 3, end:7}
         },
         {
           type:IMAGE_TYPE,
           href:"https://ygdp.yale.edu/phenomena/invariant-be",
           src: "footnote2.2.png",
+          img_size: 300,
+          img_pos:{x:20, y:0},
           col_range: {start: 1, end:15},
           row_range: {start: 6, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:2}
+          m_row_range: {start: 1, end:3}
         }
       ]
     }
   },
   {
     id: 3,
-    title: "murder capital",
+    title: "My Murder capital",
     isGrid:true,
     grid: {
-      index: 1,
-      headline: "The Invariant Be",
+      index: 3,
+      headline: "My Murder Capital",
       rows: 10,
       cols: 14,
       m_rows: 10,
       m_cols: 7,
       modules:[
         {
+          type:MAP_TYPE,
+          link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24454.867806501945!2d-75.19231844229078!3d39.98926793267725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c792ace88039%3A0x8b90a2aa5e25a819!2sStrawberry%20Mansion%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1630374856051!5m2!1sen!2sus",
+          col_range: {start: 5, end:15},
+          row_range: {start: 1, end:7},
+          m_col_range: {start: 1, end:3},
+          m_row_range: {start: 1, end:11}
+        },
+        {
           type:VIDEO_TYPE,
-          id: "SwaUa7Umu-A",
-          row_range: {start: 1, end:6},
-          col_range: {start: 1, end:10},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 6, end:11}
+          id: "mftYzullK-U",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:8},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 3, end:8},
+          m_row_range: {start: 1, end:8}
         },
         {
-          type:IMAGE_TYPE,
-          href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
-          src: "footnote2.1.png",
-          col_range: {start: 10, end:15},
-          row_range: {start: 1, end:6},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 2, end:6}
-        },
-        {
-          type:IMAGE_TYPE,
-          href:"https://ygdp.yale.edu/phenomena/invariant-be",
-          src: "footnote2.2.png",
-          col_range: {start: 1, end:15},
-          row_range: {start: 6, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:2}
+          type:VIDEO_TYPE,
+          id: "HbL5J9AGflc",
+          muted: false,
+          loop: true,
+          col_range: {start: 8, end:15},
+          row_range: {start: 7, end:11},
+          m_col_range: {start: 3, end:8},
+          m_row_range: {start: 8, end:11}
         }
       ]
     }
@@ -120,7 +123,46 @@ const data = [
   {
     id: 4,
     title: "My ghost",
-    url: "https://photos.google.com/search/_tv_Videos/photo/AF1QipPgko9g25TBcHaBsV80-CXWzc9KS2QswhstdQI"
+    isGrid:true,
+    grid: {
+      index: 4,
+      headline: "My ghost",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+          src: "footnote4.1.png",
+          img_pos:{x: 0, y:0},
+          img_size: 120,
+          col_range: {start: 1, end:15},
+          row_range: {start: 8, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 2, end:6}
+        },
+        // {
+        //   type:IMAGE_TYPE,
+        //   // href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+        //   src: "footnote4.2.png",
+        //   col_range: {start: 10, end:15},
+        //   row_range: {start: 1, end:6},
+        //   m_col_range: {start: 1, end:8},
+        //   m_row_range: {start: 2, end:6}
+        // },
+        // {
+        //   type:IMAGE_TYPE,
+        //   // href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+        //   src: "footnote4.3.jpeg",
+        //   col_range: {start: 1, end:11},
+        //   row_range: {start: 1, end:8},
+        //   m_col_range: {start: 1, end:8},
+        //   m_row_range: {start: 2, end:6}
+        // }
+      ]
+    }
   },
   {
     id: 5,
