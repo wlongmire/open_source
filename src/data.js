@@ -145,7 +145,7 @@ const data = [
         },
         {
           type:IMAGE_TYPE,
-          // href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+          href:"https://whyy.org/articles/philadelphias-imminent-vacant-land-plan-major-progress-or-major-letdown/",
           src: "footnote4.2.png",
           img_size: 210,
           col_range: {start: 10, end:15},
