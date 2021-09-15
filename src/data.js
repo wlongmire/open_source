@@ -134,33 +134,36 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+          href:"https://www.atlasobscura.com/articles/architectural-history-of-philadelphia-rowhouses",
           src: "footnote4.1.png",
           img_pos:{x: 0, y:0},
           img_size: 120,
           col_range: {start: 1, end:15},
           row_range: {start: 8, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 2, end:6}
+          m_row_range: {start: 7, end:11}
         },
-        // {
-        //   type:IMAGE_TYPE,
-        //   // href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
-        //   src: "footnote4.2.png",
-        //   col_range: {start: 10, end:15},
-        //   row_range: {start: 1, end:6},
-        //   m_col_range: {start: 1, end:8},
-        //   m_row_range: {start: 2, end:6}
-        // },
-        // {
-        //   type:IMAGE_TYPE,
-        //   // href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
-        //   src: "footnote4.3.jpeg",
-        //   col_range: {start: 1, end:11},
-        //   row_range: {start: 1, end:8},
-        //   m_col_range: {start: 1, end:8},
-        //   m_row_range: {start: 2, end:6}
-        // }
+        {
+          type:IMAGE_TYPE,
+          // href:"https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+          src: "footnote4.2.png",
+          img_size: 210,
+          col_range: {start: 10, end:15},
+          row_range: {start: 1, end:8},
+          m_col_range: {start: 5, end:8},
+          m_row_range: {start: 1, end:7}
+        },
+        {
+          type:IMAGE_TYPE,
+          href:"https://photos.google.com/photo/AF1QipONM4EnvJsRHhq1eNPt4OtrCtA8Pf4zj_lYY8M",
+          src: "footnote4.3.jpeg",
+          img_size: 260,
+          img_pos:{x: 10, y:0},
+          col_range: {start: 1, end:10},
+          row_range: {start: 1, end:8},
+          m_col_range: {start: 1, end:5},
+          m_row_range: {start: 1, end:7}
+        }
       ]
     }
   },

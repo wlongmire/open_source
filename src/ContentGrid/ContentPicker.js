@@ -17,13 +17,9 @@ const ContentPicker = (props) => {
         
         case IMAGE_TYPE:
             const { src, href, img_pos = {x:0, y:0}, img_size = 100} = props;
-            console.log(href);
             return <a href={href} style={{width:"100%", height:"100%"}} target="_blank" rel="noreferrer">
                     <Image src={process.env.PUBLIC_URL + '/assets/' + src} img_size={img_size} img_pos={img_pos}/>
-                    {/* <img width="100%" src={process.env.PUBLIC_URL + '/assets/' + src} alt={src}/> */}
                 </a>
-                    
-            
         case COLOR_TYPE:
             return <Container></Container>;
 

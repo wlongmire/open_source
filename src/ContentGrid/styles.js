@@ -80,6 +80,7 @@ export const Image = styled.div`
   background-image: ${props => `url(${props.src})`};
   background-position: ${props => `${props.img_pos.x}% ${props.img_pos.y}%`};
   background-size: ${props => `${props.img_size}%`};
+  /* background-repeat: no-repeat; */
   width:100%;
   height:100%;
 `
