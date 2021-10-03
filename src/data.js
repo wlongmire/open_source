@@ -422,7 +422,8 @@ const data = [
     id: 47,
     title: "AutoImmune",
     baseRoute: "/opensource/autoimmune",
-    url: "https://www.youtube.com/tv#/watch?v=xLBNYxdlk"
+    url: "https://youtu.be/F-xLBNYxdlk"
+    // url: "https://www.youtube.com/tv#/watch?v=xLBNYxdlk"
   },
   {
     id: 48,
