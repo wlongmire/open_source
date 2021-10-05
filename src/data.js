@@ -7,8 +7,6 @@ const data = [
     title: "Strawberry Mansion",
     isGrid:true,
     grid: {
-      index: 1,
-      headline: "Strawberry Mansion",
       rows: 4,
       cols: 3,
       m_rows: 6,
@@ -38,9 +36,7 @@ const data = [
     title: "The Invariant Be",
     isGrid:true,
     grid: {
-      index: 2,
       gap_color: "black",
-      headline: "The Invariant Be",
       rows: 10,
       cols: 14,
       m_rows: 11,
@@ -82,8 +78,6 @@ const data = [
     title: "My Murder capital",
     isGrid:true,
     grid: {
-      index: 3,
-      headline: "My Murder Capital",
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -125,8 +119,6 @@ const data = [
     title: "My ghost",
     isGrid:true,
     grid: {
-      index: 4,
-      headline: "My ghost",
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -157,8 +149,8 @@ const data = [
           type:IMAGE_TYPE,
           href:"https://photos.google.com/photo/AF1QipONM4EnvJsRHhq1eNPt4OtrCtA8Pf4zj_lYY8M",
           src: "footnote4.3.jpeg",
-          img_size: 260,
-          img_pos:{x: 10, y:0},
+          img_size: 250,
+          img_pos:{x: 50, y:100},
           col_range: {start: 1, end:10},
           row_range: {start: 1, end:8},
           m_col_range: {start: 1, end:5},
@@ -172,8 +164,69 @@ const data = [
     title: "5221's Sheetrock",
     isGrid:true,
     grid: {
-      index: 5,
-      headline: "5221's Sheetrock",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:MAP_TYPE,
+          link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.7992791740016!2d-75.16638298414594!3d39.968240179419816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c7d06852d25f%3A0x785457a937eaac12!2s1618%20Brown%20St%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1633306085442!5m2!1sen!2sus",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:3},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:3}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "5S6oVOpqNDQ",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:5},
+          row_range: {start: 3, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote5.1.jpeg",
+          img_size: 100,
+          col_range: {start: 5, end:15},
+          row_range: {start: 3, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 3, end:11}
+        }
+      ]
+    }
+  },
+  {
+    id: 6,
+    title: "Last Chance",
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote6.1.png",
+          href: "https://www.inquirer.com/philly/news/crime/nafis-owens-francisville-shooting-rainey-simmons-stokes-unsolved-20180529.html",
+          img_size: 100,
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
+  },
+  {
+    id: 7,
+    title: "Beirut in a hooptee",
+    isGrid:true,
+    grid: {
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -181,66 +234,87 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "IpoHW6ENeZY",
+          id: "WvDFi1nebJQ",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:9},
+          col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 1, end:11}
+          m_row_range: {start: 8, end:11}
         },
         {
           type:IMAGE_TYPE,
-          src: "footnote5.1.jpeg",
+          src: "footnote7.1.png",
+          href: "https://www.phillymag.com/news/2021/07/10/philly-inferiority-complex/",
+          img_pos:{x: 50, y:0},
           img_size: 100,
           col_range: {start: 9, end:15},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 5, end:8},
-          m_row_range: {start: 1, end:7}
-        },
-        // {
-        //   type:IMAGE_TYPE,
-        //   href:"https://photos.google.com/photo/AF1QipONM4EnvJsRHhq1eNPt4OtrCtA8Pf4zj_lYY8M",
-        //   src: "footnote4.3.jpeg",
-        //   img_size: 260,
-        //   img_pos:{x: 10, y:0},
-        //   col_range: {start: 1, end:10},
-        //   row_range: {start: 1, end:8},
-        //   m_col_range: {start: 1, end:5},
-        //   m_row_range: {start: 1, end:7}
-        // }
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:11}
+        }
       ]
     }
   },
   {
-    id: 6,
-    title: "Last Chance",
-    url: "https://www.google.com/maps/place/Last+Chance+Lounge/@39.9721934,-75.1660183,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMQ_I074ZfrYlSMMuDSbPzJsn6PCsZ7CDW1h-GO!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMQ_I074ZfrYlSMMuDSbPzJsn6PCsZ7CDW1h-GO%3Dw224-h398-k-no!7i3024!8i5376!4m11!1m2!2m1!1slast+chance+lounge!3m7!1s0x0:0xda58642df922ba4e!8m2!3d39.9721934!4d-75.1660183!14m1!1BCgIgAQ!15sChJsYXN0IGNoYW5jZSBsb3VuZ2WSAQNiYXI"
-  },
-  {
-    id: 7,
-    title: "Beirut in a hooptee",
-    url: "https://www.google.com/maps/place/Last+Chance+Lounge/@39.9721934,-75.1660183,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMQ_I074ZfrYlSMMuDSbPzJsn6PCsZ7CDW1h-GO!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMQ_I074ZfrYlSMMuDSbPzJsn6PCsZ7CDW1h-GO%3Dw224-h398-k-no!7i3024!8i5376!4m11!1m2!2m1!1slast+chance+lounge!3m7!1s0x0:0xda58642df922ba4e!8m2!3d39.9721934!4d-75.1660183!14m1!1BCgIgAQ!15sChJsYXN0IGNoYW5jZSBsb3VuZ2WSAQNiYXI"
-  },
-  {
     id: 8,
-    title: "a just world",
-    url: "https://www.youtube.com/watch?v=WvDFi1nebJQ"
+    title: "a biblical curse",
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "NPkTR01zXZo",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:8},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote9.2.png",
+          href: "https://en.wikipedia.org/wiki/Canaan",
+          img_pos:{x: 0, y:0},
+          img_size: 120,
+          col_range: {start: 8, end:9},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 3, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote9.1.png",
+          href: "https://www.google.com/search?q=what%27s+wrong+with+black+men&sxsrf=AOaemvJxc2NgnIOIytpzda4Y25oERFbs2Q:1633310841430&ei=eVhaYaXnGcO7ggetio-wCg&start=30&sa=N&ved=2ahUKEwjlh4uEza_zAhXDneAKHS3FA6Y4FBDw0wN6BAgBEEk&biw=896&bih=984&dpr=2",
+          img_pos:{x: 0, y:0},
+          img_size: 120,
+          col_range: {start: 9, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:5}
+        }
+      ]
+    }
   },
   {
     id: 9,
     title: "Family of Disease",
-    url: "https://www.youtube.com/watch?v=yH1Zkn_6sO8&t=372s"
+    url: "https://www.pulmonologyadvisor.com/home/topics/asthma/exploring-autoimmunity-in-asthma-a-clinical-overview-plus-qa/"
   },
   {
     id: 10,
     title: "Strapped electrodes",
-    url: "https://minorityhealth.hhs.gov/omh/browse.aspx?lvl=4&lvlid=15"
+    url: "https://www.youtube.com/watch?v=h0U2QUGKbSE&t=44s"
   },
   {
     id: 11,
     title: "Lock yo doors",
-    url: "https://www.mentalhealthtoday.co.uk/using-evidence-from-the-race-disparity-audit-to-reform-the-mental-health-act"
+    url: "https://www.youtube.com/watch?v=hMtZfW2z9dw"
   },
   {
     id: 12,
@@ -250,137 +324,137 @@ const data = [
   {
     id: 13,
     title: "my porn torso",
-    url: "https://www.youtube.com/watch?v=h0U2QUGKbSE"
+    url: "https://www.youtube.com/watch?v=_w-hqwNWd6A"
   },
   {
     id: 14,
     title: "Sweet, docile little man",
-    url: "https://www.goodreads.com/quotes/6597420-negroes-sweet-and-docile-meek-humble-and-kind-beware-the"
+    url: "https://www.youtube.com/watch?v=SXCMdxvu5Sk&t=121s"
   },
   {
     id: 15,
     title: "Jehovah knows the meat",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.jw.org/en/bible-teachings/questions/end-of-the-world/"
   },
   {
     id: 16,
     title: "The first time she hit me",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=MwJYv5F__zw&t=750s"
   },
   {
     id: 17,
     title: "Does he understand hurt?",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.phillytrib.com/news/study-shows-black-men-in-philly-are-more-likely-to-experience-poor-mental-health-after/article_aba3cbd0-5f3f-5c85-916c-75cd918ea967.html"
   },
   {
     id: 18,
     title: "A good cop",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=tJXiAImt2Sk"
   },
   {
     id: 19,
     title: "Arc of Decay",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=Sem-uJwGswo"
   },
   {
     id: 20,
     title: "You go for a walk",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=Sem-uJwGswo"
   },
   {
     id: 21,
     title: "Toothy smile",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=RfrhnjAkaRE"
   },
   {
     id: 22,
     title: "Cloudy and Coconut",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=tH9-9IC7qyY"
   },
   {
     id: 23,
     title: "A terrorist fist jab",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=8B5GP0AiQMc&t=923s"
   },
   {
     id: 24,
     title: "The Sky",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=TTKWkJt1QIw"
   },
   {
     id: 25,
     title: "Infinity Poem",
-    url: "https://www.youtube.com/watch?v=RJS3Z2DYEO4&t=114s"
+    url: "https://openprocessing.org/sketch/35608"
   },
   {
     id: 26,
     title: "Variable Poem",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://openprocessing.org/sketch/1195392"
   },
   {
     id: 27,
     title: "Open Source",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.google.com/search?q=baldwinhttps://giphy.com/gifs/esports-machine-learning-65Ehp0SVELsVqYhyJT"
   },
   {
     id: 28,
     title: "Function Poem",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://openprocessing.org/sketch/444445"
   },
   {
     id: 29,
     title: "Startup 2021",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://openprocessing.org/sketch/444445"
   },
   {
     id: 30,
     title: "Object Oriented Poem 4",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://openprocessing.org/sketch/1170914"
   },
   {
     id: 31,
     title: "Series C",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://d2zqka2on07yqq.cloudfront.net/wp-content/uploads/2020/07/series-c-funding.gif"
   },
   {
     id: 32,
     title: "The NP Problem",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=NtMvNh0WFVM"
   },
   {
     id: 33,
     title: "Object Oriented Poem 3",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://openprocessing.org/sketch/1117787"
   },
   {
     id: 34,
     title: "Objective as Enemy",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=AGCH1GR7pPU"
   },
   {
     id: 35,
     title: "No one knows what they are doing at Microsoft",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=VM-2OVNt-eQ"
   },
   {
     id: 36,
     title: "It is mid-afternoon",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://photos.google.com/photo/AF1QipNaOqVtnfZ3A9iKtAFIB1ivUy-SJqFTQaYdT-c"
   },
   {
     id: 37,
     title: "First Day of Lockdown",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://photos.google.com/photo/AF1QipN0M-pJyk3Cdz8rdxzRnkJ0NK90Ahn8loioDSY"
   },
   {
     id: 38,
     title: "Fractal of ivy covered fingers",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://photos.google.com/search/_tv_Videos/photo/AF1QipNeD6O5l2gvdHwylx-xiJhSNHhQvb1UgUttmtA"
   },
   {
     id: 39,
     title: "Murder me",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://photos.google.com/photo/AF1QipO2KM0DVcVUzK3CpdHOjZDBDkZyAI5UjsXLZX0"
   },
   {
     id: 40,
@@ -390,58 +464,57 @@ const data = [
   {
     id: 41,
     title: "It's Ok",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=tbsIWv33JO4"
   },
   {
     id: 42,
     title: "Aretha Franklin",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=Fj8pY4IFoeU"
   },
   {
     id: 43,
     title: "Drake",
-    url: "https://www.google.com/search?q=baldwin"
+    url: "https://www.youtube.com/watch?v=Eru6INv-hSw"
   },
   {
     id: 44,
     title: "Kanye West",
-    url: "https://www.urbandictionary.com/define.php?term=hooptee"
+    url: "https://www.youtube.com/watch?v=oiXdMaSAvqw"
   },
   {
     id: 45,
     title: "You don’t have to look good",
-    url: "https://medlineplus.gov/autoimmunediseases.html"
+    url: "https://photos.google.com/photo/AF1QipM64DewyOQkxMb1x_0TgRCu4PBuAGL7PFHJBhI"
   },
   {
     id: 46,
     title: "Hooptee",
     baseRoute: "/opensource/hooptee",
-    url: "https://www.ecosia.org/search?q=a+strange+place+for+snw&addon=chrome&addonversion=3.4.0&method=topbar"
+    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 47,
     title: "AutoImmune",
     baseRoute: "/opensource/autoimmune",
     url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
-    // url: "https://www.youtube.com/tv#/watch?v=xLBNYxdlk"
   },
   {
     id: 48,
     title: "A Strange Place For Snow",
     baseRoute: "/opensource/a_strange_place_for_snow",
-    url: "https://www.vox.com/future-perfect/2020/2/19/21112570/universal-basic-income-ubi-map"
+    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 49,
     title: "No One Knows What They Are Doing At Microsoft",
     baseRoute: "/opensource/no_one_knows_what_they_are_doing_at_microsoft",
-    url: "https://www.vox.com/future-perfect/2020/2/19/21112570/universal-basic-income-ubi-map"
+    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 50,
     title: "Basic Income Experiment",
     baseRoute: "/opensource/basic_income_experiment",
-    url: "https://www.vox.com/future-perfect/2020/2/19/21112570/universal-basic-income-ubi-map"
+    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   }
 ];
 
