@@ -84,3 +84,8 @@ export const Image = styled.div`
   width:100%;
   height:100%;
 `
+
+export const Processing = styled.div`
+  width:100%;
+  height:100%;
+`
