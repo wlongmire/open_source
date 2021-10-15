@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react';
+import React from 'react';
 import ReactPlayer from 'react-player';
 import { MAP_TYPE, VIDEO_TYPE, IMAGE_TYPE, COLOR_TYPE, PROCESSING_TYPE} from './constants';
 import { Container, Image, Processing } from './styles';
