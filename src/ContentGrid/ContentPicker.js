@@ -22,7 +22,7 @@ const ContentPicker = (props) => {
                 </a>
         case PROCESSING_TYPE:
             // <iframe src="https://openprocessing.org/sketch/35608/embed/" width="400" height="400"></iframe>
-            return <Processing><iframe src={`https://openprocessing.org/sketch/${id}/embed/`} width="100%" height="100%"></iframe></Processing>;
+            return <Processing><iframe title={id} src={`https://openprocessing.org/sketch/${id}/embed/`} width="100%" height="100%"></iframe></Processing>;
         case COLOR_TYPE:
             return <Container></Container>;
 
