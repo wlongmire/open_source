@@ -753,7 +753,6 @@ const data = [
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 1, end:5}
         },
-        // PROCESSING_TYPE
         {
           type:PROCESSING_TYPE,
           id: "1311095",
@@ -762,16 +761,6 @@ const data = [
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 5, end:11}
         }
-        // {
-        //   type:IMAGE_TYPE,
-        //   src: "footnote29.2.jpeg",
-        //   href: "https://openprocessing.org/sketch/444445",
-        //   img_size: 50,
-        //   col_range: {start: 1, end:15},
-        //   row_range: {start: 5, end:11},
-        //   m_col_range: {start: 1, end:8},
-        //   m_row_range: {start: 5, end:11}
-        // }
       ]
     }
   },
@@ -854,9 +843,19 @@ const data = [
           muted: false,
           loop: true,
           col_range: {start: 1, end:15},
-          row_range: {start: 1, end:5},
+          row_range: {start: 1, end:3},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 1, end:2}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "Vhh_GeBPOhs",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 3, end:7},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 2, end:5}
         },
         {
           type:VIDEO_TYPE,
@@ -883,9 +882,9 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "Vhh_GeBPOhs",
+          id: "G1m0aX9Lpts",
           muted: false,
-          loop: true,
+          loop: false,
           col_range: {start: 1, end:15},
           row_range: {start: 1, end:5},
           m_col_range: {start: 1, end:8},
@@ -893,13 +892,13 @@ const data = [
         },
         {
           type:VIDEO_TYPE,
-          id: "Vhh_GeBPOhs",
-          muted: false,
+          id: "KvBfld47Mmg",
+          muted: true,
           loop: true,
           col_range: {start: 1, end:15},
-          row_range: {start: 1, end:5},
+          row_range: {start: 5, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 5, end:11}
         }
       ]
     }

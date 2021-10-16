@@ -24,7 +24,7 @@ const ContentPicker = (props) => {
             return <Processing><iframe title={id} src={`https://openprocessing.org/sketch/${id}/embed/`} width="100%" height="100%"></iframe></Processing>;
 
         case GIPHY_TYPE:
-            return <iframe src="https://giphy.com/embed/65Ehp0SVELsVqYhyJT" width="100%" height="100%" frameBorder="0" class="giphy-embed"></iframe>
+            return <iframe title={id} src="https://giphy.com/embed/65Ehp0SVELsVqYhyJT" width="100%" height="100%" frameBorder="0" class="giphy-embed"></iframe>
 
         case COLOR_TYPE:
             return <Container></Container>;
