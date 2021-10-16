@@ -1,4 +1,4 @@
-import {  MAP_TYPE, VIDEO_TYPE, IMAGE_TYPE, PROCESSING_TYPE} from './ContentGrid/constants';
+import {  MAP_TYPE, VIDEO_TYPE, GIPHY_TYPE, IMAGE_TYPE, PROCESSING_TYPE} from './ContentGrid/constants';
 // import {  COLOR_TYPE} from './ContentGrid/constants';
 
 const data = [
@@ -639,12 +639,66 @@ const data = [
   {
     id: 26,
     title: "Variable Poem",
-    url: "https://openprocessing.org/sketch/1195392"
+    isGrid:true,
+    grid: {
+      cols: 14,
+      rows: 10,
+      m_cols: 7,
+      m_rows: 10,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote25.1.jpeg",
+          img_pos:{x: 0, y:-20},
+          img_size: 50,
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "1dPFgWT2Aio",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+      ]
+    }
   },
   {
     id: 27,
     title: "Open Source",
-    url: "https://www.google.com/search?q=baldwinhttps://giphy.com/gifs/esports-machine-learning-65Ehp0SVELsVqYhyJT"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:GIPHY_TYPE,
+          id: "65Ehp0SVELsVqYhyJT",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "lrcdhzr2qnk",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+      ]
+    }
   },
   {
     id: 28,
