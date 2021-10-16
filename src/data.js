@@ -818,7 +818,6 @@ const data = [
         {
           type:IMAGE_TYPE,
           src: "footnote31.2.jpeg",
-          href: "https://www.youtube.com/watch?v=Vhh_GeBPOhs",
           col_range: {start: 1, end:15},
           row_range: {start: 5, end:11},
           m_col_range: {start: 1, end:8},
@@ -906,12 +905,66 @@ const data = [
   {
     id: 34,
     title: "Objective as Enemy",
-    url: "https://www.youtube.com/watch?v=AGCH1GR7pPU"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "hiLNdsggbqg",
+          muted: false,
+          loop: false,
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote34.1.jpeg",
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        } 
+      ]
+    }
   },
   {
     id: 35,
     title: "No one knows what they are doing at Microsoft",
-    url: "https://www.youtube.com/watch?v=VM-2OVNt-eQ"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "n9YDz-Iwgyw",
+          muted: false,
+          loop: false,
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "AGCH1GR7pPU",
+          muted: false,
+          loop: false,
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        } 
+      ]
+    }
   },
   {
     id: 36,
