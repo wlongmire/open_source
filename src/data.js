@@ -703,32 +703,206 @@ const data = [
   {
     id: 28,
     title: "Function Poem",
-    url: "https://openprocessing.org/sketch/444445"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote28.1.png",
+          href: "https://www.google.com/search?q=function&oq=function&aqs=chrome..69i57j69i60l2.1307j0j9&sourceid=chrome&ie=UTF-8",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "Lu56xVlZ40M",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+      ]
+    }
   },
   {
     id: 29,
     title: "Startup 2021",
-    url: "https://openprocessing.org/sketch/444445"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote29.1.png",
+          img_pos:{x: 50, y:10},
+          img_size: 180,
+          href: "https://www.businessoffashion.com/articles/luxury/from-tiffany-blue-to-louboutin-red-the-power-of-owning-a-colour",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        // PROCESSING_TYPE
+        {
+          type:PROCESSING_TYPE,
+          id: "1311095",
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+        // {
+        //   type:IMAGE_TYPE,
+        //   src: "footnote29.2.jpeg",
+        //   href: "https://openprocessing.org/sketch/444445",
+        //   img_size: 50,
+        //   col_range: {start: 1, end:15},
+        //   row_range: {start: 5, end:11},
+        //   m_col_range: {start: 1, end:8},
+        //   m_row_range: {start: 5, end:11}
+        // }
+      ]
+    }
   },
   {
     id: 30,
     title: "Object Oriented Poem 4",
-    url: "https://openprocessing.org/sketch/1170914"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote30.1.png",
+          href: "https://www.google.com/search?q=what+is+an+object+in+programming&sxsrf=AOaemvJijl9BkH39ziU4O_7UMkXQ07bqDg%3A1634346263254&ei=FyVqYZb_DvCpytMPsI-VqAc&oq=what+is+an+object+in+programming&gs_lcp=Cgdnd3Mtd2l6EAMYADIECAAQQzIECAAQQzIKCAAQgAQQhwIQFDIECAAQQzIFCAAQgAQyBAgAEEMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6BAgjECc6BQgAEJECOggIABCxAxCRAjoICAAQgAQQsQM6BQgAELEDOgsIABCABBCxAxCDAToHCAAQgAQQCjoECAAQCkoECEEYAFCecFjNkAFg7ZgBaAhwAngAgAHdAYgB4RaSAQY2LjE1LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "QlrnjjfLkTI",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+      ]
+    }
   },
   {
     id: 31,
     title: "Series C",
-    url: "https://d2zqka2on07yqq.cloudfront.net/wp-content/uploads/2020/07/series-c-funding.gif"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote31.1.gif",
+          href: "https://www.google.com/search?q=series+c+funding&oq=series+c+funding&aqs=chrome..69i57j69i60l2.3050j0j4&sourceid=chrome&ie=UTF-8",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote31.2.jpeg",
+          href: "https://www.youtube.com/watch?v=Vhh_GeBPOhs",
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+      ]
+    }
   },
   {
     id: 32,
     title: "The NP Problem",
-    url: "https://www.youtube.com/watch?v=NtMvNh0WFVM"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "Vhh_GeBPOhs",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "Vhh_GeBPOhs",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+      ]
+    }
   },
   {
     id: 33,
     title: "Object Oriented Poem 3",
-    url: "https://openprocessing.org/sketch/1117787"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "Vhh_GeBPOhs",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "Vhh_GeBPOhs",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:5},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        }
+      ]
+    }
   },
   {
     id: 34,
