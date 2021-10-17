@@ -839,7 +839,7 @@ const data = [
         {
           type:VIDEO_TYPE,
           id: "Vhh_GeBPOhs",
-          muted: false,
+          muted: true,
           loop: true,
           col_range: {start: 1, end:15},
           row_range: {start: 1, end:3},
@@ -849,7 +849,7 @@ const data = [
         {
           type:VIDEO_TYPE,
           id: "Vhh_GeBPOhs",
-          muted: false,
+          muted: true,
           loop: true,
           col_range: {start: 1, end:15},
           row_range: {start: 3, end:7},
