@@ -20,9 +20,9 @@ const MenuSliderStyle = styled.div`
 `
 
 const FootnoteSection = styled.div`
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  /* display:flex; */
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
   padding: 1em;
   margin: 1em 0 0 0;
   background: ${props => props.background || "pink"};
@@ -42,8 +42,9 @@ const FootnoteSection = styled.div`
     margin: 0;
     width:100%;
     z-index: 100;
+  }
 
-    a {
+  a {
       display:block;
       width:100%;
       padding: 0.4em;
@@ -59,7 +60,6 @@ const FootnoteSection = styled.div`
       background: rgba(255,255,255, 1);
       color:black;
     }
-  }
 `;
 
 const MenuSlider = () => {
@@ -68,6 +68,9 @@ const MenuSlider = () => {
     <h3>OPEN SOURCE</h3>
     <h4>Footnotes</h4>
     <FootnoteSection>
+      <a href="/opensource/hooptee">
+        <h3>HOOPTEE</h3>
+      </a>
       <ul>
         <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
         <li><a href="/opensource/footnote/2">2. The Invariant Be</a></li>
@@ -75,11 +78,12 @@ const MenuSlider = () => {
         <li><a href="/opensource/footnote/4">4. My Ghost</a></li>
         <li><a href="/opensource/footnote/5">5. 5221's sheetrock</a></li>
       </ul>
-      <h3>
-        HOOPTEE
-      </h3>
+      
     </FootnoteSection>
     <FootnoteSection>
+      <h3>
+        AutoImmune
+      </h3>
       <ul>
         <li><a href="/opensource/footnote/6">1. Strawberry Mansion</a></li>
         <li><a href="/opensource/footnote/7">2. The Invariant Be</a></li>
@@ -87,11 +91,11 @@ const MenuSlider = () => {
         <li><a href="/opensource/footnote/9">4. My Ghost</a></li>
         <li><a href="/opensource/footnote/10">5. 5221's sheetrock</a></li>
       </ul>
+    </FootnoteSection>
+    <FootnoteSection>
       <h3>
         AutoImmune
       </h3>
-    </FootnoteSection>
-    <FootnoteSection>
       <ul>
         <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
         <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
@@ -99,11 +103,11 @@ const MenuSlider = () => {
         <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
         <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
+    </FootnoteSection>
+    <FootnoteSection>
       <h3>
         AutoImmune
       </h3>
-    </FootnoteSection>
-    <FootnoteSection>
       <ul>
         <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
         <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
@@ -111,11 +115,11 @@ const MenuSlider = () => {
         <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
         <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
+    </FootnoteSection>
+    <FootnoteSection>
       <h3>
         AutoImmune
       </h3>
-    </FootnoteSection>
-    <FootnoteSection>
       <ul>
         <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
         <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
@@ -123,11 +127,11 @@ const MenuSlider = () => {
         <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
         <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
+    </FootnoteSection>
+    <FootnoteSection>
       <h3>
         AutoImmune
       </h3>
-    </FootnoteSection>
-    <FootnoteSection>
       <ul>
         <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
         <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
@@ -135,9 +139,6 @@ const MenuSlider = () => {
         <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
         <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
-      <h3>
-        AutoImmune
-      </h3>
     </FootnoteSection>
   </MenuSliderStyle>)
   
