@@ -1,66 +1,13 @@
 import { useState } from 'react';
 import { Route } from 'react-router-dom';
 import Source from './utils/Source';
-import styled from 'styled-components';
 
 import './App.css';
-import { Container, Header} from './styles';
+import { Container, Header, MenuSliderStyle, FootnoteSection} from './styles';
 
 import ContentGrid from './ContentGrid';
 
 import data from './data';
-
-const MenuSliderStyle = styled.div`
-  background:black;
-  color: white;
-  padding: 2em;
-  z-index: 10000;
-  height:100%;
-  overflow-y: scroll;
-`
-
-const FootnoteSection = styled.div`
-  /* display:flex; */
-  /* justify-content: space-between; */
-  /* align-items: flex-start; */
-  padding: 1em;
-  margin: 1em 0 0 0;
-  background: ${props => props.background || "pink"};
-
-  h3 {
-    font-size: 1.6em;
-    color:black;
-    padding: 0px;
-    margin: 0px;
-    text-transform: uppercase;
-    z-index: 30;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width:100%;
-    z-index: 100;
-  }
-
-  a {
-      display:block;
-      width:100%;
-      padding: 0.4em;
-      margin: 0.2em;
-      text-decoration: none;
-      color: black;
-      font-size: 1rem;
-      background: rgba(255,255,255, 0);
-      transition: 500ms background;
-    }
-
-    a:hover {
-      background: rgba(255,255,255, 1);
-      color:black;
-    }
-`;
 
 const MenuSlider = () => {
   return(<MenuSliderStyle>

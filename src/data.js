@@ -1020,31 +1020,31 @@ const data = [
     id: 46,
     title: "Hooptee",
     baseRoute: "/opensource/hooptee",
-    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 47,
     title: "AutoImmune",
     baseRoute: "/opensource/autoimmune",
-    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 48,
     title: "A Strange Place For Snow",
     baseRoute: "/opensource/a_strange_place_for_snow",
-    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 49,
     title: "No One Knows What They Are Doing At Microsoft",
     baseRoute: "/opensource/no_one_knows_what_they_are_doing_at_microsoft",
-    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 50,
     title: "Basic Income Experiment",
     baseRoute: "/opensource/basic_income_experiment",
-    url: "https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   }
 ];
 
