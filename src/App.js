@@ -67,9 +67,9 @@ function App() {
   });
 
   return (<Container>
-    <Route exact path= "/">
-      <h2>Welcome to a LongmireWriter</h2>
-    </Route>
+    <Route exact path= "/" render={()=>{
+      window.location.href = 'https://linktr.ee/alongmirewriter';
+    }}/>
     <Route exact path= "/publications">
       <h2>Publications</h2>
     </Route>
