@@ -89,11 +89,11 @@ const MenuSlider = () => {
     </FootnoteSection>
     <FootnoteSection>
       <ul>
-        <li><a href="#">1. Strawberry Mansion</a></li>
-        <li><a href="#">2. The Invariant Be</a></li>
-        <li><a href="#">3. Murder Capital</a></li>
-        <li><a href="#">4. My Ghost</a></li>
-        <li><a href="#">5. 5221's sheetrock</a></li>
+        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
+        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
+        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
+        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
+        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
       <h3>
         AutoImmune
@@ -101,11 +101,11 @@ const MenuSlider = () => {
     </FootnoteSection>
     <FootnoteSection>
       <ul>
-        <li><a href="#">1. Strawberry Mansion</a></li>
-        <li><a href="#">2. The Invariant Be</a></li>
-        <li><a href="#">3. Murder Capital</a></li>
-        <li><a href="#">4. My Ghost</a></li>
-        <li><a href="#">5. 5221's sheetrock</a></li>
+        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
+        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
+        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
+        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
+        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
       <h3>
         AutoImmune
@@ -113,11 +113,11 @@ const MenuSlider = () => {
     </FootnoteSection>
     <FootnoteSection>
       <ul>
-        <li><a href="#">1. Strawberry Mansion</a></li>
-        <li><a href="#">2. The Invariant Be</a></li>
-        <li><a href="#">3. Murder Capital</a></li>
-        <li><a href="#">4. My Ghost</a></li>
-        <li><a href="#">5. 5221's sheetrock</a></li>
+        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
+        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
+        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
+        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
+        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
       <h3>
         AutoImmune
@@ -125,11 +125,11 @@ const MenuSlider = () => {
     </FootnoteSection>
     <FootnoteSection>
       <ul>
-        <li><a href="#">1. Strawberry Mansion</a></li>
-        <li><a href="#">2. The Invariant Be</a></li>
-        <li><a href="#">3. Murder Capital</a></li>
-        <li><a href="#">4. My Ghost</a></li>
-        <li><a href="#">5. 5221's sheetrock</a></li>
+        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
+        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
+        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
+        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
+        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
       </ul>
       <h3>
         AutoImmune
