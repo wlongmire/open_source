@@ -1005,7 +1005,46 @@ const data = [
     id: 36,
     title: "It is mid-afternoon",
     section: 5,
-    url: "https://photos.google.com/photo/AF1QipNaOqVtnfZ3A9iKtAFIB1ivUy-SJqFTQaYdT-c"
+    isGrid:true,
+    section: 4,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "KgHyDvb-uOM",
+          muted: false,
+          loop: true,
+          col_range: {start: 9, end:15},
+          row_range: {start: 7, end:11},
+          m_col_range: {start: 1, end:4},
+          m_row_range: {start: 9, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote36.2.jpg",
+          img_pos:{x: 0, y:20},
+          img_size: 95,
+          col_range: {start: 1, end:9},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote36.1.jpg",
+          img_pos:{x: 0, y:0},
+          img_size: 110,
+          col_range: {start: 9, end:15},
+          row_range: {start: 1, end:7},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        } 
+      ]
+    }
   },
   {
     id: 37,
