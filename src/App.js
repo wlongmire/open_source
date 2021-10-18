@@ -7,86 +7,38 @@ import { Container, Header, MenuSliderStyle, FootnoteSection} from './styles';
 
 import ContentGrid from './ContentGrid';
 
-import data from './data';
+import data, {sections} from './data';
 
 const MenuSlider = () => {
+  const sectionsList = [...sections].map(item => ({...item, footnotes:[]}));
+
+  data.forEach(item=> {
+    if (item.section) {
+      sectionsList[item.section-1].footnotes.push(item);
+    }
+  });
+
   return(<MenuSliderStyle>
-    <h1>alongmirewriter</h1>
+    <h1><a href="/">alongmirewriter</a></h1>
     <h3>OPEN SOURCE</h3>
     <h4>Footnotes</h4>
-    <FootnoteSection>
-      <a href="/opensource/hooptee">
-        <h3>HOOPTEE</h3>
-      </a>
-      <ul>
-        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
-        <li><a href="/opensource/footnote/2">2. The Invariant Be</a></li>
-        <li><a href="/opensource/footnote/3">3. Murder Capital</a></li>
-        <li><a href="/opensource/footnote/4">4. My Ghost</a></li>
-        <li><a href="/opensource/footnote/5">5. 5221's sheetrock</a></li>
-      </ul>
-      
-    </FootnoteSection>
-    <FootnoteSection>
-      <h3>
-        AutoImmune
-      </h3>
-      <ul>
-        <li><a href="/opensource/footnote/6">1. Strawberry Mansion</a></li>
-        <li><a href="/opensource/footnote/7">2. The Invariant Be</a></li>
-        <li><a href="/opensource/footnote/8">3. Murder Capital</a></li>
-        <li><a href="/opensource/footnote/9">4. My Ghost</a></li>
-        <li><a href="/opensource/footnote/10">5. 5221's sheetrock</a></li>
-      </ul>
-    </FootnoteSection>
-    <FootnoteSection>
-      <h3>
-        AutoImmune
-      </h3>
-      <ul>
-        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
-        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
-        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
-        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
-        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
-      </ul>
-    </FootnoteSection>
-    <FootnoteSection>
-      <h3>
-        AutoImmune
-      </h3>
-      <ul>
-        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
-        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
-        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
-        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
-        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
-      </ul>
-    </FootnoteSection>
-    <FootnoteSection>
-      <h3>
-        AutoImmune
-      </h3>
-      <ul>
-        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
-        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
-        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
-        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
-        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
-      </ul>
-    </FootnoteSection>
-    <FootnoteSection>
-      <h3>
-        AutoImmune
-      </h3>
-      <ul>
-        <li><a href="/opensource/footnote/1">1. Strawberry Mansion</a></li>
-        <li><a href="/opensource/footnote/1">2. The Invariant Be</a></li>
-        <li><a href="/opensource/footnote/1">3. Murder Capital</a></li>
-        <li><a href="/opensource/footnote/1">4. My Ghost</a></li>
-        <li><a href="/opensource/footnote/1">5. 5221's sheetrock</a></li>
-      </ul>
-    </FootnoteSection>
+    {
+      sectionsList.map(section=> {
+        return(<FootnoteSection>
+          <a href={`/opensource/${section.title.toLowerCase()}`}>
+            <h3>{section.title}</h3>
+          </a>
+          <ul>
+            {
+              section.footnotes.map(footnote => {
+                return(<li><a href={`/opensource/footnote/${footnote.id}`}>{`${footnote.id}. ${footnote.title}`}</a></li>);
+              })
+            }
+          </ul>
+          
+        </FootnoteSection>);
+      })
+    }
   </MenuSliderStyle>)
   
 }

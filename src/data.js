@@ -5,6 +5,7 @@ const data = [
   {
     id: 1,
     title: "Strawberry Mansion",
+    section: 1,
     isGrid:true,
     grid: {
       rows: 4,
@@ -34,6 +35,7 @@ const data = [
   {
     id: 2,
     title: "The Invariant Be",
+    section: 1,
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -76,6 +78,7 @@ const data = [
   {
     id: 3,
     title: "My Murder capital",
+    section: 1,
     isGrid:true,
     grid: {
       rows: 10,
@@ -117,6 +120,7 @@ const data = [
   {
     id: 4,
     title: "My ghost",
+    section: 1,
     isGrid:true,
     grid: {
       rows: 10,
@@ -162,6 +166,7 @@ const data = [
   {
     id: 5,
     title: "5221's Sheetrock",
+    section: 1,
     isGrid:true,
     grid: {
       rows: 10,
@@ -202,6 +207,7 @@ const data = [
   {
     id: 6,
     title: "Last Chance",
+    section: 1,
     isGrid:true,
     grid: {
       rows: 10,
@@ -225,6 +231,7 @@ const data = [
   {
     id: 7,
     title: "Beirut in a hooptee",
+    section: 1,
     isGrid:true,
     grid: {
       rows: 10,
@@ -259,6 +266,7 @@ const data = [
   {
     id: 8,
     title: "a biblical curse",
+    section: 1,
     isGrid:true,
     grid: {
       rows: 10,
@@ -304,11 +312,13 @@ const data = [
   {
     id: 9,
     title: "Family of Disease",
+    section: 2,
     url: "https://www.pulmonologyadvisor.com/home/topics/asthma/exploring-autoimmunity-in-asthma-a-clinical-overview-plus-qa/"
   },
   {
     id: 10,
     title: "Strapped electrodes",
+    section: 2,
     isGrid:true,
     grid: {
       rows: 10,
@@ -332,6 +342,7 @@ const data = [
   {
     id: 11,
     title: "Lock yo doors",
+    section: 2,
     isGrid:true,
     grid: {
       rows: 10,
@@ -355,6 +366,7 @@ const data = [
   {
     id: 12,
     title: "Raisining chest",
+    section: 2,
     isGrid:true,
     grid: {
       rows: 10,
@@ -378,6 +390,7 @@ const data = [
   {
     id: 13,
     title: "my porn torso",
+    section: 2,
     isGrid:true,
     grid: {
       rows: 10,
@@ -402,6 +415,7 @@ const data = [
     id: 14,
     title: "Sweet, docile little man",
     isGrid:true,
+    section: 2,
     grid: {
       rows: 10,
       cols: 14,
@@ -424,11 +438,13 @@ const data = [
   {
     id: 15,
     title: "Jehovah knows the meat",
+    section: 2,
     url: "https://www.jw.org/en/bible-teachings/questions/end-of-the-world/"
   },
   {
     id: 16,
     title: "The first time she hit me",
+    section: 2,
     isGrid:true,
     grid: {
       rows: 10,
@@ -452,11 +468,13 @@ const data = [
   {
     id: 17,
     title: "Does he understand hurt?",
+    section: 2,
     url: "https://www.phillytrib.com/news/study-shows-black-men-in-philly-are-more-likely-to-experience-poor-mental-health-after/article_aba3cbd0-5f3f-5c85-916c-75cd918ea967.html"
   },
   {
     id: 18,
     title: "A good cop",
+    section: 2,
     isGrid:true,
     grid: {
       rows: 10,
@@ -480,6 +498,7 @@ const data = [
   {
     id: 19,
     title: "Arc of Decay",
+    section: 3,
     isGrid:true,
     grid: {
       rows: 10,
@@ -503,6 +522,7 @@ const data = [
   {
     id: 20,
     title: "You go for a walk",
+    section: 3,
     isGrid:true,
     grid: {
       rows: 10,
@@ -526,6 +546,7 @@ const data = [
   {
     id: 21,
     title: "Toothy smile",
+    section: 3,
     isGrid:true,
     grid: {
       rows: 10,
@@ -550,6 +571,7 @@ const data = [
     id: 22,
     title: "Cloudy and Coconut",
     isGrid:true,
+    section: 3,
     grid: {
       rows: 10,
       cols: 14,
@@ -573,6 +595,7 @@ const data = [
     id: 23,
     title: "A terrorist fist jab",
     isGrid:true,
+    section: 3,
     grid: {
       rows: 10,
       cols: 14,
@@ -596,6 +619,7 @@ const data = [
     id: 24,
     title: "The Sky",
     isGrid:true,
+    section: 3,
     grid: {
       rows: 10,
       cols: 14,
@@ -619,6 +643,7 @@ const data = [
     id: 25,
     title: "Infinity Poem",
     isGrid:true,
+    section: 4,
     grid: {
       cols: 14,
       rows: 10,
@@ -640,6 +665,7 @@ const data = [
     id: 26,
     title: "Variable Poem",
     isGrid:true,
+    section: 4,
     grid: {
       cols: 14,
       rows: 10,
@@ -673,6 +699,7 @@ const data = [
     id: 27,
     title: "Open Source",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -704,6 +731,7 @@ const data = [
     id: 28,
     title: "Function Poem",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -736,6 +764,7 @@ const data = [
     id: 29,
     title: "Startup 2021",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -768,6 +797,7 @@ const data = [
     id: 30,
     title: "Object Oriented Poem 4",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -800,6 +830,7 @@ const data = [
     id: 31,
     title: "Series C",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -830,6 +861,7 @@ const data = [
     id: 32,
     title: "The NP Problem",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -873,6 +905,7 @@ const data = [
     id: 33,
     title: "Object Oriented Poem 3",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -906,6 +939,7 @@ const data = [
     id: 34,
     title: "Objective as Enemy",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -937,6 +971,7 @@ const data = [
     id: 35,
     title: "No one knows what they are doing at Microsoft",
     isGrid:true,
+    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -969,51 +1004,61 @@ const data = [
   {
     id: 36,
     title: "It is mid-afternoon",
+    section: 5,
     url: "https://photos.google.com/photo/AF1QipNaOqVtnfZ3A9iKtAFIB1ivUy-SJqFTQaYdT-c"
   },
   {
     id: 37,
     title: "First Day of Lockdown",
+    section: 5,
     url: "https://photos.google.com/photo/AF1QipN0M-pJyk3Cdz8rdxzRnkJ0NK90Ahn8loioDSY"
   },
   {
     id: 38,
     title: "Fractal of ivy covered fingers",
+    section: 5,
     url: "https://photos.google.com/search/_tv_Videos/photo/AF1QipNeD6O5l2gvdHwylx-xiJhSNHhQvb1UgUttmtA"
   },
   {
     id: 39,
     title: "Murder me",
+    section: 5,
     url: "https://photos.google.com/photo/AF1QipO2KM0DVcVUzK3CpdHOjZDBDkZyAI5UjsXLZX0"
   },
   {
     id: 40,
     title: "Floridian tarot reader",
+    section: 5,
     url: "https://www.google.com/search?q=baldwin"
   },
   {
     id: 41,
     title: "It's Ok",
+    section: 5,
     url: "https://www.youtube.com/watch?v=tbsIWv33JO4"
   },
   {
     id: 42,
     title: "Aretha Franklin",
+    section: 5,
     url: "https://www.youtube.com/watch?v=Fj8pY4IFoeU"
   },
   {
     id: 43,
     title: "Drake",
+    section: 5,
     url: "https://www.youtube.com/watch?v=Eru6INv-hSw"
   },
   {
     id: 44,
     title: "Kanye West",
+    section: 5,
     url: "https://www.youtube.com/watch?v=oiXdMaSAvqw"
   },
   {
     id: 45,
     title: "You don’t have to look good",
+    section: 5,
     url: "https://photos.google.com/photo/AF1QipM64DewyOQkxMb1x_0TgRCu4PBuAGL7PFHJBhI"
   },
   {
@@ -1048,4 +1093,21 @@ const data = [
   }
 ];
 
+export const sections = [
+  {
+    title:"Hooptee"
+  },
+  {
+    title:"AutoImmune"
+  },
+  {
+    title:"A Strange Place For Snow"
+  },
+  {
+    title:"No one knows what they are doing at Microsoft"
+  },
+  {
+    title:"Basic Income Experiment"
+  }
+];
 export default data;
