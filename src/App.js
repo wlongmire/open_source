@@ -33,15 +33,19 @@ const FootnoteSection = styled.div`
     padding: 0px;
     margin: 0px;
     text-transform: uppercase;
+    z-index: 30;
   }
 
   ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    width:100%;
+    z-index: 100;
 
     a {
       display:block;
+      width:100%;
       padding: 0.4em;
       margin: 0.2em;
       text-decoration: none;
