@@ -808,6 +808,7 @@ const data = [
           type:IMAGE_TYPE,
           src: "footnote30.1.png",
           href: "https://www.google.com/search?q=what+is+an+object+in+programming&sxsrf=AOaemvJijl9BkH39ziU4O_7UMkXQ07bqDg%3A1634346263254&ei=FyVqYZb_DvCpytMPsI-VqAc&oq=what+is+an+object+in+programming&gs_lcp=Cgdnd3Mtd2l6EAMYADIECAAQQzIECAAQQzIKCAAQgAQQhwIQFDIECAAQQzIFCAAQgAQyBAgAEEMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6BAgjECc6BQgAEJECOggIABCxAxCRAjoICAAQgAQQsQM6BQgAELEDOgsIABCABBCxAxCDAToHCAAQgAQQCjoECAAQCkoECEEYAFCecFjNkAFg7ZgBaAhwAngAgAHdAYgB4RaSAQY2LjE1LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz",
+          img_size: 170,
           col_range: {start: 1, end:15},
           row_range: {start: 1, end:5},
           m_col_range: {start: 1, end:8},
@@ -1006,7 +1007,6 @@ const data = [
     title: "It is mid-afternoon",
     section: 5,
     isGrid:true,
-    section: 4,
     grid: {
       rows: 10,
       cols: 14,
@@ -1020,28 +1020,29 @@ const data = [
           loop: true,
           col_range: {start: 9, end:15},
           row_range: {start: 7, end:11},
-          m_col_range: {start: 1, end:4},
-          m_row_range: {start: 9, end:11}
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 4, end:7}
         },
         {
           type:IMAGE_TYPE,
           src: "footnote36.2.jpg",
-          img_pos:{x: 0, y:20},
+          img_pos:{x: 0, y:250},
           img_size: 95,
           col_range: {start: 1, end:9},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 5, end:11}
+          m_row_range: {start: 1, end:4}
         },
         {
           type:IMAGE_TYPE,
           src: "footnote36.1.jpg",
-          img_pos:{x: 0, y:0},
+          img_pos:{x: 0, y:-110},
           img_size: 110,
           col_range: {start: 9, end:15},
           row_range: {start: 1, end:7},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 4, end:11}
+          
         } 
       ]
     }
@@ -1050,25 +1051,180 @@ const data = [
     id: 37,
     title: "First Day of Lockdown",
     section: 5,
-    url: "https://photos.google.com/photo/AF1QipN0M-pJyk3Cdz8rdxzRnkJ0NK90Ahn8loioDSY"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote37.1.png",
+          href:"https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
+          img_pos:{x: 0, y:90},
+          img_size: 160,
+          col_range: {start: 6, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:5}
+        }, 
+        {
+          type:VIDEO_TYPE,
+          id: "bEe-HMu3s7c",
+          muted: false,
+          loop: true,
+          col_range: {start: 6, end:15},
+          row_range: {start: 3, end:8},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 2, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "--K6oeUi8CQ",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:6},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        }
+      ]
+    }
   },
   {
     id: 38,
     title: "Fractal of ivy covered fingers",
     section: 5,
-    url: "https://photos.google.com/search/_tv_Videos/photo/AF1QipNeD6O5l2gvdHwylx-xiJhSNHhQvb1UgUttmtA"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote38.1.jpg",
+          // href:"https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
+          img_pos:{x: 0, y:40},
+          img_size: 120,
+          col_range: {start: 1, end:8},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        }, 
+        {
+          type:IMAGE_TYPE,
+          src: "footnote38.2.jpg",
+          // href:"https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
+          img_pos:{x: 100, y:0},
+          img_size: 135,
+          col_range: {start: 8, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
   },
   {
     id: 39,
     title: "Murder me",
     section: 5,
-    url: "https://photos.google.com/photo/AF1QipO2KM0DVcVUzK3CpdHOjZDBDkZyAI5UjsXLZX0"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote39.1.png",
+          // href:"https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
+          img_pos:{x: 100, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:6},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote39.2.png",
+          // href:"https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
+          img_pos:{x: 100, y:0},
+          img_size: 100,
+          col_range: {start: 10, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 5, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "6yz1K6uENfQ",
+          muted: false,
+          loop: false,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 6, end:10},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:5},
+          m_row_range: {start: 1, end:5}
+        }
+      ]
+    }
   },
   {
     id: 40,
     title: "Floridian tarot reader",
     section: 5,
-    url: "https://www.google.com/search?q=baldwin"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote39.1.png",
+          // href:"https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
+          img_pos:{x: 100, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:6},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote39.2.png",
+          img_pos:{x: 100, y:0},
+          img_size: 100,
+          col_range: {start: 10, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 5, end:8},
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "6yz1K6uENfQ",
+          muted: false,
+          loop: false,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 6, end:10},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:5},
+          m_row_range: {start: 1, end:5}
+        }
+      ]
+    }
   },
   {
     id: 41,
@@ -1104,7 +1260,7 @@ const data = [
     id: 46,
     title: "Hooptee",
     baseRoute: "/opensource/hooptee",
-    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://www.youtube.com/watch?v=xE4SEGE4nNY" //https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 47,
