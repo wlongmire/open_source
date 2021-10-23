@@ -1082,7 +1082,7 @@ const data = [
         {
           type:VIDEO_TYPE,
           id: "--K6oeUi8CQ",
-          muted: false,
+          muted: true,
           loop: true,
           col_range: {start: 1, end:6},
           row_range: {start: 1, end:11},
