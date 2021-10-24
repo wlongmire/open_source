@@ -1276,9 +1276,9 @@ const data = [
   },
   {
     id: 49,
-    title: "No One Knows What They Are Doing At Microsoft",
+    title: "No One Knows What They're Doing At Microsoft",
     baseRoute: "/opensource/no_one_knows_what_they_are_doing_at_microsoft",
-    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://youtu.be/xB4gR5b8Lq8" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   },
   {
     id: 50,
