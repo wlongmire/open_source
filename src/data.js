@@ -1191,37 +1191,52 @@ const data = [
       m_cols: 7,
       modules:[
         {
-          type:IMAGE_TYPE,
-          src: "footnote39.1.png",
-          // href:"https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
-          img_pos:{x: 100, y:0},
+          type:VIDEO_TYPE,
+          id: "9Z0hHqoF26E&t=510s",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
           img_size: 100,
-          col_range: {start: 1, end:6},
-          row_range: {start: 1, end:11},
+          col_range: {start: 1, end:8},
+          row_range: {start: 1, end:7},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 5, end:11}
-        },
-        {
-          type:IMAGE_TYPE,
-          src: "footnote39.2.png",
-          img_pos:{x: 100, y:0},
-          img_size: 100,
-          col_range: {start: 10, end:15},
-          row_range: {start: 1, end:11},
-          m_col_range: {start: 5, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 1, end:2}
         },
         {
           type:VIDEO_TYPE,
-          id: "6yz1K6uENfQ",
+          id: "bSXEVmEWYV4&t=18m13s",
           muted: false,
-          loop: false,
+          loop: true,
           img_pos:{x: 0, y:0},
           img_size: 100,
-          col_range: {start: 6, end:10},
-          row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:5},
-          m_row_range: {start: 1, end:5}
+          col_range: {start: 1, end:8},
+          row_range: {start: 7, end:11},
+          m_col_range: {start: 2, end:7},
+          m_row_range: {start: 2, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "WVc1nkgKYDw&t=90s",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 8, end:15},
+          row_range: {start: 7, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:9}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "75rDdXQGbaI&t=932s",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 8, end:14},
+          row_range: {start: 1, end:7},  
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 9, end:11}
         }
       ]
     }
