@@ -1245,31 +1245,136 @@ const data = [
     id: 41,
     title: "It's Ok",
     section: 5,
-    url: "https://www.youtube.com/watch?v=tbsIWv33JO4"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "9ZcXBYnOafI",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:7},
+          m_row_range: {start: 1, end:10}
+        }
+      ]
+    }
   },
   {
     id: 42,
     title: "Aretha Franklin",
     section: 5,
-    url: "https://www.youtube.com/watch?v=Fj8pY4IFoeU"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "Fj8pY4IFoeU",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:7},
+          m_row_range: {start: 1, end:10}
+        }
+      ]
+    }
   },
   {
     id: 43,
     title: "Drake",
     section: 5,
-    url: "https://www.youtube.com/watch?v=Eru6INv-hSw"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "Eru6INv-hSw",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:7},
+          m_row_range: {start: 1, end:10}
+        }
+      ]
+    }
   },
   {
     id: 44,
     title: "Kanye West",
     section: 5,
-    url: "https://www.youtube.com/watch?v=oiXdMaSAvqw"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "eRAXruayAto",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:7},
+          m_row_range: {start: 1, end:10}
+        }
+      ]
+    }
   },
   {
     id: 45,
     title: "You don’t have to look good",
     section: 5,
-    url: "https://photos.google.com/photo/AF1QipM64DewyOQkxMb1x_0TgRCu4PBuAGL7PFHJBhI"
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "XdXkKmLwDl0",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:7},
+          m_row_range: {start: 1, end:10}
+        }
+      ]
+    }
   },
   {
     id: 46,
