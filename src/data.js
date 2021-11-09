@@ -1392,7 +1392,7 @@ const data = [
     id: 48,
     title: "A Strange Place For Snow",
     baseRoute: "/opensource/a_strange_place_for_snow",
-    url: "https://youtu.be/oPCPDfpOgL0" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+    url: "https://www.youtube.com/watch?v=oPCPDfpOgL0" //"https://www.youtube.com/watch_popup?v=oPCPDfpOgL0"
   },
   {
     id: 49,
