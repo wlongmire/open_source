@@ -1405,6 +1405,18 @@ const data = [
     title: "Basic Income Experiment",
     baseRoute: "/opensource/basic_income_experiment",
     url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+  },
+  {
+    id: 51,
+    title: "Insta Poem 1: Objectified",
+    baseRoute: "/opensource/1",
+    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+  },
+  {
+    id: 52,
+    title: "Insta Poem 2: How to be white",
+    baseRoute: "/opensource/2",
+    url: "https://youtu.be/oH4MGvIRQS0" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   }
 ];
 
