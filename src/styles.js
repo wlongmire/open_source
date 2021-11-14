@@ -18,6 +18,30 @@ export const Header = styled.header`
   z-index: 1000;
   justify-content: space-between;
 
+  #header_title {
+    display:flex;
+    align-items:center;
+  }
+
+  #header_controls a {
+    display: flex;
+    align-items:center;
+    padding: 0.1em;
+    font-size: 1.5em;
+    color: grey;
+    transition: color 1s;
+    
+  }
+
+  #header_controls a:hover {
+    color: #ffc0cb;
+  }
+
+  #header_controls {
+    display:flex;
+    padding: 0.5em;
+  }
+
   p {
     padding-left: 2em;
   }

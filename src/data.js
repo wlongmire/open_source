@@ -609,7 +609,7 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          src: "footnote13.1.jpeg",
+          src: "footnote17.1.jpeg",
           img_pos:{x: 20, y:0},
           img_size: 150,
           col_range: {start: 11, end:15},
@@ -644,7 +644,7 @@ const data = [
         {
           type:IMAGE_TYPE,
           //article
-          src: "footnote13.1.jpg",
+          src: "footnote18.1.jpeg",
           img_pos:{x: 20, y:0},
           img_size: 150,
           col_range: {start: 11, end:15},
@@ -1607,4 +1607,7 @@ export const sections = [
     title:"Basic Income Experiment"
   }
 ];
+
+export const TOTAL_FOOTNOTES = 45;
+
 export default data;

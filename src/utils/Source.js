@@ -8,12 +8,16 @@ class Source {
     this.id = id;
   }
 
+  getRoot = () => {
+    return `/opensource/footnote/`;
+  }
+
   getURL = () => {
     return (this.baseUrl || `https://www.google.com/search?q=${this.getShortCode()}`);
   }
 
   getRoute = () => {
-    const route = this.baseRoute || `/opensource/footnote/${this.id}`;
+    const route = this.baseRoute || `${this.getRoot()}${this.id}`;
     return route;
   }
 
