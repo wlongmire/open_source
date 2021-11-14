@@ -395,7 +395,7 @@ const data = [
           muted: false,
           loop: true,
           col_range: {start: 1, end:11},
-          row_range: {start: 1, end:11},
+          row_range: {start: 1, end:7},
           m_col_range: {start: 1, end:14},
           m_row_range: {start: 1, end:4}
         },
@@ -403,11 +403,21 @@ const data = [
           type:IMAGE_TYPE,
           src: "footnote11.1.png",
           img_pos:{x: 20, y:0},
-          img_size: 120,
+          img_size: 50,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 4, end:11}
+          m_row_range: {start: 4, end:8}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "_w-hqwNWd6A",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:11},
+          row_range: {start: 7, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
         }
       ]
     }
@@ -450,9 +460,9 @@ const data = [
         {
           type:IMAGE_TYPE,
           //article
-          src: "footnote13.1.jpg",
-          img_pos:{x: 20, y:0},
-          img_size: 150,
+          src: "footnote13.2.jpeg",
+          img_pos:{x: 20, y:60},
+          img_size: 120,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
@@ -494,10 +504,10 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          //article
-          src: "footnote13.1.jpg",
-          img_pos:{x: 20, y:0},
-          img_size: 150,
+
+          src: "footnote14.1.jpeg",
+          img_pos:{x: 20, y:30},
+          img_size: 110,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
@@ -531,9 +541,9 @@ const data = [
         {
           type:IMAGE_TYPE,
           //article
-          src: "footnote13.1.jpg",
-          img_pos:{x: 20, y:0},
-          img_size: 150,
+          src: "footnote15.2.jpeg",
+          img_pos:{x: 20, y:-40},
+          img_size: 110,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
@@ -565,13 +575,13 @@ const data = [
         {
           type:IMAGE_TYPE,
           //article
-          src: "footnote13.1.jpg",
+          src: "footnote16.1.jpeg",
           img_pos:{x: 20, y:0},
-          img_size: 150,
+          img_size: 100,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 1, end:8}
+          m_row_range: {start: 1, end:6}
         },
         {
           type:VIDEO_TYPE,
@@ -581,7 +591,7 @@ const data = [
           col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 8, end:11}
+          m_row_range: {start: 6, end:11}
         }
       ]
     }
@@ -599,8 +609,7 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          //article
-          src: "footnote13.1.jpg",
+          src: "footnote13.1.jpeg",
           img_pos:{x: 20, y:0},
           img_size: 150,
           col_range: {start: 11, end:15},
@@ -610,7 +619,7 @@ const data = [
         },
         {
           type:VIDEO_TYPE,
-          id: "w-IyamaAbxM",
+          id: "L0L5fciA6AU",
           muted: false,
           loop: true,
           col_range: {start: 1, end:11},
