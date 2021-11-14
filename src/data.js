@@ -286,7 +286,7 @@ const data = [
         },
         {
           type:IMAGE_TYPE,
-          src: "footnote9.2.png",
+          src: "footnote8.2.png",
           href: "https://en.wikipedia.org/wiki/Canaan",
           img_pos:{x: 0, y:0},
           img_size: 120,
@@ -297,7 +297,7 @@ const data = [
         },
         {
           type:IMAGE_TYPE,
-          src: "footnote9.1.png",
+          src: "footnote8.1.png",
           href: "https://www.google.com/search?q=what%27s+wrong+with+black+men&sxsrf=AOaemvJxc2NgnIOIytpzda4Y25oERFbs2Q:1633310841430&ei=eVhaYaXnGcO7ggetio-wCg&start=30&sa=N&ved=2ahUKEwjlh4uEza_zAhXDneAKHS3FA6Y4FBDw0wN6BAgBEEk&biw=896&bih=984&dpr=2",
           img_pos:{x: 0, y:0},
           img_size: 120,
@@ -313,7 +313,36 @@ const data = [
     id: 9,
     title: "Family of Disease",
     section: 2,
-    url: "https://www.pulmonologyadvisor.com/home/topics/asthma/exploring-autoimmunity-in-asthma-a-clinical-overview-plus-qa/"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote9.1.jpeg",
+          img_pos:{x: 0, y:60},
+          img_size: 100,
+          col_range: {start: 1, end:11},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:4}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote9.2.png",
+          href: "https://www.pulmonologyadvisor.com/home/topics/asthma/exploring-autoimmunity-in-asthma-a-clinical-overview-plus-qa/",
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 4, end:11}
+        }
+      ]
+    }
   },
   {
     id: 10,
@@ -331,10 +360,20 @@ const data = [
           id: "8UEd7GntHxg",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:4}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote10.1.jpeg",
+          img_pos:{x: 20, y:0},
+          img_size: 120,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 4, end:11}
         }
       ]
     }
@@ -355,10 +394,20 @@ const data = [
           id: "hMtZfW2z9dw",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:4}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote11.1.png",
+          img_pos:{x: 20, y:0},
+          img_size: 120,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 4, end:11}
         }
       ]
     }
@@ -399,14 +448,35 @@ const data = [
       m_cols: 7,
       modules:[
         {
+          type:IMAGE_TYPE,
+          //article
+          src: "footnote13.1.jpg",
+          img_pos:{x: 20, y:0},
+          img_size: 150,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:5}
+        },
+        {
           type:VIDEO_TYPE,
-          id: "_w-hqwNWd6A",
+          id: "feCOwXz8acY",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 5, end:8}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote13.1.jpg",
+          img_pos:{x: 20, y:0},
+          img_size: 135,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
         }
       ]
     }
@@ -423,14 +493,25 @@ const data = [
       m_cols: 7,
       modules:[
         {
+          type:IMAGE_TYPE,
+          //article
+          src: "footnote13.1.jpg",
+          img_pos:{x: 20, y:0},
+          img_size: 150,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:8}
+        },
+        {
           type:VIDEO_TYPE,
           id: "SXCMdxvu5Sk&t=121s",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
         }
       ]
     }
@@ -439,7 +520,36 @@ const data = [
     id: 15,
     title: "Jehovah knows the meat",
     section: 2,
-    url: "https://www.jw.org/en/bible-teachings/questions/end-of-the-world/"
+    isGrid:true,
+    section: 2,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          //article
+          src: "footnote13.1.jpg",
+          img_pos:{x: 20, y:0},
+          img_size: 150,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:8}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote15.1.png",
+          href: "https://www.jw.org/en/bible-teachings/questions/what-is-sin/",
+          col_range: {start: 1, end:11},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 4, end:11}
+        }
+      ]
+    }
   },
   {
     id: 16,
@@ -453,14 +563,25 @@ const data = [
       m_cols: 7,
       modules:[
         {
+          type:IMAGE_TYPE,
+          //article
+          src: "footnote13.1.jpg",
+          img_pos:{x: 20, y:0},
+          img_size: 150,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:8}
+        },
+        {
           type:VIDEO_TYPE,
           id: "MwJYv5F__zw&t=750s",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
         }
       ]
     }
@@ -469,7 +590,36 @@ const data = [
     id: 17,
     title: "Does he understand hurt?",
     section: 2,
-    url: "https://www.phillytrib.com/news/study-shows-black-men-in-philly-are-more-likely-to-experience-poor-mental-health-after/article_aba3cbd0-5f3f-5c85-916c-75cd918ea967.html"
+    isGrid:true,
+    grid: {
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:IMAGE_TYPE,
+          //article
+          src: "footnote13.1.jpg",
+          img_pos:{x: 20, y:0},
+          img_size: 150,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:8}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "w-IyamaAbxM",
+          muted: false,
+          loop: true,
+          col_range: {start: 1, end:11},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
+        }
+      ]
+    }
   },
   {
     id: 18,
@@ -483,14 +633,25 @@ const data = [
       m_cols: 7,
       modules:[
         {
+          type:IMAGE_TYPE,
+          //article
+          src: "footnote13.1.jpg",
+          img_pos:{x: 20, y:0},
+          img_size: 150,
+          col_range: {start: 11, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:8}
+        },
+        {
           type:VIDEO_TYPE,
           id: "tJXiAImt2Sk",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
         }
       ]
     }
