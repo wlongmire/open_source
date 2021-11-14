@@ -21,7 +21,7 @@ const MenuSlider = () => {
   });
 
   return(<MenuSliderStyle>
-    <h1><a href="/">alongmirewriter</a></h1>
+    <h1><a id="homeLink" href="/">alongmirewriter</a></h1>
     <h3>OPEN SOURCE</h3>
     <h4>Footnotes</h4>
     {

@@ -54,6 +54,15 @@ export const MenuSliderStyle = styled.div`
   z-index: 10000;
   height:100%;
   overflow-y: scroll;
+  
+  #homeLink {
+    color: purple;
+    transition: color 1s;
+  }
+
+  #homeLink:hover {
+    color: pink;
+  }
 `
 
 export const FootnoteSection = styled.div`
