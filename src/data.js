@@ -678,13 +678,21 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "Sem-uJwGswo",
+          id: "qQFPikYSalg",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote19.1.jpeg",
+          col_range: {start: 8, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
         }
       ]
     }
@@ -702,13 +710,23 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "A7ue7udsgx4",
+          id: "tb-rudMA32k",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote20.1.jpeg",
+          img_pos:{x: 20, y:50},
+          img_size: 110,
+          col_range: {start: 8, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
         }
       ]
     }
@@ -726,13 +744,23 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "RfrhnjAkaRE",
+          id: "N1w-hDiJ4dM&t=28s",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "kZz6jrt_ZbU",
+          muted: true,
+          loop: true,
+          col_range: {start: 8, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
         }
       ]
     }
@@ -741,7 +769,6 @@ const data = [
     id: 22,
     title: "Cloudy and Coconut",
     isGrid:true,
-    section: 3,
     grid: {
       rows: 10,
       cols: 14,
@@ -750,13 +777,23 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "tH9-9IC7qyY",
+          id: "NHA2f0hzMTE",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_row_range: {start: 1, end:5}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "tg00YEETFzg",
+          muted: true,
+          loop: true,
+          col_range: {start: 8, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 5, end:11}
         }
       ]
     }
@@ -1587,6 +1624,12 @@ const data = [
     title: "Insta Poem 2: How to be white",
     baseRoute: "/opensource/2",
     url: "https://youtu.be/oH4MGvIRQS0" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
+  },
+  {
+    id: 53,
+    title: "Insta Poem 3: Open Source",
+    baseRoute: "/opensource/3",
+    url: "https://youtu.be/u-eJcozEgTI" //"https://www.youtube.com/watch_popup?v=F-xLBNYxdlk"
   }
 ];
 

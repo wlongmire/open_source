@@ -21,26 +21,28 @@ const MenuSlider = () => {
   });
 
   return(<MenuSliderStyle>
-    <h1><a id="homeLink" href="/">alongmirewriter</a></h1>
-    <h3>OPEN SOURCE</h3>
-    <h4>Footnotes</h4>
-    {
-      sectionsList.map(section=> {
-        return(<FootnoteSection>
-          <a href={`/opensource/${section.title.toLowerCase()}`}>
-            <h3>{section.title}</h3>
-          </a>
-          <ul>
-            {
-              section.footnotes.map(footnote => {
-                return(<li><a href={`/opensource/footnote/${footnote.id}`}>{`${footnote.id}. ${footnote.title}`}</a></li>);
-              })
-            }
-          </ul>
-          
-        </FootnoteSection>);
-      })
-    }
+    <div id="content">
+      <h1><a id="homeLink" href="/">alongmirewriter</a></h1>
+      <h3>OPEN SOURCE</h3>
+      <h4>Footnotes</h4>
+      {
+        sectionsList.map(section=> {
+          return(<FootnoteSection>
+            <a href={`/opensource/${section.title.toLowerCase()}`}>
+              <h3>{section.title}</h3>
+            </a>
+            <ul>
+              {
+                section.footnotes.map(footnote => {
+                  return(<li><a href={`/opensource/footnote/${footnote.id}`}>{`${footnote.id}. ${footnote.title}`}</a></li>);
+                })
+              }
+            </ul>
+            
+          </FootnoteSection>);
+        })
+      }
+    </div>
   </MenuSliderStyle>)
   
 }

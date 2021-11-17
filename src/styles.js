@@ -54,6 +54,10 @@ export const MenuSliderStyle = styled.div`
   z-index: 10000;
   height:100%;
   overflow-y: scroll;
+
+  background-color: black;
+  background-image: linear-gradient(0deg, transparent 10%, rgba(30,30,30,0.5) 180%);
+  background-size: 10px 10px;
   
   #homeLink {
     color: purple;
@@ -69,7 +73,7 @@ export const FootnoteSection = styled.div`
   padding: 1em;
   margin: 1em 0 0 0;
   background: ${props => props.background || "pink"};
-
+  max-width: 500px;
   h3 {
     font-size: 1.6em;
     color:black;
