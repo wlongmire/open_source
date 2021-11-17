@@ -689,6 +689,8 @@ const data = [
         {
           type:IMAGE_TYPE,
           src: "footnote19.1.jpeg",
+          img_pos:{x: 50, y:40},
+          img_size: 120,
           col_range: {start: 8, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
@@ -737,11 +739,22 @@ const data = [
     section: 3,
     isGrid:true,
     grid: {
+      gap_color: "black",
       rows: 10,
       cols: 14,
       m_rows: 10,
       m_cols: 7,
       modules:[
+        {
+          type:IMAGE_TYPE,
+          src: "footnote21.1.jpeg",
+          img_pos:{x: -210, y:40},
+          img_size: 180,
+          col_range: {start: 8, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        },
         {
           type:VIDEO_TYPE,
           id: "N1w-hDiJ4dM&t=28s",
@@ -751,7 +764,7 @@ const data = [
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 1, end:5}
-        },
+        },//
         {
           type:VIDEO_TYPE,
           id: "kZz6jrt_ZbU",
@@ -760,7 +773,7 @@ const data = [
           col_range: {start: 8, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 5, end:11}
+          m_row_range: {start: 7, end:11}
         }
       ]
     }
@@ -770,6 +783,7 @@ const data = [
     title: "Cloudy and Coconut",
     isGrid:true,
     grid: {
+      gap_color: "black",
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -783,7 +797,7 @@ const data = [
           col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 5, end:11}
         },
         {
           type:VIDEO_TYPE,
@@ -793,7 +807,7 @@ const data = [
           col_range: {start: 8, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 5, end:11}
+          m_row_range: {start: 1, end:5}
         }
       ]
     }
@@ -802,7 +816,6 @@ const data = [
     id: 23,
     title: "A terrorist fist jab",
     isGrid:true,
-    section: 3,
     grid: {
       rows: 10,
       cols: 14,
@@ -811,13 +824,23 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "8B5GP0AiQMc&t=923s",
+          id: "UlS7UjFQCrM",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_row_range: {start: 8, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote23.1.jpg",
+          img_pos:{x: 20, y:50},
+          img_size: 125,
+          col_range: {start: 8, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:8}
         }
       ]
     }
@@ -826,7 +849,6 @@ const data = [
     id: 24,
     title: "The Sky",
     isGrid:true,
-    section: 3,
     grid: {
       rows: 10,
       cols: 14,
@@ -835,14 +857,34 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "TTKWkJt1QIw",
+          id: "ciJDA0tcQfs",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:6},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
-        }
+          m_row_range: {start: 8, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote24.1.jpeg",
+          img_pos:{x: 45, y:40},
+          img_size: 150,
+          col_range: {start: 6, end:10},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:8}
+        },
+        {
+          type:VIDEO_TYPE,
+          id: "ciJDA0tcQfs",
+          muted: true,
+          loop: true,
+          col_range: {start: 10, end:15 },
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 8, end:11}
+        },
       ]
     }
   },
