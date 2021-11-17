@@ -321,25 +321,23 @@ const data = [
       m_cols: 7,
       modules:[
         {
-          type:IMAGE_TYPE,
-          src: "footnote9.1.jpeg",
-          img_pos:{x: 0, y:60},
-          img_size: 100,
+          type:VIDEO_TYPE,
+          id: "9pAUe2k7uKI&t=403s",
           col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 1, end:4}
+          m_row_range: {start: 6, end:11}
         },
         {
           type:IMAGE_TYPE,
           src: "footnote9.2.png",
           href: "https://www.pulmonologyadvisor.com/home/topics/asthma/exploring-autoimmunity-in-asthma-a-clinical-overview-plus-qa/",
           img_pos:{x: 0, y:0},
-          img_size: 100,
+          img_size: 40,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 4, end:11}
+          m_row_range: {start: 1, end:6}
         }
       ]
     }
@@ -369,7 +367,7 @@ const data = [
           type:IMAGE_TYPE,
           src: "footnote10.1.jpeg",
           img_pos:{x: 20, y:0},
-          img_size: 120,
+          img_size: 125,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
@@ -384,6 +382,7 @@ const data = [
     section: 2,
     isGrid:true,
     grid: {
+      gap_color:"black",
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -452,6 +451,7 @@ const data = [
     section: 2,
     isGrid:true,
     grid: {
+      gap_color:"black",
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -475,7 +475,7 @@ const data = [
           loop: true,
           col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:14},
+          m_col_range: {start: 1, end:10},
           m_row_range: {start: 5, end:8}
         },
         {
@@ -497,6 +497,7 @@ const data = [
     isGrid:true,
     section: 2,
     grid: {
+      gap_color:"black",
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -504,7 +505,6 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-
           src: "footnote14.1.jpeg",
           img_pos:{x: 20, y:30},
           img_size: 110,
@@ -540,14 +540,13 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          //article
           src: "footnote15.2.jpeg",
-          img_pos:{x: 20, y:-40},
+          img_pos:{x:35, y:-40},
           img_size: 110,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 1, end:8}
+          m_row_range: {start: 4, end:11}
         },
         {
           type:IMAGE_TYPE,
@@ -556,7 +555,8 @@ const data = [
           col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 4, end:11}
+          m_row_range: {start: 1, end:8}
+          
         }
       ]
     }
@@ -574,14 +574,13 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          //article
           src: "footnote16.1.jpeg",
           img_pos:{x: 20, y:0},
           img_size: 100,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 1, end:6}
+          m_row_range: {start: 1, end:7}
         },
         {
           type:VIDEO_TYPE,
@@ -591,7 +590,7 @@ const data = [
           col_range: {start: 1, end:11},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
-          m_row_range: {start: 6, end:11}
+          m_row_range: {start: 7, end:11}
         }
       ]
     }
@@ -643,10 +642,9 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          //article
           src: "footnote18.1.jpeg",
           img_pos:{x: 20, y:0},
-          img_size: 150,
+          img_size: 120,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
@@ -690,7 +688,7 @@ const data = [
           type:IMAGE_TYPE,
           src: "footnote19.1.jpeg",
           img_pos:{x: 50, y:40},
-          img_size: 120,
+          img_size: 105,
           col_range: {start: 8, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
@@ -718,7 +716,7 @@ const data = [
           col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 7, end:11}
         },
         {
           type:IMAGE_TYPE,
@@ -727,8 +725,10 @@ const data = [
           img_size: 110,
           col_range: {start: 8, end:15},
           row_range: {start: 1, end:11},
+
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 5, end:11}
+          m_row_range: {start: 1, end:7}
+          
         }
       ]
     }
@@ -764,7 +764,7 @@ const data = [
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 1, end:5}
-        },//
+        },
         {
           type:VIDEO_TYPE,
           id: "kZz6jrt_ZbU",
@@ -991,6 +991,8 @@ const data = [
           type:IMAGE_TYPE,
           src: "footnote28.1.png",
           href: "https://www.google.com/search?q=function&oq=function&aqs=chrome..69i57j69i60l2.1307j0j9&sourceid=chrome&ie=UTF-8",
+          img_pos:{x: 0, y:0},
+          img_size: 200,
           col_range: {start: 1, end:15},
           row_range: {start: 1, end:5},
           m_col_range: {start: 1, end:8},
@@ -1082,6 +1084,7 @@ const data = [
     isGrid:true,
     section: 4,
     grid: {
+      gap_color: "#6673fe",
       rows: 10,
       cols: 14,
       m_rows: 10,
@@ -1091,10 +1094,12 @@ const data = [
           type:IMAGE_TYPE,
           src: "footnote31.1.gif",
           href: "https://www.google.com/search?q=series+c+funding&oq=series+c+funding&aqs=chrome..69i57j69i60l2.3050j0j4&sourceid=chrome&ie=UTF-8",
+          img_size: 118,
+          img_pos:{x: 0, y:50},
           col_range: {start: 1, end:15},
           row_range: {start: 1, end:5},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 1, end:4}
         },
         {
           type:IMAGE_TYPE,
@@ -1102,7 +1107,7 @@ const data = [
           col_range: {start: 1, end:15},
           row_range: {start: 5, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 5, end:11}
+          m_row_range: {start: 4, end:11}
         }
       ]
     }
@@ -1270,29 +1275,18 @@ const data = [
           col_range: {start: 9, end:15},
           row_range: {start: 7, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 4, end:7}
+          m_row_range: {start: 8, end:14}
         },
         {
           type:IMAGE_TYPE,
           src: "footnote36.2.jpg",
-          img_pos:{x: 0, y:250},
+          img_pos:{x: 0, y:0},
           img_size: 95,
           col_range: {start: 1, end:9},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:4}
-        },
-        {
-          type:IMAGE_TYPE,
-          src: "footnote36.1.jpg",
-          img_pos:{x: 0, y:-110},
-          img_size: 110,
-          col_range: {start: 9, end:15},
-          row_range: {start: 1, end:7},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 4, end:11}
-          
-        } 
+          m_row_range: {start: 1, end:8}
+        }
       ]
     }
   },
@@ -1511,8 +1505,8 @@ const data = [
           img_size: 100,
           col_range: {start: 1, end:14},
           row_range: {start: 1, end:10},
-          m_col_range: {start: 1, end:7},
-          m_row_range: {start: 1, end:10}
+          m_col_range: {start: 1, end:10},
+          m_row_range: {start: 1, end:11}
         }
       ]
     }
@@ -1538,8 +1532,8 @@ const data = [
           img_size: 100,
           col_range: {start: 1, end:14},
           row_range: {start: 1, end:10},
-          m_col_range: {start: 1, end:7},
-          m_row_range: {start: 1, end:10}
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
         }
       ]
     }
@@ -1565,8 +1559,8 @@ const data = [
           img_size: 100,
           col_range: {start: 1, end:14},
           row_range: {start: 1, end:10},
-          m_col_range: {start: 1, end:7},
-          m_row_range: {start: 1, end:10}
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
         }
       ]
     }
@@ -1592,8 +1586,8 @@ const data = [
           img_size: 100,
           col_range: {start: 1, end:14},
           row_range: {start: 1, end:10},
-          m_col_range: {start: 1, end:7},
-          m_row_range: {start: 1, end:10}
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
         }
       ]
     }
@@ -1619,8 +1613,8 @@ const data = [
           img_size: 100,
           col_range: {start: 1, end:14},
           row_range: {start: 1, end:10},
-          m_col_range: {start: 1, end:7},
-          m_row_range: {start: 1, end:10}
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
         }
       ]
     }
