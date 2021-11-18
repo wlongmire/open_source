@@ -749,7 +749,7 @@ const data = [
           type:IMAGE_TYPE,
           src: "footnote21.1.jpeg",
           img_pos:{x: -210, y:40},
-          img_size: 180,
+          img_size: 175,
           col_range: {start: 8, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
