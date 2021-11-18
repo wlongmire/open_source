@@ -782,6 +782,7 @@ const data = [
     id: 22,
     title: "Cloudy and Coconut",
     isGrid:true,
+    section: 3,
     grid: {
       gap_color: "black",
       rows: 10,
@@ -816,6 +817,7 @@ const data = [
     id: 23,
     title: "A terrorist fist jab",
     isGrid:true,
+    section: 3,
     grid: {
       rows: 10,
       cols: 14,
@@ -849,6 +851,7 @@ const data = [
     id: 24,
     title: "The Sky",
     isGrid:true,
+    section: 3,
     grid: {
       rows: 10,
       cols: 14,
