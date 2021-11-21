@@ -211,18 +211,49 @@ const data = [
     grid: {
       rows: 10,
       cols: 14,
+      gap_color:"black",
       m_rows: 10,
       m_cols: 7,
       modules:[
         {
+          type:MAP_TYPE,
+          link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.8197271279337!2d-75.16662920227549!3d39.97181305102556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda58642df922ba4e!2sLast%20Chance%20Lounge!5e0!3m2!1sen!2sus!4v1637524458399!5m2!1sen!2sus",
+          col_range: {start: 1, end:6},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:4},
+          m_row_range: {start: 1, end:11}
+        },
+        {
           type:IMAGE_TYPE,
-          src: "footnote6.1.png",
-          href: "https://www.inquirer.com/philly/news/crime/nafis-owens-francisville-shooting-rainey-simmons-stokes-unsolved-20180529.html",
-          img_size: 100,
+          src: "footnote6.2.png",
+          img_size: 200,
+          img_pos:{x: 65, y:0},
           col_range: {start: 1, end:15},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:14},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 4, end:8},
+          m_row_range: {start: 1, end:4}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote6.3.png",
+          img_size: 150,
+          img_pos:{x: 65, y:48},
+          // href: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.8197271279337!2d-75.16662920227549!3d39.97181305102556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda58642df922ba4e!2sLast%20Chance%20Lounge!5e0!3m2!1sen!2sus!4v1637524458399!5m2!1sen!2sus",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 4, end:8},
+          m_row_range: {start: 8, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote6.4.png",
+          img_size: 105,
+          img_pos:{x: 0, y:0},
+          href: "https://www.inquirer.com/philly/news/crime/nafis-owens-francisville-shooting-rainey-simmons-stokes-unsolved-20180529.html",
+          col_range: {start: 6, end:15},
+          row_range: {start: 8, end:11},
+          m_col_range: {start: 4, end:8},
+          m_row_range: {start: 4, end:8}
         }
       ]
     }
