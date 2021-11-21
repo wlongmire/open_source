@@ -152,6 +152,8 @@ const data = [
         {
           type:VIDEO_TYPE,
           id:"b0y-uHO4M8A",
+          muted: false,
+          loop: true,
           col_range: {start: 1, end:10},
           row_range: {start: 1, end:8},
           m_col_range: {start: 1, end:5},
