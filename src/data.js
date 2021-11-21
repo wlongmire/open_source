@@ -150,11 +150,8 @@ const data = [
           m_row_range: {start: 1, end:7}
         },
         {
-          type:IMAGE_TYPE,
-          href:"https://photos.google.com/photo/AF1QipONM4EnvJsRHhq1eNPt4OtrCtA8Pf4zj_lYY8M",
-          src: "footnote4.3.jpeg",
-          img_size: 250,
-          img_pos:{x: 50, y:100},
+          type:VIDEO_TYPE,
+          id:"b0y-uHO4M8A",
           col_range: {start: 1, end:10},
           row_range: {start: 1, end:8},
           m_col_range: {start: 1, end:5},
@@ -530,8 +527,7 @@ const data = [
     id: 15,
     title: "Jehovah knows the meat",
     section: 2,
-    isGrid:true,
-    section: 2,
+    isGrid:true, 
     grid: {
       rows: 10,
       cols: 14,

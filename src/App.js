@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import { BsFillArrowRightSquareFill, BsFillArrowLeftSquareFill, BsFillMenuButtonWideFill } from 'react-icons/bs';
 
 import Source from './utils/Source';
@@ -81,13 +81,16 @@ function App() {
   });
 
   return (<Container>
-    <Route exact path= "/" render={()=>{
+    <Route exact path="/">
+      <Redirect to="/opensource/footnote/1"/>
+    </Route>
+    {/* <Route exact path= "/" render={()=>{
       window.location.href = 'https://linktr.ee/alongmirewriter';
-    }}/>
+    }}/> 
     <Route exact path= "/opensource" render={()=>{
       window.location.href = 'https://www.radiatorpress.com/product/open-source-by-warren-c-longmire';
     }}/>
-    <Route exact path= "/publications">
+     <Route exact path= "/publications">
       <h2>Publications</h2>
     </Route>
     <Route exact path= "/services">
@@ -98,7 +101,7 @@ function App() {
     </Route>
     <Route exact path= "/contact">
       <h2>Contact</h2>
-    </Route>
+    </Route> */}
     {
          sources.map(src => <Route key={src.id} path={src.getRoute()} render={
            () => {
