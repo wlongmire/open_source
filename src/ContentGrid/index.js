@@ -8,8 +8,6 @@ const ContentGrid = (props)=> {
   const [playing, setPlaying] = useState(false);
   const { headline, modules, rows, cols, m_rows, m_cols, gap_color } = props;
 
-  console.log("color: ",props);
-
   return(<Container>
     <Mosaic rows={rows} m_rows={m_rows} cols={cols} m_cols={m_cols} gap_color={gap_color}>
       {
