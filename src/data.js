@@ -276,19 +276,19 @@ const data = [
           loop: true,
           col_range: {start: 1, end:8},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:14},
+          m_col_range: {start: 1, end:8},
           m_row_range: {start: 8, end:11}
         },
         {
           type:IMAGE_TYPE,
           src: "footnote7.1.png",
           href: "https://www.phillymag.com/news/2021/07/10/philly-inferiority-complex/",
-          img_pos:{x: 50, y:0},
-          img_size: 100,
+          img_pos:{x: 0, y:0},
+          img_size: 150,
           col_range: {start: 9, end:15},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:14},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:8}
         }
       ]
     }
