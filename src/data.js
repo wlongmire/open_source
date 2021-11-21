@@ -430,9 +430,10 @@ const data = [
         },
         {
           type:IMAGE_TYPE,
-          src: "footnote11.1.png",
-          img_pos:{x: 20, y:0},
-          img_size: 50,
+          src: "footnote11.2.png",
+          href:"https://en.wikipedia.org/wiki/Black_Buck",
+          img_pos:{x: 35, y:20},
+          img_size: 200,
           col_range: {start: 11, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:14},
@@ -464,10 +465,19 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "h0U2QUGKbSE&t=44s",
+          id: "FTOGwn6DSs4",
           muted: false,
           loop: true,
-          col_range: {start: 1, end:15},
+          col_range: {start: 1, end:7},
+          row_range: {start: 1, end:11},
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 8, end:11}
+        },
+        {
+          type:IMAGE_TYPE,
+          src: "footnote12.1.png",
+          href:"https://www.inquirer.com/news/philadelphia/temple-university-professor-jamie-fader-criminology-dont-have-time-for-drama-20210311.html",
+          col_range: {start: 7, end:15},
           row_range: {start: 1, end:11},
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 1, end:11}

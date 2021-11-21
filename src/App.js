@@ -101,7 +101,7 @@ function App() {
     </Route>
     <Route exact path= "/contact">
       <h2>Contact</h2>
-    </Route> */}
+    </Route>
     {
          sources.map(src => <Route key={src.id} path={src.getRoute()} render={
            () => {
