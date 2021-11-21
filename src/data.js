@@ -1244,6 +1244,14 @@ const data = [
       m_cols: 7,
       modules:[
         {
+          type:IMAGE_TYPE,
+          src: "footnote34.2.gif",
+          col_range: {start: 1, end:15},
+          row_range: {start: 5, end:11},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:4}
+        },
+        {
           type:VIDEO_TYPE,
           id: "hiLNdsggbqg",
           muted: false,
@@ -1251,15 +1259,15 @@ const data = [
           col_range: {start: 1, end:15},
           row_range: {start: 1, end:5},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:5}
+          m_row_range: {start: 4, end:8}
         },
         {
           type:IMAGE_TYPE,
-          src: "footnote34.1.jpeg",
+          src: "footnote34.2.gif",
           col_range: {start: 1, end:15},
           row_range: {start: 5, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 5, end:11}
+          m_row_range: {start: 8, end:11}
         } 
       ]
     }
