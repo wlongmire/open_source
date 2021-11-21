@@ -173,18 +173,10 @@ const data = [
       m_rows: 10,
       m_cols: 7,
       modules:[
-        // {
-        //   type:MAP_TYPE,
-        //   link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.7992791740016!2d-75.16638298414594!3d39.968240179419816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c7d06852d25f%3A0x785457a937eaac12!2s1618%20Brown%20St%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1633306085442!5m2!1sen!2sus",
-        //   col_range: {start: 1, end:15},
-        //   row_range: {start: 1, end:3},
-        //   m_col_range: {start: 1, end:8},
-        //   m_row_range: {start: 1, end:3}
-        // },
         {
           type:VIDEO_TYPE,
           id: "5S6oVOpqNDQ",
-          muted: false,
+          muted: true,
           loop: true,
           col_range: {start: 1, end:5},
           row_range: {start: 3, end:11},
@@ -199,6 +191,14 @@ const data = [
           row_range: {start: 3, end:11},
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 3, end:8}
+        },
+        {
+          type:MAP_TYPE,
+          link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.7992791740016!2d-75.16638298414594!3d39.968240179419816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c7d06852d25f%3A0x785457a937eaac12!2s1618%20Brown%20St%2C%20Philadelphia%2C%20PA%2019130!5e0!3m2!1sen!2sus!4v1633306085442!5m2!1sen!2sus",
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:3},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:3}
         }
       ]
     }
