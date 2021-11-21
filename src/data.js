@@ -190,7 +190,7 @@ const data = [
           col_range: {start: 5, end:15},
           row_range: {start: 3, end:11},
           m_col_range: {start: 1, end:8},
-          m_row_range: {start: 3, end:8}
+          m_row_range: {start: 3, end:7}
         },
         {
           type:MAP_TYPE,
