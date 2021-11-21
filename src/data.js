@@ -191,15 +191,15 @@ const data = [
         //   m_col_range: {start: 1, end:8},
         //   m_row_range: {start: 8, end:11}
         // },
-        {
-          type:IMAGE_TYPE,
-          src: "footnote5.1.jpeg",
-          img_size: 100,
-          col_range: {start: 5, end:15},
-          row_range: {start: 3, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 3, end:8}
-        }
+        // {
+        //   type:IMAGE_TYPE,
+        //   src: "footnote5.1.jpeg",
+        //   img_size: 100,
+        //   col_range: {start: 5, end:15},
+        //   row_range: {start: 3, end:11},
+        //   m_col_range: {start: 1, end:8},
+        //   m_row_range: {start: 3, end:8}
+        // }
       ]
     }
   },
