@@ -181,16 +181,16 @@ const data = [
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 1, end:3}
         },
-        {
-          type:VIDEO_TYPE,
-          id: "5S6oVOpqNDQ",
-          muted: false,
-          loop: true,
-          col_range: {start: 1, end:5},
-          row_range: {start: 3, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 8, end:11}
-        },
+        // {
+        //   type:VIDEO_TYPE,
+        //   id: "5S6oVOpqNDQ",
+        //   muted: false,
+        //   loop: true,
+        //   col_range: {start: 1, end:5},
+        //   row_range: {start: 3, end:11},
+        //   m_col_range: {start: 1, end:8},
+        //   m_row_range: {start: 8, end:11}
+        // },
         {
           type:IMAGE_TYPE,
           src: "footnote5.1.jpeg",
