@@ -176,7 +176,7 @@ const data = [
         {
           type:VIDEO_TYPE,
           id: "5S6oVOpqNDQ",
-          muted: true,
+          muted: false,
           loop: true,
           col_range: {start: 1, end:5},
           row_range: {start: 3, end:11},
