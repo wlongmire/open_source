@@ -69,7 +69,7 @@ export const MenuSliderStyle = styled.div`
   }
 
   h3 {
-    font-size: 3.5em;
+    font-size: 3.1em;
     margin: 0;
     margin-bottom:0.2em;
   }
@@ -80,8 +80,9 @@ export const FootnoteSection = styled.div`
   margin: 1em 0 0 0;
   background: ${props => props.background || "pink"};
   max-width: 500px;
+  
   h3 {
-    font-size: 1.2em;
+    font-size: 1.6em;
     color:black;
     padding: 0px;
     margin: 0px;
