@@ -479,8 +479,8 @@ const data = [
           href:"https://www.inquirer.com/news/philadelphia/temple-university-professor-jamie-fader-criminology-dont-have-time-for-drama-20210311.html",
           col_range: {start: 7, end:15},
           row_range: {start: 1, end:11},
-          m_col_range: {start: 1, end:8},
-          m_row_range: {start: 1, end:11}
+          m_col_range: {start: 1, end:14},
+          m_row_range: {start: 1, end:8}
         }
       ]
     }
