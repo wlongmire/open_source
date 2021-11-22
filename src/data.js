@@ -2578,7 +2578,7 @@ export const sections = [
   },
   {
     title:"A Strange Place For Snow",
-    background: "#F2496B",
+    background: "#B20625",
     color: "black"
   },
   {
