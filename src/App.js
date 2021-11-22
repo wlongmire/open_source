@@ -14,13 +14,15 @@ import data, {sections, TOTAL_FOOTNOTES} from './data';
 
 const Attributes = ()=> {
   return(<AttributeSection>
-    <p>Poem Name</p>
-    <p>Poem Page Number</p>
-    <p>Included Materials From:</p>
-    <p><a href="#">Thing That I am Reference</a></p>
-    <p><a href="#">Thing That I am Reference</a></p>
-    <p><a href="#">Thing That I am Reference</a></p>
-    <p><a href="#">Thing That I am Reference</a></p>
+    <h3>Poem Name -  p. 123</h3>
+    <h4>Included Materials From:</h4>
+    <ul>
+      <li><a href="#">Thing That I am Reference</a></li>
+      <li><a href="#">Thing That I am Reference</a></li>
+      <li><a href="#">Thing That I am Reference</a></li>
+      <li><a href="#">Thing That I am Reference</a></li>
+    </ul>
+    
   </AttributeSection>);
 }
 

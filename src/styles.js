@@ -137,4 +137,28 @@ export const MenuHeader = styled.header`
 
 export const AttributeSection = styled.div`
   padding: 1em;
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-size: 1em;
+    padding:0;
+    margin:0;
+  }
+
+  ul {
+    list-style: none;
+    padding-inline-start: 1em;
+  }
+
+  li {
+    padding-bottom: 1em;
+  }
+
+  a {
+    color: pink;
+    text-decoration: none;
+  }
 `
