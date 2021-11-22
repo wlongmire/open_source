@@ -13,14 +13,18 @@ import data, {sections, TOTAL_FOOTNOTES} from './data';
 
 
 const Attributes = ()=> {
+  console.log(process.env.PUBLIC_URL + '/assets/footnote6.3.png');
+
   return(<AttributeSection>
-    <h3>Poem Name -  p. 123</h3>
-    <h4>Included Materials From:</h4>
+    <h3>Hooptee Introduction : 1</h3>
+    <img src={process.env.PUBLIC_URL + '/assets/footnote.1.highlight.png'} alt="Strawberry Mansion"/>
+    
+    <h3>Included Materials From:</h3>
     <ul>
-      <li><a href="#">Thing That I am Reference</a></li>
-      <li><a href="#">Thing That I am Reference</a></li>
-      <li><a href="#">Thing That I am Reference</a></li>
-      <li><a href="#">Thing That I am Reference</a></li>
+      <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
+      <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
+      <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
+      <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
     </ul>
     
   </AttributeSection>);

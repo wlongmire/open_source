@@ -139,7 +139,8 @@ export const AttributeSection = styled.div`
   padding: 1em;
 
   h3 {
-    font-size: 1.6em;
+    font-size: 1.5em;
+    margin:0.5em 0;
   }
 
   h4 {
@@ -150,7 +151,7 @@ export const AttributeSection = styled.div`
 
   ul {
     list-style: none;
-    padding-inline-start: 1em;
+    /* padding-inline-start: 1em; */
   }
 
   li {
@@ -158,6 +159,7 @@ export const AttributeSection = styled.div`
   }
 
   a {
+    font-size: 1em;
     color: pink;
     text-decoration: none;
   }
