@@ -69,7 +69,7 @@ export const MenuSliderStyle = styled.div`
   }
 
   h3 {
-    font-size: 3.1em;
+    font-size: 3em;
     margin: 0;
     margin-bottom:0.2em;
   }
