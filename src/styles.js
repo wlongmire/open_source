@@ -141,8 +141,8 @@ export const AttributeSection = styled.div`
   
   h3 {
     text-transform: uppercase;
-    color: royalblue;
-    font-size: 1.5em;
+    color: pink;
+    font-size: 1.4em;
     margin-bottom:0.5em;
   }
 
@@ -166,7 +166,7 @@ export const AttributeSection = styled.div`
 
     a {
       font-size: 1.3em;
-      color: cornflowerblue;
+      color: pink;
       text-decoration: none;
     }
 
