@@ -81,7 +81,7 @@ export const FootnoteSection = styled.div`
   background: ${props => props.background || "pink"};
   max-width: 500px;
   h3 {
-    font-size: 1.6em;
+    font-size: 1.3em;
     color:black;
     padding: 0px;
     margin: 0px;
