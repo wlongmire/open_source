@@ -5,13 +5,52 @@ import { BsFillArrowRightSquareFill, BsFillArrowLeftSquareFill, BsFillMenuButton
 import Source from './utils/Source';
 
 import './App.css';
-import { Container, Header, MenuSliderStyle, FootnoteSection} from './styles';
+import { Container, Header, MenuSliderStyle, FootnoteSection, MenuHeader, AttributeSection} from './styles';
 
 import ContentGrid from './ContentGrid';
 
 import data, {sections, TOTAL_FOOTNOTES} from './data';
 
-const MenuSlider = () => {
+
+const Attributes = ()=> {
+  return(<AttributeSection>
+    <p>Poem Name</p>
+    <p>Poem Page Number</p>
+    <p>Included Materials From:</p>
+    <p><a href="#">Thing That I am Reference</a></p>
+    <p><a href="#">Thing That I am Reference</a></p>
+    <p><a href="#">Thing That I am Reference</a></p>
+    <p><a href="#">Thing That I am Reference</a></p>
+  </AttributeSection>);
+}
+
+const Footnotes = (props)=> {
+  const {sectionsList} = props;
+
+  return (<div>
+    {
+      sectionsList.map(section=> {
+        return(<FootnoteSection>
+          <a href={`/opensource/${section.title.toLowerCase()}`}>
+            <h3>{section.title}</h3>
+          </a>
+          <ul>
+            {
+              section.footnotes.map(footnote => {
+                return(<li><a href={`/opensource/footnote/${footnote.id}`}>{`${footnote.id}. ${footnote.title}`}</a></li>);
+              })
+            }
+          </ul>  
+        </FootnoteSection>);
+      })
+    }
+  </div>);
+}
+
+const MenuSlider = (props) => {
+  const { attributeInfo } = props.src;
+
+  const [footnotes, setFootnotes] = useState(true);
   const sectionsList = [...sections].map(item => ({...item, footnotes:[]}));
 
   data.forEach(item=> {
@@ -20,28 +59,23 @@ const MenuSlider = () => {
     }
   });
 
+  const handleHeaderClick = (e) => {
+    setFootnotes(e.target.dataset.type === "footnote");
+  }
+
   return(<MenuSliderStyle>
     <div id="content">
-      <h1><a id="homeLink" href="/">alongmirewriter</a></h1>
+      {/* <h1><a id="homeLink" href="/">alongmirewriter</a></h1> */}
       <h3>OPEN SOURCE</h3>
-      <h4>Footnotes</h4>
+      <MenuHeader>
+        <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">Footnotes</a>
+        <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Attributions</a>
+      </MenuHeader>
+      
       {
-        sectionsList.map(section=> {
-          return(<FootnoteSection>
-            <a href={`/opensource/${section.title.toLowerCase()}`}>
-              <h3>{section.title}</h3>
-            </a>
-            <ul>
-              {
-                section.footnotes.map(footnote => {
-                  return(<li><a href={`/opensource/footnote/${footnote.id}`}>{`${footnote.id}. ${footnote.title}`}</a></li>);
-                })
-              }
-            </ul>
-            
-          </FootnoteSection>);
-        })
+        footnotes ? <Footnotes sectionsList={sectionsList}/> : <Attributes attributeInfo={attributeInfo}/>
       }
+
     </div>
   </MenuSliderStyle>)
   
@@ -54,8 +88,8 @@ const GridContainer = ({src})=> {
     setShowMenu(!showMenu);
   }
 
-  const backHref = (src.id > 0)?`${src.getRoot()}${(src.id-1)}`: `javascript:void(0)`;
-  const forwardHref = (src.id < (TOTAL_FOOTNOTES+1))?`${src.getRoot()}${(src.id+1)}`: `javascript:void(0)`;
+  const backHref = (src.id > 1)?`${src.getRoot()}${(src.id-1)}`: `javascript:void(0)`;
+  const forwardHref = (src.id < (TOTAL_FOOTNOTES))?`${src.getRoot()}${(src.id+1)}`: `javascript:void(0)`;
 
   return(<Container>
     <Header>
@@ -70,7 +104,7 @@ const GridContainer = ({src})=> {
       <img onClick={handleMenu}width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/>  
     </Header>
     {
-      showMenu ? <MenuSlider/>: <ContentGrid {...src.grid} index={src.id} headline={src.title}/>
+      showMenu ? <MenuSlider src={src}/>: <ContentGrid {...src.grid} index={src.id} headline={src.title}/>
     }
   </Container>);
 }

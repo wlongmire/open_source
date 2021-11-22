@@ -67,6 +67,12 @@ export const MenuSliderStyle = styled.div`
   #homeLink:hover {
     color: pink;
   }
+
+  h3 {
+    font-size: 3.5em;
+    margin: 0;
+    margin-bottom:0.2em;
+  }
 `
 
 export const FootnoteSection = styled.div`
@@ -108,3 +114,26 @@ export const FootnoteSection = styled.div`
       color:black;
     }
 `;
+
+export const MenuHeader = styled.header`
+  display:flex;
+  text-transform: uppercase;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: pink;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    transition: color background-color 0.5s;
+
+    &.active {
+      background: pink;
+      color: black;
+    }
+  }
+`
+
+export const AttributeSection = styled.div`
+  padding: 1em;
+`
