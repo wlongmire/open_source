@@ -5,11 +5,10 @@ import { Container, Image, Processing } from './styles';
 
 const ContentPicker = (props) => {
     const { type, id } = props;
-
     switch(type) {
         case MAP_TYPE:
             const { link } = props;
-            return <iframe title="map" className="map" src={link} width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>;
+            return <iframe title="map" className="map" src={link} width="100%" height="100%" allowFullScreen="" loading="lazy"></iframe>;
         
         case VIDEO_TYPE:
             const { loop=false, muted = false, playing } = props;

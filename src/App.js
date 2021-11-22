@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState, createContext, useContext } from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import { BsFillArrowRightSquareFill, BsFillArrowLeftSquareFill, BsFillMenuButtonWideFill } from 'react-icons/bs';
 
 import Source from './utils/Source';
+import useLocalStorage from './utils/useLocalStorage';
 
 import './App.css';
 import { Container, Header, MenuSliderStyle, FootnoteSection, MenuHeader, AttributeSection} from './styles';
@@ -12,26 +13,10 @@ import ContentGrid from './ContentGrid';
 import data, {sections, TOTAL_FOOTNOTES} from './data';
 
 
+const MenuContext = createContext();
+
 const Attributes = (props)=> {
   const {id, attributionInfo} = props;
-  // const attributeInfo = {
-  //   poem: "Hooptee Intro",
-  //   page: 1,
-  //   attributions: [
-  //     {
-  //       title: "Google Map of Strawberry Mansion",
-  //       titleLink: "https://www.google.com/maps?ll=39.989269,-75.174809&z=14&t=m&hl=en&gl=US&mapclient=embed&q=Strawberry+Mansion+Philadelphia,+PA",
-  //       by: "Google",
-  //       byLink: "https://www.google.com/maps"
-  //     },
-  //     {
-  //       title: "North Philadelphia Strawberry Mansion - 23rd & Diamond",
-  //       titleLink: "https://www.youtube.com/watch?v=SGGW51EGUrA&t=312s",
-  //       by:"HoodTime",
-  //       byLink:"https://www.youtube.com/channel/UC1MveHv1lTVBzdM5VYZkcBQ"
-  //     }
-  //   ]
-  // };
 
   const {poem, page, attributions} = attributionInfo;
 
@@ -81,6 +66,7 @@ const Footnotes = (props)=> {
 
 const MenuSlider = (props) => {
   const { attributionInfo } = props.src;
+  const {setShowMenu} = useContext(MenuContext);
 
   const [footnotes, setFootnotes] = useState(false);
   const sectionsList = [...sections].map(item => ({...item, footnotes:[]}));
@@ -95,6 +81,10 @@ const MenuSlider = (props) => {
     setFootnotes(e.target.dataset.type === "footnote");
   }
 
+  const handleBackClick = () => {
+    setShowMenu(false);
+  }
+
   return(<MenuSliderStyle>
     <div id="content">
       {/* <h1><a id="homeLink" href="/">alongmirewriter</a></h1> */}
@@ -102,6 +92,7 @@ const MenuSlider = (props) => {
       <MenuHeader>
         <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Attributions</a>
         <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">Footnotes</a>
+        <a onClick={handleBackClick} data-type="footnote" href="#">Back</a>
       </MenuHeader>
       
       {
@@ -113,9 +104,10 @@ const MenuSlider = (props) => {
   
 }
 
+
 const GridContainer = (props)=> {
   const {src} = props;
-  const [ showMenu, setShowMenu] = useState(false);
+  const [ showMenu, setShowMenu] = useLocalStorage("menu", false);
 
   const handleMenu = () => {
     setShowMenu(!showMenu);
@@ -136,9 +128,12 @@ const GridContainer = (props)=> {
       </div>
       <img onClick={handleMenu}width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/>  
     </Header>
+    <MenuContext.Provider value={{setShowMenu}}>
     {
       showMenu ? <MenuSlider src={src}/>: <ContentGrid {...src.grid} index={src.id} headline={src.title}/>
     }
+    </MenuContext.Provider>
+    
   </Container>);
 }
 

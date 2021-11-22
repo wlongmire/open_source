@@ -12,7 +12,7 @@ const ContentGrid = (props)=> {
     <Mosaic rows={rows} m_rows={m_rows} cols={cols} m_cols={m_cols} gap_color={gap_color}>
       {
         modules.map(module=> {
-          return <Module row_range={module.row_range} col_range={module.col_range} m_row_range={module.m_row_range} m_col_range={module.m_col_range}>
+          return <Module key={Math.random()} row_range={module.row_range} col_range={module.col_range} m_row_range={module.m_row_range} m_col_range={module.m_col_range}>
             <ContentPicker {...module} playing={playing}/>
           </Module>
         })
