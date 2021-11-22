@@ -143,6 +143,7 @@ export const MenuHeader = styled.header`
 export const AttributeSection = styled.div`
   padding: 0.5em;
   padding-top: 2em;
+  max-width:500px;
   
   h3 {
     text-transform: uppercase;
@@ -151,35 +152,60 @@ export const AttributeSection = styled.div`
     margin-bottom:0.5em;
   }
 
+  section:nth-child(1) {
+    p {
+      margin-left: 1em;
+      font-size: 1.1em;
+    }
+  }
+
   section:nth-child(2) {
     margin-top:3em;
-  }
 
-  h4 {
-    font-size: 1em;
-    padding:0;
-    margin:0;
-  }
-
-  ul {
-    list-style: none;
-    padding-inline-start: 1em;
-  }
-
-  li {
-    padding-bottom: 1em;
-
-    a {
-      font-size: 1.3em;
-      color: ${props => props.background || "pink"};
-      text-decoration: none;
+    h4 {
+      font-size: 1em;
+      padding:0;
+      margin:0;
     }
 
-    p {
-      padding-top:0.2em;
-      margin:0;
-      margin-block-start: 0;
-      margin-block-end: 0;
+    ul {
+      list-style: none;
+      padding-inline-start: 1em;
+    }
+
+    li {
+      padding-bottom: 1em;
+
+      a {
+        font-size: 1.2em;
+        color: white;//${props => props.background || "pink"};
+        text-decoration: none;
+        display:block;
+        padding: 0.2em;
+
+        &.atTitle {
+          color: ${props => props.background || "pink"};
+          &:hover {
+            background-color: ${props => props.background || "pink"};
+            color:white
+          }
+        }
+
+        &.atAuthor {
+          color: white;
+          &:hover {
+            background-color: white;
+            color:${props => props.background || "pink"};
+          }
+        }
+      }
+
+      /* p {
+        padding-top:0.2em;
+        margin:0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      } */
     }
   }
 `

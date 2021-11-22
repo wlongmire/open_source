@@ -23,17 +23,20 @@ const Attributes = (props)=> {
   return(<AttributeSection background={background}>
     <section>
       <h3>From the Poem:</h3>
-      <p>{poem}- p{page}</p>
+      <p className="poem">{poem} : p{page}</p>
       
       <img width="320px" src={process.env.PUBLIC_URL + `/assets/footnote.${id}.highlight.png`} alt="Strawberry Mansion"/>
     </section>
     
     <section>
-      <h3>Included Materials From:</h3>
+      <h3>Includes Materials From:</h3>
       <ul>
         {
           attributions.map(a => {
-            return(<li><a href={a.titleLink}>{a.title}</a><p><a href={a.byLink}>- {a.by}</a></p></li>);
+            return(<li>
+              <a className="atTitle" href={a.titleLink}>{a.title}</a> 
+              <a className="atAuthor" href={a.byLink}>- {a.by}</a>
+            </li>);
           })
         }
       </ul>
