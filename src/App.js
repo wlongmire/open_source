@@ -12,22 +12,45 @@ import ContentGrid from './ContentGrid';
 import data, {sections, TOTAL_FOOTNOTES} from './data';
 
 
-const Attributes = ()=> {
-  console.log(process.env.PUBLIC_URL + '/assets/footnote6.3.png');
+const Attributes = (props)=> {
+  const {id, attributionInfo} = props;
+  // const attributeInfo = {
+  //   poem: "Hooptee Intro",
+  //   page: 1,
+  //   attributions: [
+  //     {
+  //       title: "Google Map of Strawberry Mansion",
+  //       titleLink: "https://www.google.com/maps?ll=39.989269,-75.174809&z=14&t=m&hl=en&gl=US&mapclient=embed&q=Strawberry+Mansion+Philadelphia,+PA",
+  //       by: "Google",
+  //       byLink: "https://www.google.com/maps"
+  //     },
+  //     {
+  //       title: "North Philadelphia Strawberry Mansion - 23rd & Diamond",
+  //       titleLink: "https://www.youtube.com/watch?v=SGGW51EGUrA&t=312s",
+  //       by:"HoodTime",
+  //       byLink:"https://www.youtube.com/channel/UC1MveHv1lTVBzdM5VYZkcBQ"
+  //     }
+  //   ]
+  // };
+
+  const {poem, page, attributions} = attributionInfo;
 
   return(<AttributeSection>
     <section>
-      <h3>Hooptee Introduction : 1</h3>
-      <img src={process.env.PUBLIC_URL + '/assets/footnote.1.highlight.png'} alt="Strawberry Mansion"/>
+      <h3>From the Poem:</h3>
+      <p>{poem}- p{page}</p>
+      
+      <img src={process.env.PUBLIC_URL + `/assets/footnote.${id}.highlight.png`} alt="Strawberry Mansion"/>
     </section>
     
     <section>
       <h3>Included Materials From:</h3>
       <ul>
-        <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
-        <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
-        <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
-        <li><a href="#">Thing That I am Reference</a><p>- Author of thing</p></li>
+        {
+          attributions.map(a => {
+            return(<li><a href={a.titleLink}>{a.title}</a><p><a href={a.byLink}>- {a.by}</a></p></li>);
+          })
+        }
       </ul>
     </section>
   </AttributeSection>);
@@ -57,9 +80,9 @@ const Footnotes = (props)=> {
 }
 
 const MenuSlider = (props) => {
-  const { attributeInfo } = props.src;
+  const { attributionInfo } = props.src;
 
-  const [footnotes, setFootnotes] = useState(true);
+  const [footnotes, setFootnotes] = useState(false);
   const sectionsList = [...sections].map(item => ({...item, footnotes:[]}));
 
   data.forEach(item=> {
@@ -77,12 +100,12 @@ const MenuSlider = (props) => {
       {/* <h1><a id="homeLink" href="/">alongmirewriter</a></h1> */}
       <h3>OPEN SOURCE</h3>
       <MenuHeader>
-        <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">Footnotes</a>
         <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Attributions</a>
+        <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">Footnotes</a>
       </MenuHeader>
       
       {
-        footnotes ? <Footnotes sectionsList={sectionsList}/> : <Attributes attributeInfo={attributeInfo}/>
+        footnotes ? <Footnotes sectionsList={sectionsList}/> : <Attributes id={props.src.id} attributionInfo={attributionInfo}/>
       }
 
     </div>
@@ -90,7 +113,8 @@ const MenuSlider = (props) => {
   
 }
 
-const GridContainer = ({src})=> {
+const GridContainer = (props)=> {
+  const {src} = props;
   const [ showMenu, setShowMenu] = useState(false);
 
   const handleMenu = () => {

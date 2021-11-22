@@ -6,6 +6,24 @@ const data = [
     id: 1,
     title: "Strawberry Mansion",
     section: 1,
+    attributionInfo: {
+      poem: "Hooptee Intro",
+      page: 1,
+      attributions: [
+        {
+          title: "Map of Strawberry Mansion",
+          titleLink: "https://www.google.com/maps?ll=39.989269,-75.174809&z=14&t=m&hl=en&gl=US&mapclient=embed&q=Strawberry+Mansion+Philadelphia,+PA",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "North Philadelphia Strawberry Mansion - 23rd & Diamond",
+          titleLink: "https://www.youtube.com/watch?v=SGGW51EGUrA&t=312s",
+          by:"HoodTime",
+          byLink:"https://www.youtube.com/channel/UC1MveHv1lTVBzdM5VYZkcBQ"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 4,
@@ -36,6 +54,30 @@ const data = [
     id: 2,
     title: "The Invariant Be",
     section: 1,
+    attributionInfo: {
+      poem: "Hooptee Intro",
+      page: 1,
+      attributions: [
+        {
+          title: "Yale Grammatical Diversity Project English in North America",
+          titleLink: "https://ygdp.yale.edu/phenomena/invariant-be",
+          by: "Yale University",
+          byLink: "https://www.yale.edu/"
+        },
+        {
+          title: "African American English",
+          titleLink: "https://www.uni-due.de/SVE/VARS_AfricanAmericanEnglish.htm",
+          by:"Universität Duisburg-Essen",
+          byLink:"https://www.uni-due.de/"
+        },
+        {
+          title: "PHILLY SLANG : Talk Like You're From Philly (w/ 2 PHILLY JAWNS)",
+          titleLink: "https://www.youtube.com/watch?v=SwaUa7Umu-A",
+          by:"Tyneara DaVinci",
+          byLink:"https://www.youtube.com/channel/UCJzkaOjFGisImQQtOlMsxeA"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -79,6 +121,30 @@ const data = [
     id: 3,
     title: "My Murder capital",
     section: 1,
+    attributionInfo: {
+      poem: "What's Good",
+      page: 3,
+      attributions: [
+        {
+          title: "Map of Strawberry Mansion",
+          titleLink: "https://www.google.com/maps/place/Strawberry+Mansion,+Philadelphia,+PA/@39.9892679,-75.1923184,14z/data=!3m1!4b1!4m5!3m4!1s0x89c6c792ace88039:0x8b90a2aa5e25a819!8m2!3d39.9924637!4d-75.1796005",
+          by: "Google Map",
+          byLink: "www.google.com/maps"
+        },
+        {
+          title: "Philly Gripped By Violence Yet Again as Murder Total Hits 98 | NBC10 Philadelphia",
+          titleLink: "https://www.youtube.com/watch?v=HbL5J9AGflc",
+          by:"NBC10 Philadelphia",
+          byLink:"https://www.youtube.com/channel/UCD158fKWVgwCkOooKEoJ1kw"
+        },
+        {
+          title: "Philly style double dutch",
+          titleLink: "https://www.youtube.com/watch?v=mftYzullK-U",
+          by:"crystal4597",
+          byLink:"https://www.youtube.com/channel/UCahH7C31_vSXwXzf8YKJnOA"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -121,6 +187,30 @@ const data = [
     id: 4,
     title: "My ghost",
     section: 1,
+    attributionInfo: {
+      poem: "Philadelphia Poem",
+      page: 4,
+      attributions: [
+        {
+          title: "Open Source : North Philly Back Alley",
+          titleLink: "https://www.youtube.com/watch?v=b0y-uHO4M8A",
+          by: "Warren C. Longmire",
+          byLink: "https://www.youtube.com/channel/UCN_EevFPOuc-jiZRqWr24eg"
+        },
+        {
+          title: "Philadelphia’s imminent vacant land plan: major progress, or major letdown?",
+          titleLink: "https://whyy.org/articles/philadelphias-imminent-vacant-land-plan-major-progress-or-major-letdown/",
+          by:"Patrick Kerkstra - WHYY",
+          byLink:"https://whyy.org/articles/philadelphias-imminent-vacant-land-plan-major-progress-or-major-letdown/"
+        },
+        {
+          title: "Philadelphia’s ‘Building Ghosts’ Have a Lot to Say",
+          titleLink: "https://www.atlasobscura.com/articles/architectural-history-of-philadelphia-rowhouses",
+          by:"Karen Chernick - Atlas Obscura",
+          byLink:"https://www.atlasobscura.com/users/karen-chernick?view=articles"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -166,6 +256,30 @@ const data = [
     id: 5,
     title: "5221's Sheetrock",
     section: 1,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        },
+        {
+          title:"Real Estate Investors in Philadelphia- How To Find Houses Under 5000 in Philadelphia- RJB Capital",
+          titleLink:"https://www.youtube.com/watch?v=5S6oVOpqNDQ",
+          by:"RJB Capital Funding",
+          byLink:"https://www.youtube.com/channel/UCJKuBhLjmIouWEf3ZNas6eA"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -207,6 +321,24 @@ const data = [
     id: 6,
     title: "Last Chance",
     section: 1,
+    attributionInfo: {
+      poem: "Hood Bar",
+      page: 9,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "3 charged, none convicted: Why a North Philly murder remains unsolved",
+          titleLink: "https://www.inquirer.com/philly/news/crime/nafis-owens-francisville-shooting-rainey-simmons-stokes-unsolved-20180529.html",
+          by:"Mensah M. Dean - The Philadelphia Inquirer",
+          byLink:"https://www.inquirer.com/author/dean_mensah_m/"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -262,6 +394,24 @@ const data = [
     id: 7,
     title: "Beirut in a hooptee",
     section: 1,
+    attributionInfo: {
+      poem: "Hooptee",
+      page: 13,
+      attributions: [
+        {
+          title: "My Neighbors Can’t Believe I Left San Francisco for Philly. I Can’t Believe I Waited This Long",
+          titleLink: "https://www.phillymag.com/news/2021/07/10/philly-inferiority-complex/",
+          by: "Jo Piazza - Philadelphia Magazine",
+          byLink: "https://www.phillymag.com/author/jo-piazza/"
+        },
+        {
+          title: "Streets of Philadelphia, Kensington Avenue, What happened on Friday, July 09 2021.",
+          titleLink: "https://www.youtube.com/watch?v=WvDFi1nebJQ&t=65s",
+          by:"kimgary",
+          byLink:"https://www.youtube.com/channel/UCOuf_kStlWnhuauw4ce8l-w"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -295,8 +445,32 @@ const data = [
   },
   {
     id: 8,
-    title: "a biblical curse",
+    title: "the biblical curse",
     section: 1,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: 'Google Search for "What\'s wrong with black men"',
+          titleLink: "https://www.google.com/search?q=what%27s+wrong+with+black+men&sxsrf=AOaemvJxc2NgnIOIytpzda4Y25oERFbs2Q:1633310841430&ei=eVhaYaXnGcO7ggetio-wCg&start=30&sa=N&ved=2ahUKEwjlh4uEza_zAhXDneAKHS3FA6Y4FBDw0wN6BAgBEEk&biw=896&bih=984&dpr=2",
+          by: "Google",
+          byLink: "https://www.google.com"
+        },
+        {
+          title: `Youtube search for "What\'s wrong with black men"`,
+          titleLink: "https://www.youtube.com/results?search_query=what%27s+wrong+with+black+men",
+          by:"Youtube",
+          byLink:"https://www.youtube.com"
+        },
+        {
+          title: "Dear Black Man, ARE YOU CURSED??",
+          titleLink: "https://www.youtube.com/watch?v=NPkTR01zXZo&t=1s",
+          by:"james henderson",
+          byLink:"https://www.youtube.com/channel/UCNFfE1KTra0UKEDwmb87f6Q"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -343,6 +517,24 @@ const data = [
     id: 9,
     title: "Family of Disease",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -376,6 +568,24 @@ const data = [
     id: 10,
     title: "Strapped electrodes",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -410,6 +620,24 @@ const data = [
     id: 11,
     title: "Lock yo doors",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color:"black",
@@ -456,6 +684,24 @@ const data = [
     id: 12,
     title: "Raisining chest",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -489,6 +735,24 @@ const data = [
     id: 13,
     title: "my porn torso",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color:"black",
@@ -534,6 +798,24 @@ const data = [
   {
     id: 14,
     title: "Sweet, docile little man",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 2,
     grid: {
@@ -570,6 +852,24 @@ const data = [
     id: 15,
     title: "Jehovah knows the meat",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true, 
     grid: {
       rows: 10,
@@ -604,6 +904,24 @@ const data = [
     id: 16,
     title: "The first time she hit me",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -638,6 +956,24 @@ const data = [
     id: 17,
     title: "Does he understand hurt?",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -672,6 +1008,24 @@ const data = [
     id: 18,
     title: "A good cop",
     section: 2,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -706,6 +1060,24 @@ const data = [
     id: 19,
     title: "Arc of Decay",
     section: 3,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -740,6 +1112,24 @@ const data = [
     id: 20,
     title: "You go for a walk",
     section: 3,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -776,6 +1166,24 @@ const data = [
     id: 21,
     title: "Toothy smile",
     section: 3,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -821,6 +1229,24 @@ const data = [
     id: 22,
     title: "Cloudy and Coconut",
     isGrid:true,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     section: 3,
     grid: {
       gap_color: "black",
@@ -856,6 +1282,24 @@ const data = [
     id: 23,
     title: "A terrorist fist jab",
     isGrid:true,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     section: 3,
     grid: {
       rows: 10,
@@ -889,6 +1333,24 @@ const data = [
   {
     id: 24,
     title: "The Sky",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 3,
     grid: {
@@ -933,6 +1395,24 @@ const data = [
   {
     id: 25,
     title: "Infinity Poem",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -955,6 +1435,24 @@ const data = [
   {
     id: 26,
     title: "Variable Poem",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -989,6 +1487,24 @@ const data = [
   {
     id: 27,
     title: "Open Source",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1021,6 +1537,24 @@ const data = [
   {
     id: 28,
     title: "Function Poem",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1056,6 +1590,24 @@ const data = [
   {
     id: 29,
     title: "Startup 2021",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1089,6 +1641,24 @@ const data = [
   {
     id: 30,
     title: "Object Oriented Poem 4",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1123,6 +1693,24 @@ const data = [
   {
     id: 31,
     title: "Series C",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1157,6 +1745,24 @@ const data = [
   {
     id: 32,
     title: "The NP Problem",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1201,6 +1807,24 @@ const data = [
   {
     id: 33,
     title: "Object Oriented Poem 3",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1235,6 +1859,24 @@ const data = [
   {
     id: 34,
     title: "Objective as Enemy",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1275,6 +1917,24 @@ const data = [
   {
     id: 35,
     title: "No one knows what they are doing at Microsoft",
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     section: 4,
     grid: {
@@ -1310,6 +1970,24 @@ const data = [
     id: 36,
     title: "It is mid-afternoon",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -1344,6 +2022,24 @@ const data = [
     id: 37,
     title: "First Day of Lockdown",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       rows: 10,
@@ -1389,6 +2085,24 @@ const data = [
     id: 38,
     title: "Fractal of ivy covered fingers",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -1426,6 +2140,24 @@ const data = [
     id: 39,
     title: "Murder me",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -1473,8 +2205,71 @@ const data = [
   },
   {
     id: 40,
+    title: "It's Ok",
+    section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "9ZcXBYnOafI",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:10},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
+  },
+  {
+    id: 41,
     title: "Floridian tarot reader",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -1535,36 +2330,27 @@ const data = [
     }
   },
   {
-    id: 41,
-    title: "It's Ok",
-    section: 5,
-    isGrid:true,
-    grid: {
-      gap_color: "black",
-      rows: 10,
-      cols: 14,
-      m_rows: 10,
-      m_cols: 7,
-      modules:[
-        {
-          type:VIDEO_TYPE,
-          id: "9ZcXBYnOafI",
-          muted: false,
-          loop: true,
-          img_pos:{x: 0, y:0},
-          img_size: 100,
-          col_range: {start: 1, end:14},
-          row_range: {start: 1, end:10},
-          m_col_range: {start: 1, end:10},
-          m_row_range: {start: 1, end:11}
-        }
-      ]
-    }
-  },
-  {
     id: 42,
     title: "Aretha Franklin",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -1592,6 +2378,24 @@ const data = [
     id: 43,
     title: "Drake",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -1619,6 +2423,24 @@ const data = [
     id: 44,
     title: "Kanye West",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",
@@ -1646,6 +2468,24 @@ const data = [
     id: 45,
     title: "You don’t have to look good",
     section: 5,
+    attributionInfo: {
+      poem: "Brown Off Fairmount",
+      page: 7,
+      attributions: [
+        {
+          title: "Map of 1618 Brown St",
+          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          by: "Google Maps",
+          byLink: "https://www.google.com/maps"
+        },
+        {
+          title: "Photo of Former Francisville Apartment",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        }
+      ]
+    },
     isGrid:true,
     grid: {
       gap_color: "black",

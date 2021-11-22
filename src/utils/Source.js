@@ -1,11 +1,12 @@
 class Source {
-  constructor({title, url, id, baseRoute, isGrid, grid}) {
+  constructor({title, url, id, baseRoute, isGrid, grid, attributionInfo}) {
     this.title = title;
     this.baseUrl = url;
     this.baseRoute = baseRoute;
     this.isGrid = isGrid;
     this.grid = grid;
     this.id = id;
+    this.attributionInfo = attributionInfo;
   }
 
   getRoot = () => {
