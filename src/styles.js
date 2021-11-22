@@ -34,7 +34,7 @@ export const Header = styled.header`
   }
 
   #header_controls a:hover {
-    color: #ffc0cb;
+    color: ${props => props.background || "pink"};
   }
 
   #header_controls {
@@ -44,6 +44,11 @@ export const Header = styled.header`
 
   p {
     padding-left: 2em;
+    color: white;
+    cursor: default;
+    &:hover {
+      color: ${props => props.background || "white"}
+    }
   }
 `
 
@@ -123,13 +128,13 @@ export const MenuHeader = styled.header`
   a {
     text-decoration: none;
     font-weight: bold;
-    color: pink;
+    color: ${props => props.background || "pink"};;
     padding: 0.5em;
     margin-right: 0.5em;
     transition: color background-color 0.5s;
 
     &.active {
-      background: pink;
+      background: ${props => props.background || "pink"};;
       color: black;
     }
   }
@@ -141,7 +146,7 @@ export const AttributeSection = styled.div`
   
   h3 {
     text-transform: uppercase;
-    color: pink;
+    color: ${props => props.background || "pink"};
     font-size: 1.4em;
     margin-bottom:0.5em;
   }
@@ -166,7 +171,7 @@ export const AttributeSection = styled.div`
 
     a {
       font-size: 1.3em;
-      color: pink;
+      color: ${props => props.background || "pink"};
       text-decoration: none;
     }
 

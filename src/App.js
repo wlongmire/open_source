@@ -16,11 +16,11 @@ import data, {sections, TOTAL_FOOTNOTES} from './data';
 const MenuContext = createContext();
 
 const Attributes = (props)=> {
-  const {id, attributionInfo} = props;
-
+  const {id, section, attributionInfo} = props;
   const {poem, page, attributions} = attributionInfo;
+  const {background} = sections[section-1];
 
-  return(<AttributeSection>
+  return(<AttributeSection background={background}>
     <section>
       <h3>From the Poem:</h3>
       <p>{poem}- p{page}</p>
@@ -43,11 +43,11 @@ const Attributes = (props)=> {
 
 const Footnotes = (props)=> {
   const {sectionsList} = props;
-
+  
   return (<div>
     {
       sectionsList.map(section=> {
-        return(<FootnoteSection>
+        return(<FootnoteSection background={section.background}>
           <a href={`/opensource/${section.title.toLowerCase()}`}>
             <h3>{section.title}</h3>
           </a>
@@ -65,12 +65,13 @@ const Footnotes = (props)=> {
 }
 
 const MenuSlider = (props) => {
-  const { attributionInfo } = props.src;
+  const { attributionInfo, section } = props.src;
   const {setShowMenu} = useContext(MenuContext);
 
   const [footnotes, setFootnotes] = useState(false);
   const sectionsList = [...sections].map(item => ({...item, footnotes:[]}));
 
+  
   data.forEach(item=> {
     if (item.section) {
       sectionsList[item.section-1].footnotes.push(item);
@@ -89,21 +90,20 @@ const MenuSlider = (props) => {
     <div id="content">
       {/* <h1><a id="homeLink" href="/">alongmirewriter</a></h1> */}
       <h3>OPEN SOURCE</h3>
-      <MenuHeader>
+      <MenuHeader background={sections[section-1].background}>
         <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Attributions</a>
         <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">Footnotes</a>
         <a onClick={handleBackClick} data-type="footnote" href="#">Back</a>
       </MenuHeader>
       
       {
-        footnotes ? <Footnotes sectionsList={sectionsList}/> : <Attributes id={props.src.id} attributionInfo={attributionInfo}/>
+        footnotes ? <Footnotes sectionsList={sectionsList}/> : <Attributes id={props.src.id} section={props.src.section} attributionInfo={attributionInfo}/>
       }
 
     </div>
   </MenuSliderStyle>)
   
 }
-
 
 const GridContainer = (props)=> {
   const {src} = props;
@@ -117,17 +117,18 @@ const GridContainer = (props)=> {
   const forwardHref = (src.id < (TOTAL_FOOTNOTES))?`${src.getRoot()}${(src.id+1)}`: `javascript:void(0)`;
 
   return(<Container>
-    <Header>
+    <Header background={sections[src.section-1].background}>
       <div id="header_title">
       <p>{src.id}. {src.title}</p>
         <div id="header_controls">
-          <a href={backHref}><BsFillArrowLeftSquareFill /></a>
+          <a data-direction="back" href={backHref}><BsFillArrowLeftSquareFill /></a>
           <a href="javascript:void(0)" onClick={handleMenu}><BsFillMenuButtonWideFill/></a>
-          <a href={forwardHref}><BsFillArrowRightSquareFill /></a>
+          <a data-direction="forward" href={forwardHref}><BsFillArrowRightSquareFill /></a>
         </div>
       </div>
       <img onClick={handleMenu}width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/>  
     </Header>
+
     <MenuContext.Provider value={{setShowMenu}}>
     {
       showMenu ? <MenuSlider src={src}/>: <ContentGrid {...src.grid} index={src.id} headline={src.title}/>

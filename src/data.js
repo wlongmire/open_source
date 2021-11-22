@@ -2000,7 +2000,7 @@ const data = [
           id: "KgHyDvb-uOM",
           muted: false,
           loop: true,
-          col_range: {start: 9, end:15},
+          col_range: {start: 1, end:15},
           row_range: {start: 7, end:11},
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 8, end:14}
@@ -2010,8 +2010,8 @@ const data = [
           src: "footnote36.2.jpg",
           img_pos:{x: 0, y:0},
           img_size: 95,
-          col_range: {start: 1, end:9},
-          row_range: {start: 1, end:11},
+          col_range: {start: 1, end:15},
+          row_range: {start: 1, end:7},
           m_col_range: {start: 1, end:8},
           m_row_range: {start: 1, end:8}
         }
@@ -2567,19 +2567,29 @@ const data = [
 
 export const sections = [
   {
-    title:"Hooptee"
+    title:"Hooptee",
+    background: "#cc9aa3",
+    color: "black"
   },
   {
-    title:"AutoImmune"
+    title:"AutoImmune",
+    background: "#755B60",
+    color: "white"
   },
   {
-    title:"A Strange Place For Snow"
+    title:"A Strange Place For Snow",
+    background: "#F2496B",
+    color: "black"
   },
   {
-    title:"No one knows what they are doing at Microsoft"
+    title:"No one knows what they are doing at Microsoft",
+    background: "#426382",
+    color: "white"
   },
   {
-    title:"Basic Income Experiment"
+    title:"Basic Income Experiment",
+    background: "#89A18C",
+    color: "white"
   }
 ];
 
