@@ -136,11 +136,18 @@ export const MenuHeader = styled.header`
 `
 
 export const AttributeSection = styled.div`
-  padding: 1em;
-
+  padding: 0.5em;
+  padding-top: 2em;
+  
   h3 {
+    text-transform: uppercase;
+    color: royalblue;
     font-size: 1.5em;
-    margin:0.5em 0;
+    margin-bottom:0.5em;
+  }
+
+  section:nth-child(2) {
+    margin-top:3em;
   }
 
   h4 {
@@ -151,16 +158,23 @@ export const AttributeSection = styled.div`
 
   ul {
     list-style: none;
-    /* padding-inline-start: 1em; */
+    padding-inline-start: 1em;
   }
 
   li {
     padding-bottom: 1em;
-  }
 
-  a {
-    font-size: 1em;
-    color: pink;
-    text-decoration: none;
+    a {
+      font-size: 1.3em;
+      color: cornflowerblue;
+      text-decoration: none;
+    }
+
+    p {
+      padding-top:0.2em;
+      margin:0;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
   }
 `
