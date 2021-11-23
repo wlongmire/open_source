@@ -156,7 +156,7 @@ export const AttributeSection = styled.div`
     img {
       margin-left: 1em;
     }
-
+    
     p {
       margin-left: 1em;
       font-size: 1.1em;
