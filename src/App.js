@@ -29,7 +29,7 @@ const Attributes = (props)=> {
     </section>
     
     <section>
-      <h3>Includes Materials From:</h3>
+      <h3>Includes Sources From:</h3>
       <ul>
         {
           attributions.map(a => {
