@@ -153,6 +153,10 @@ export const AttributeSection = styled.div`
   }
 
   section:nth-child(1) {
+    img {
+      margin-left: 1em;
+    }
+
     p {
       margin-left: 1em;
       font-size: 1.1em;
@@ -199,13 +203,6 @@ export const AttributeSection = styled.div`
           }
         }
       }
-
-      /* p {
-        padding-top:0.2em;
-        margin:0;
-        margin-block-start: 0;
-        margin-block-end: 0;
-      } */
     }
   }
 `

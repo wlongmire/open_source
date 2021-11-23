@@ -25,7 +25,7 @@ const Attributes = (props)=> {
       <h3>From the Poem:</h3>
       <p className="poem">{poem} : p{page}</p>
       
-      <img width="320px" src={process.env.PUBLIC_URL + `/assets/footnote.${id}.highlight.png`} alt="Strawberry Mansion"/>
+      <img width="300px" src={process.env.PUBLIC_URL + `/assets/footnote.${id}.highlight.png`} alt="Strawberry Mansion"/>
     </section>
     
     <section>
