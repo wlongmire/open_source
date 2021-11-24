@@ -23,7 +23,7 @@ const Attributes = (props)=> {
   return(<AttributeSection background={background}>
     <section>
       <h3>From the Poem:</h3>
-      <p className="poem">{poem} : p{page}</p>
+      <p className="poem">{poem} | p. {page}</p>
       
       <img width="70%" src={process.env.PUBLIC_URL + `/assets/footnote.${id}.highlight.png`} alt="Strawberry Mansion"/>
     </section>
@@ -94,8 +94,8 @@ const MenuSlider = (props) => {
       {/* <h1><a id="homeLink" href="/">alongmirewriter</a></h1> */}
       <h3>OPEN SOURCE</h3>
       <MenuHeader background={sections[section-1].background}>
-        <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Attributions</a>
-        <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">Footnotes</a>
+        <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Current</a>
+        <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">All</a>
         <a onClick={handleBackClick} data-type="footnote" href="#">Back</a>
       </MenuHeader>
       

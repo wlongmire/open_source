@@ -401,7 +401,7 @@ const data = [
         {
           title: "My Neighbors Can’t Believe I Left San Francisco for Philly. I Can’t Believe I Waited This Long",
           titleLink: "https://www.phillymag.com/news/2021/07/10/philly-inferiority-complex/",
-          by: "Jo Piazza - Philadelphia Magazine",
+          by: "Jo Piazza | Philadelphia Magazine",
           byLink: "https://www.phillymag.com/author/jo-piazza/"
         },
         {
@@ -569,20 +569,20 @@ const data = [
     title: "Strapped electrodes",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Autoimmune 1",
+      page: 30,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "New form of electroshock to treat depression",
+          titleLink: "https://www.youtube.com/watch?v=8UEd7GntHxg",
+          by: "WXYZ-TV Detroit | Channel 7",
+          byLink: "https://www.youtube.com/channel/UC6HyKpYWmX4zsy6_bJZIK7A"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Study shows Black men in Philly are more likely to experience poor mental health after severe injury",
+          titleLink: "https://www.phillytrib.com/news/study-shows-black-men-in-philly-are-more-likely-to-experience-poor-mental-health-after/article_aba3cbd0-5f3f-5c85-916c-75cd918ea967.html",
+          by:"Sojourner Ahébée | The Philadelphia Tribune",
+          byLink:"https://www.phillytrib.com/"
         }
       ]
     },
@@ -606,6 +606,7 @@ const data = [
         {
           type:IMAGE_TYPE,
           src: "footnote10.2.png",
+          href:"https://www.phillytrib.com/news/study-shows-black-men-in-philly-are-more-likely-to-experience-poor-mental-health-after/article_aba3cbd0-5f3f-5c85-916c-75cd918ea967.html",
           img_pos:{x: 20, y:0},
           img_size: 100,
           col_range: {start: 11, end:15},
@@ -621,21 +622,27 @@ const data = [
     title: "Lock yo doors",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Untitled (A lack of love...)",
+      page: 31,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "BED INTRUDER SONG!!!",
+          titleLink: "https://www.youtube.com/watch?v=hMtZfW2z9dw",
+          by: "schmoyoho",
+          byLink: "https://www.youtube.com/channel/UCNYrK4tc5i1-eL8TXesH2pg"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
-        }
+          title: "Chris Rock - Black People vs. N****** [クリス・ロックー黒人VS.ニガー]",
+          titleLink: "https://www.youtube.com/watch?v=_w-hqwNWd6A",
+          by:"KUG Studio",
+          byLink:"https://www.youtube.com/channel/UCvQJkgoO9d0qRHsBXcgDZBw"
+        },
+        {
+          title: "Black Buck Article",
+          titleLink: "https://en.wikipedia.org/wiki/Black_Buck",
+          by:"From Wikipedia, the free encyclopedia",
+          byLink:"https://en.wikipedia.org/wiki/Main_Page"
+        },
       ]
     },
     isGrid:true,
@@ -685,20 +692,20 @@ const data = [
     title: "Raisining chest",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Autoimmune 2",
+      page: 32,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Young men of color in Philly stay home to stay safe. A new study reveals a high cost.",
+          titleLink: "https://www.inquirer.com/news/philadelphia/temple-university-professor-jamie-fader-criminology-dont-have-time-for-drama-20210311.html",
+          by: "Samantha Melamed | The Philadelphia Inquirer",
+          byLink: "https://www.inquirer.com/author/melamed_samantha/"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Black Men Have the Shortest Lifespans of Any Americans. This Theory Explains Why.",
+          titleLink: "https://www.youtube.com/watch?v=FTOGwn6DSs4",
+          by:"ProPublica",
+          byLink:"https://www.youtube.com/channel/UCtCL58_DaVdVRmev3yHK7pg"
         }
       ]
     },
@@ -736,21 +743,27 @@ const data = [
     title: "my porn torso",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Autoimmune 3",
+      page: 34,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Portrait without eyes",
+          titleLink: "#",
+          by: "Warren C. Longmire",
+          byLink: "#"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
+          title: "Hurricane Weeds",
+          titleLink: "https://www.youtube.com/watch?v=feCOwXz8acY&t=4s",
           by:"Warren C. Longmire",
-          byLink:"#"
-        }
+          byLink:"https://www.youtube.com/channel/UCN_EevFPOuc-jiZRqWr24eg"
+        },
+        {
+          title: "From The Man-Not by Tommy J. Curry",
+          titleLink: "https://www.amazon.com/Man-Not-Class-Genre-Dilemmas-Manhood/dp/1439914869/ref=sr_1_1?crid=3IS5IVC4YYC3&keywords=the+man-not+by+dr+tommy+j+curry&qid=1637724694&qsid=134-1529633-0126933&sprefix=the+man-not%2Caps%2C173&sr=8-1&sres=1439914869%2C143847072X%2CB01DBTFO98%2CB082KZ8ZGM%2CB083JM99Q8%2CB078K93HFD%2CB01BMDAVIY%2CB078SH8WGC%2CB07FZ8S74R%2CB094PFBWWB%2CB01I7BJD9C%2CB0112M60KI%2CB01FYD2CP8%2CB01KE592JU%2CB06W5PD1KY%2CB08T959SZJ&srpt=ABIS_BOOK",
+          by:"Tommy J. Curry",
+          byLink:"https://www.amazon.com/Tommy-J-Curry/e/B074M4RX2G/ref=dp_byline_cont_book_1"
+        },
       ]
     },
     isGrid:true,
@@ -799,20 +812,20 @@ const data = [
     id: 14,
     title: "Sweet, docile little man",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Untitled (Boyfriend called a cool tool)",
+      page: 35,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "White Zaddy Explains Why Black Men Can't Be High Value & Guess Who's Mad?",
+          titleLink: "https://www.youtube.com/watch?v=SXCMdxvu5Sk",
+          by: "Cynthia G",
+          byLink: "https://www.youtube.com/channel/UC5ksavsuuri0tJpcVS2gCBg"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "From The Man-Not by Tommy J. Curry",
+          titleLink: "https://www.amazon.com/Man-Not-Class-Genre-Dilemmas-Manhood/dp/1439914869/ref=sr_1_1?crid=3IS5IVC4YYC3&keywords=the+man-not+by+dr+tommy+j+curry&qid=1637724694&qsid=134-1529633-0126933&sprefix=the+man-not%2Caps%2C173&sr=8-1&sres=1439914869%2C143847072X%2CB01DBTFO98%2CB082KZ8ZGM%2CB083JM99Q8%2CB078K93HFD%2CB01BMDAVIY%2CB078SH8WGC%2CB07FZ8S74R%2CB094PFBWWB%2CB01I7BJD9C%2CB0112M60KI%2CB01FYD2CP8%2CB01KE592JU%2CB06W5PD1KY%2CB08T959SZJ&srpt=ABIS_BOOK",
+          by:"Tommy J. Curry",
+          byLink:"https://www.amazon.com/Tommy-J-Curry/e/B074M4RX2G/ref=dp_byline_cont_book_1"
         }
       ]
     },
@@ -853,20 +866,20 @@ const data = [
     title: "Jehovah knows the meat",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
+      poem: "Autoimmune 4",
       page: 7,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "What is Sin?",
+          titleLink: "https://www.jw.org/en/bible-teachings/questions/what-is-sin/",
+          by: "jw.org",
+          byLink: "https://www.jw.org/"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "From The Man-Not by Tommy J. Curry",
+          titleLink: "https://www.amazon.com/Man-Not-Class-Genre-Dilemmas-Manhood/dp/1439914869/ref=sr_1_1?crid=3IS5IVC4YYC3&keywords=the+man-not+by+dr+tommy+j+curry&qid=1637724694&qsid=134-1529633-0126933&sprefix=the+man-not%2Caps%2C173&sr=8-1&sres=1439914869%2C143847072X%2CB01DBTFO98%2CB082KZ8ZGM%2CB083JM99Q8%2CB078K93HFD%2CB01BMDAVIY%2CB078SH8WGC%2CB07FZ8S74R%2CB094PFBWWB%2CB01I7BJD9C%2CB0112M60KI%2CB01FYD2CP8%2CB01KE592JU%2CB06W5PD1KY%2CB08T959SZJ&srpt=ABIS_BOOK",
+          by:"Tommy J. Curry",
+          byLink:"https://www.amazon.com/Tommy-J-Curry/e/B074M4RX2G/ref=dp_byline_cont_book_1"
         }
       ]
     },
@@ -905,20 +918,20 @@ const data = [
     title: "The first time she hit me",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Untitled (Why not get what your deserve?)",
+      page: 38,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Dr. Tommy Curry: The Man Not",
+          titleLink: "https://www.youtube.com/watch?v=MwJYv5F__zw&t=756s",
+          by: "Question Lane",
+          byLink: "https://www.youtube.com/channel/UCEMGVViAGMvZyQOF4X4OjYw"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "From The Man-Not by Tommy J. Curry",
+          titleLink: "https://www.amazon.com/Man-Not-Class-Genre-Dilemmas-Manhood/dp/1439914869/ref=sr_1_1?crid=3IS5IVC4YYC3&keywords=the+man-not+by+dr+tommy+j+curry&qid=1637724694&qsid=134-1529633-0126933&sprefix=the+man-not%2Caps%2C173&sr=8-1&sres=1439914869%2C143847072X%2CB01DBTFO98%2CB082KZ8ZGM%2CB083JM99Q8%2CB078K93HFD%2CB01BMDAVIY%2CB078SH8WGC%2CB07FZ8S74R%2CB094PFBWWB%2CB01I7BJD9C%2CB0112M60KI%2CB01FYD2CP8%2CB01KE592JU%2CB06W5PD1KY%2CB08T959SZJ&srpt=ABIS_BOOK",
+          by:"Tommy J. Curry",
+          byLink:"https://www.amazon.com/Tommy-J-Curry/e/B074M4RX2G/ref=dp_byline_cont_book_1"
         }
       ]
     },
@@ -957,20 +970,20 @@ const data = [
     title: "Does he understand hurt?",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Untitled (Why not get what your deserve?)",
+      page: 38,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Who is the Nigger? -James Baldwin (clip)",
+          titleLink: "https://www.youtube.com/watch?v=L0L5fciA6AU",
+          by: "twreflect",
+          byLink: "https://www.youtube.com/channel/UCd807WaChWS8REGsTb6cR3A"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "From The Man-Not by Tommy J. Curry",
+          titleLink: "https://www.amazon.com/Man-Not-Class-Genre-Dilemmas-Manhood/dp/1439914869/ref=sr_1_1?crid=3IS5IVC4YYC3&keywords=the+man-not+by+dr+tommy+j+curry&qid=1637724694&qsid=134-1529633-0126933&sprefix=the+man-not%2Caps%2C173&sr=8-1&sres=1439914869%2C143847072X%2CB01DBTFO98%2CB082KZ8ZGM%2CB083JM99Q8%2CB078K93HFD%2CB01BMDAVIY%2CB078SH8WGC%2CB07FZ8S74R%2CB094PFBWWB%2CB01I7BJD9C%2CB0112M60KI%2CB01FYD2CP8%2CB01KE592JU%2CB06W5PD1KY%2CB08T959SZJ&srpt=ABIS_BOOK",
+          by:"Tommy J. Curry",
+          byLink:"https://www.amazon.com/Tommy-J-Curry/e/B074M4RX2G/ref=dp_byline_cont_book_1"
         }
       ]
     },
@@ -1009,20 +1022,20 @@ const data = [
     title: "A good cop",
     section: 2,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Autoimmune 5",
+      page: 39,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Why abused black men are staying silent. - BBC News",
+          titleLink: "https://www.youtube.com/watch?time_continue=1&v=tJXiAImt2Sk",
+          by: "BBC News",
+          byLink: "https://www.youtube.com/channel/UC16niRr50-MSBwiO3YDb3RA"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "From The Man-Not by Tommy J. Curry",
+          titleLink: "https://www.amazon.com/Man-Not-Class-Genre-Dilemmas-Manhood/dp/1439914869/ref=sr_1_1?crid=3IS5IVC4YYC3&keywords=the+man-not+by+dr+tommy+j+curry&qid=1637724694&qsid=134-1529633-0126933&sprefix=the+man-not%2Caps%2C173&sr=8-1&sres=1439914869%2C143847072X%2CB01DBTFO98%2CB082KZ8ZGM%2CB083JM99Q8%2CB078K93HFD%2CB01BMDAVIY%2CB078SH8WGC%2CB07FZ8S74R%2CB094PFBWWB%2CB01I7BJD9C%2CB0112M60KI%2CB01FYD2CP8%2CB01KE592JU%2CB06W5PD1KY%2CB08T959SZJ&srpt=ABIS_BOOK",
+          by:"Tommy J. Curry",
+          byLink:"https://www.amazon.com/Tommy-J-Curry/e/B074M4RX2G/ref=dp_byline_cont_book_1"
         }
       ]
     },
@@ -1061,17 +1074,17 @@ const data = [
     title: "Arc of Decay",
     section: 3,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
+      poem: "Bitter Offerings",
       page: 7,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Young Fathers - In My View (Official Video)",
+          titleLink: "https://www.youtube.com/watch?v=qQFPikYSalg",
+          by: "YOUNG FATHERS",
+          byLink: "https://www.youtube.com/channel/UC5VzbZjtOxnjoEFog5rb2kg"
         },
         {
-          title: "Photo of Former Francisville Apartment",
+          title: "Photo of Mindblown image at the De Young Musuem",
           titleLink: "#",
           by:"Warren C. Longmire",
           byLink:"#"
@@ -1113,7 +1126,7 @@ const data = [
     title: "You go for a walk",
     section: 3,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
+      poem: "A Strange Place for Snow",
       page: 7,
       attributions: [
         {
@@ -1123,10 +1136,10 @@ const data = [
           byLink: "https://www.google.com/maps"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Walking the cow. (original video. TV On the Radio Cover of Daniel Johnston",
+          titleLink: "https://www.youtube.com/watch?v=tb-rudMA32k",
+          by:"cocolenstv",
+          byLink:"https://www.youtube.com/channel/UCtD0mNLoe1gdByCt8OgVoFQ"
         }
       ]
     },
@@ -1167,20 +1180,26 @@ const data = [
     title: "Toothy smile",
     section: 3,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Fuckboi",
+      page: 49,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
+          title: "Tyler, The Creator: NPR Music Tiny Desk Concert",
           titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          by: "NPR Music",
+          byLink: "https://www.youtube.com/channel/UC4eYXhJI4-7wSWc8UNRwD4A"
         },
         {
-          title: "Photo of Former Francisville Apartment",
+          title: "Self-Portrait with Teeth",
           titleLink: "#",
           by:"Warren C. Longmire",
           byLink:"#"
+        },
+        {
+          title: "Jukebox Challenge Creator Follow @Djjukeboxlive &25 hfh4s T Lo All day",
+          titleLink: "https://www.youtube.com/watch?v=kZz6jrt_ZbU",
+          by: "Da Edge",
+          byLink: "https://www.youtube.com/channel/UCwrFNQf5efrW3c9IdcTV8Kw"
         }
       ]
     },
@@ -1230,20 +1249,20 @@ const data = [
     title: "Cloudy and Coconut",
     isGrid:true,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Tree of the Knowledge of Good & Bad",
+      page: 51,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Alabama Shakes - Miss you",
+          titleLink: "https://www.youtube.com/watch?v=NHA2f0hzMTE&t=1s",
+          by: "Diablo5Rojo",
+          byLink: "https://www.youtube.com/channel/UCuVgQkR9ukMxGQoXPntpw6A"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Rihanna - We Found Love ft. Calvin Harris",
+          titleLink: "https://www.youtube.com/watch?v=tg00YEETFzg",
+          by:"Rihanna",
+          byLink:"https://www.youtube.com/channel/UCcgqSM4YEo5vVQpqwN-MaNw"
         }
       ]
     },
@@ -1283,20 +1302,20 @@ const data = [
     title: "A terrorist fist jab",
     isGrid:true,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Instructions for a Secret Handshake",
+      page: 53,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Modified Version of Sade Cover art",
+          titleLink: "#",
+          by: "Warren C. Longmire",
+          byLink: "#"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: 'Bosley - "Just Like You" Official Video',
+          titleLink: "https://www.youtube.com/watch?v=UlS7UjFQCrM&feature=emb_title",
+          by:"Bosley Music",
+          byLink:"https://www.youtube.com/channel/UCajqJaNgMGRi1lM6G6994fA"
         }
       ]
     },
@@ -1334,20 +1353,20 @@ const data = [
     id: 24,
     title: "The Sky",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Never Talk About Your Pain or X",
+      page: 59,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Santigold - L.E.S Artistes (Official Music Video)",
+          titleLink: "https://www.youtube.com/watch?v=ciJDA0tcQfs&t=5s",
+          by: "Santigold",
+          byLink: "https://www.youtube.com/channel/UCai-drGTTaIIvJ6OTnn5ixw"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Photo of MACHO NNE 15 Image | Zeitz Musuem",
+          titleLink: "https://www.collater.al/en/extravagant-glasses-cyrus-kabiru/",
+          by:"Cyrus Kabiru",
+          byLink:"https://www.collater.al/en/extravagant-glasses-cyrus-kabiru/"
         }
       ]
     },
@@ -1400,16 +1419,10 @@ const data = [
       page: 7,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Fractal land P5 Program",
+          titleLink: "https://openprocessing.org/sketch/1311025",
+          by: "Warren C. Longmire",
+          byLink: "https://openprocessing.org/sketch/1311025"
         }
       ]
     },
@@ -1436,20 +1449,20 @@ const data = [
     id: 26,
     title: "Variable Poem",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Variable Poem",
+      page: 66,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Photo of Andy Warhol / Apple Colaboration",
+          titleLink: "#",
+          by: "The Andy Warhol Museum",
+          byLink: "https://www.warhol.org/museum/?utm_source=google&utm_medium=cpc&utm_campaign=brand-search-mb&utm_content=brand_terms"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: 'Ep.2 Processing art tutorial | GRID 02 (Creative coding and procedural art)',
+          titleLink: "https://www.youtube.com/watch?v=1dPFgWT2Aio",
+          by:"thedotisblack creative coding",
+          byLink:"https://www.youtube.com/channel/UCX4GSh1gpRuugPpjxu0gLmw"
         }
       ]
     },
@@ -1488,8 +1501,8 @@ const data = [
     id: 27,
     title: "Open Source",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Open Source",
+      page: 67,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1538,8 +1551,8 @@ const data = [
     id: 28,
     title: "Function Poem",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Function Poem",
+      page: 68,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1591,8 +1604,8 @@ const data = [
     id: 29,
     title: "Startup 2021",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Startup 2021",
+      page: 69,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1642,8 +1655,8 @@ const data = [
     id: 30,
     title: "Object Oriented Poem 4",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Object Oriented Poem 4",
+      page: 71,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1694,8 +1707,8 @@ const data = [
     id: 31,
     title: "Series C",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Series C",
+      page: 72,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1746,8 +1759,8 @@ const data = [
     id: 32,
     title: "The NP Problem",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "The NP Problem",
+      page: 73,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1808,8 +1821,8 @@ const data = [
     id: 33,
     title: "Object Oriented Poem 3",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Object Oriented Poem 3",
+      page: 75,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1860,8 +1873,8 @@ const data = [
     id: 34,
     title: "Objective as Enemy",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Objective as Enemy",
+      page: 77,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1918,8 +1931,8 @@ const data = [
     id: 35,
     title: "No one knows what they are doing at Microsoft",
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "No one knows what they are doing at Microsoft",
+      page: 79,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -1971,8 +1984,8 @@ const data = [
     title: "It is mid-afternoon",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Day 2",
+      page: 87,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2023,8 +2036,8 @@ const data = [
     title: "First Day of Lockdown",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "First Day of Lockdown",
+      page: 89,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2086,8 +2099,8 @@ const data = [
     title: "Fractal of ivy covered fingers",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "First Day of Lockdown",
+      page: 90,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2141,8 +2154,8 @@ const data = [
     title: "Murder me",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Day 20",
+      page: 92,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2208,8 +2221,8 @@ const data = [
     title: "It's Ok",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Day X",
+      page: 94,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2253,8 +2266,8 @@ const data = [
     title: "Floridian tarot reader",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Month 3 of Lockdown",
+      page: 96,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2334,8 +2347,8 @@ const data = [
     title: "Aretha Franklin",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "COVID-19 Dating Tips",
+      page: 102,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2379,8 +2392,8 @@ const data = [
     title: "Drake",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "COVID-19 Dating Tips",
+      page: 103,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2424,8 +2437,8 @@ const data = [
     title: "Kanye West",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "COVID-19 Dating Tips",
+      page: 104,
       attributions: [
         {
           title: "Map of 1618 Brown St",
@@ -2469,8 +2482,8 @@ const data = [
     title: "You don’t have to look good",
     section: 5,
     attributionInfo: {
-      poem: "Brown Off Fairmount",
-      page: 7,
+      poem: "Postmortem",
+      page: 107,
       attributions: [
         {
           title: "Map of 1618 Brown St",
