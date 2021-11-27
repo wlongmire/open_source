@@ -25,7 +25,7 @@ const Attributes = (props)=> {
       <h3>From the Poem:</h3>
       <p className="poem">{poem} | p. {page}</p>
       
-      <img width="70%" src={process.env.PUBLIC_URL + `/assets/footnote.${id}.highlight.png`} alt="Strawberry Mansion"/>
+      <img width="70%" src={process.env.PUBLIC_URL + `/assets/footnote.${id}.highlight.png`} alt={`poem_${id}`}/>
     </section>
     
     <section>
@@ -45,19 +45,26 @@ const Attributes = (props)=> {
 }
 
 const Footnotes = (props)=> {
+  const { setShowMenu } = useContext(MenuContext);
   const {sectionsList} = props;
-  
+
+  const handleSectionClick = () => {
+    setShowMenu(false);
+  }
+
   return (<div>
     {
       sectionsList.map(section=> {
         return(<FootnoteSection background={section.background}>
-          <a href={`/opensource/${section.title.toLowerCase()}`}>
+          <a onClick={handleSectionClick} href={encodeURI(`/opensource/${section.title.toLowerCase().replaceAll(" ", "_")}`)}>
             <h3>{section.title}</h3>
           </a>
           <ul>
             {
               section.footnotes.map(footnote => {
-                return(<li><a href={`/opensource/footnote/${footnote.id}`}>{`${footnote.id}. ${footnote.title}`}</a></li>);
+                if (!footnote.sectionHeading ) {
+                  return(<li><a href={`/opensource/footnote/${footnote.id}`}>{`${footnote.id}. ${footnote.title}`}</a></li>);  
+                }
               })
             }
           </ul>  
@@ -68,13 +75,12 @@ const Footnotes = (props)=> {
 }
 
 const MenuSlider = (props) => {
-  const { attributionInfo, section } = props.src;
+  const { attributionInfo, section, sectionHeading } = props.src;
   const {setShowMenu} = useContext(MenuContext);
 
   const [footnotes, setFootnotes] = useState(false);
   const sectionsList = [...sections].map(item => ({...item, footnotes:[]}));
 
-  
   data.forEach(item=> {
     if (item.section) {
       sectionsList[item.section-1].footnotes.push(item);
@@ -91,16 +97,15 @@ const MenuSlider = (props) => {
 
   return(<MenuSliderStyle>
     <div id="content">
-      {/* <h1><a id="homeLink" href="/">alongmirewriter</a></h1> */}
       <h3>OPEN SOURCE</h3>
       <MenuHeader background={sections[section-1].background}>
-        <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Current</a>
-        <a className={footnotes && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">All</a>
+        {!sectionHeading && <a className={!footnotes && 'active'} onClick={handleHeaderClick} data-type="attribute" href="#">Current</a>}
+        <a className={(footnotes || sectionHeading) && 'active'} onClick={handleHeaderClick} data-type="footnote" href="#">All</a>
         <a onClick={handleBackClick} data-type="footnote" href="#">Back</a>
       </MenuHeader>
       
       {
-        footnotes ? <Footnotes sectionsList={sectionsList}/> : <Attributes id={props.src.id} section={props.src.section} attributionInfo={attributionInfo}/>
+        (footnotes || sectionHeading) ? <Footnotes sectionsList={sectionsList}/> : <Attributes id={props.src.id} section={props.src.section} attributionInfo={attributionInfo}/>
       }
 
     </div>
@@ -113,7 +118,8 @@ const GridContainer = (props)=> {
   const [ showMenu, setShowMenu] = useLocalStorage("menu", false);
 
   const handleMenu = () => {
-    setShowMenu(!showMenu);
+    // setShowMenu(!showMenu);
+    window.location.replace("https://www.radiatorpress.com/product/open-source-by-warren-c-longmire");
   }
 
   const backHref = (src.id > 1)?`${src.getRoot()}${(src.id-1)}`: `javascript:void(0)`;
@@ -129,7 +135,7 @@ const GridContainer = (props)=> {
           <a data-direction="forward" href={forwardHref}><BsFillArrowRightSquareFill /></a>
         </div>
       </div>
-      <img onClick={handleMenu}width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/>  
+      <img onClick={handleMenu} width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/>  
     </Header>
 
     <MenuContext.Provider value={{setShowMenu}}>

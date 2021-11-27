@@ -1,5 +1,5 @@
 class Source {
-  constructor({title, url, id, baseRoute, isGrid, grid, section, attributionInfo}) {
+  constructor({title, url, id, baseRoute, isGrid, grid, section, sectionHeading, attributionInfo}) {
     this.title = title;
     this.baseUrl = url;
     this.baseRoute = baseRoute;
@@ -7,6 +7,7 @@ class Source {
     this.grid = grid;
     this.id = id;
     this.section = section;
+    this.sectionHeading = sectionHeading;
     this.attributionInfo = attributionInfo;
   }
 

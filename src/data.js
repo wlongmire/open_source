@@ -2525,32 +2525,174 @@ const data = [
   {
     id: 46,
     title: "Hooptee",
+    section: 1,
+    sectionHeading: true,
     baseRoute: "/opensource/hooptee",
-    url: "https://youtu.be/xE4SEGE4nNY"
+    attributionInfo: {
+      poem: "",
+      page: null,
+      attributions: []
+    },
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "xE4SEGE4nNY",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
   },
   {
     id: 47,
     title: "AutoImmune",
     baseRoute: "/opensource/autoimmune",
-    url: "https://youtu.be/F-xLBNYxdlk"
+    section: 2,
+    sectionHeading: true,
+    attributionInfo: {
+      poem: "",
+      page: null,
+      attributions: []
+    },
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "F-xLBNYxdlk",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
   },
   {
     id: 48,
     title: "A Strange Place For Snow",
     baseRoute: "/opensource/a_strange_place_for_snow",
-    url: "https://youtu.be/uoVx85SSxFQ"
+    section: 3,
+    sectionHeading: true,
+    attributionInfo: {
+      poem: "",
+      page: null,
+      attributions: []
+    },
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "uoVx85SSxFQ",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
   },
   {
     id: 49,
     title: "No One Knows What They're Doing At Microsoft",
     baseRoute: "/opensource/no_one_knows_what_they_are_doing_at_microsoft",
-    url: "https://www.youtube.com/watch?v=xB4gR5b8Lq8"
+    section: 4,
+    sectionHeading: true,
+    attributionInfo: {
+      poem: "",
+      page: null,
+      attributions: []
+    },
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "xB4gR5b8Lq8",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
+    // url: "https://www.youtube.com/watch?v=xB4gR5b8Lq8"
   },
   {
     id: 50,
     title: "Basic Income Experiment",
     baseRoute: "/opensource/basic_income_experiment",
-    url: "https://www.youtube.com/watch?v=F-xLBNYxdlk"
+    section: 5,
+    sectionHeading: true,
+    attributionInfo: {
+      poem: "",
+      page: null,
+      attributions: []
+    },
+    isGrid:true,
+    grid: {
+      gap_color: "black",
+      rows: 10,
+      cols: 14,
+      m_rows: 10,
+      m_cols: 7,
+      modules:[
+        {
+          type:VIDEO_TYPE,
+          id: "J_a3Lyy1uIM",
+          muted: false,
+          loop: true,
+          img_pos:{x: 0, y:0},
+          img_size: 100,
+          col_range: {start: 1, end:14},
+          row_range: {start: 1, end:10},
+          m_col_range: {start: 1, end:8},
+          m_row_range: {start: 1, end:11}
+        }
+      ]
+    }
+    // url: "https://www.youtube.com/watch?v=F-xLBNYxdlk"
   },
   {
     id: 51,

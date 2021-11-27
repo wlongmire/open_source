@@ -42,6 +42,10 @@ export const Header = styled.header`
     padding: 0.5em;
   }
 
+  img {
+    cursor: pointer;
+  }
+
   p {
     padding-left: 2em;
     color: white;
