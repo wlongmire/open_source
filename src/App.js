@@ -118,8 +118,7 @@ const GridContainer = (props)=> {
   const [ showMenu, setShowMenu] = useLocalStorage("menu", false);
 
   const handleMenu = () => {
-    // setShowMenu(!showMenu);
-    window.location.replace("https://www.radiatorpress.com/product/open-source-by-warren-c-longmire");
+    setShowMenu(!showMenu);
   }
 
   const backHref = (src.id > 1)?`${src.getRoot()}${(src.id-1)}`: `javascript:void(0)`;
@@ -135,7 +134,7 @@ const GridContainer = (props)=> {
           <a data-direction="forward" href={forwardHref}><BsFillArrowRightSquareFill /></a>
         </div>
       </div>
-      <img onClick={handleMenu} width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/>  
+      <a href="https://www.radiatorpress.com/product/open-source-by-warren-c-longmire"><img onClick={handleMenu} width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/></a>
     </Header>
 
     <MenuContext.Provider value={{setShowMenu}}>
