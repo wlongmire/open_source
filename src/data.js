@@ -996,7 +996,7 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          src: "footnote17.1.jpeg",
+          src: "footnote17.2.jpg",
           img_pos:{x: 20, y:0},
           img_size: 150,
           col_range: {start: 11, end:15},
@@ -1048,7 +1048,7 @@ const data = [
       modules:[
         {
           type:IMAGE_TYPE,
-          src: "footnote18.1.jpeg",
+          src: "footnote18.2.jpg",
           img_pos:{x: 20, y:0},
           img_size: 120,
           col_range: {start: 11, end:15},
