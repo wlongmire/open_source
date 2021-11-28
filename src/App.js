@@ -121,20 +121,20 @@ const GridContainer = (props)=> {
     setShowMenu(!showMenu);
   }
 
-  const backHref = (src.id > 1)?`${src.getRoot()}${(src.id-1)}`: `javascript:void(0)`;
-  const forwardHref = (src.id < (TOTAL_FOOTNOTES))?`${src.getRoot()}${(src.id+1)}`: `javascript:void(0)`;
+  const backHref = (src.id > 1 && !src.sectionHeading)?`${src.getRoot()}${(src.id-1)}`: `javascript:void(0)`;
+  const forwardHref = (src.id < TOTAL_FOOTNOTES && !src.sectionHeading)?`${src.getRoot()}${(src.id+1)}`: `javascript:void(0)`;
 
   return(<Container>
     <Header background={sections[src.section-1].background}>
       <div id="header_title">
       <p>{src.id}. {src.title}</p>
         <div id="header_controls">
-          <a data-direction="back" href={backHref}><BsFillArrowLeftSquareFill /></a>
+          <a className={(src.id <= 1 || src.sectionHeading) && "inactive"} data-direction="back" href={backHref}><BsFillArrowLeftSquareFill /></a>
           <a href="javascript:void(0)" onClick={handleMenu}><BsFillMenuButtonWideFill/></a>
-          <a data-direction="forward" href={forwardHref}><BsFillArrowRightSquareFill /></a>
+          <a className={(src.id >= TOTAL_FOOTNOTES || src.sectionHeading) && "inactive"} data-direction="forward" href={forwardHref}><BsFillArrowRightSquareFill /></a>
         </div>
       </div>
-      <a href="https://www.radiatorpress.com/product/open-source-by-warren-c-longmire"><img onClick={handleMenu} width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/></a>
+      <a href=""><img onClick={handleMenu} width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/></a>
     </Header>
 
     <MenuContext.Provider value={{setShowMenu}}>

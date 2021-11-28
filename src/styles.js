@@ -30,11 +30,15 @@ export const Header = styled.header`
     font-size: 1.5em;
     color: grey;
     transition: color 1s;
-    
   }
 
   #header_controls a:hover {
     color: ${props => props.background || "pink"};
+  }
+
+  #header_controls a.inactive {
+    color: rgba(255, 255, 255, 0.2);
+    cursor: auto;
   }
 
   #header_controls {

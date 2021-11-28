@@ -1505,16 +1505,16 @@ const data = [
       page: 67,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Artificial Intelligence Tech GIF",
+          titleLink: "https://giphy.com/gifs/esports-machine-learning-65Ehp0SVELsVqYhyJT?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=http%3A%2F%2Flocalhost%3A3000%2F",
+          by: "Woodblock",
+          byLink: "https://giphy.com/woodblock"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Richard Stallman: Free v Open Source Software",
+          titleLink: "https://www.youtube.com/watch?v=lrcdhzr2qnk",
+          by:"Tech Perspectives",
+          byLink:"https://www.youtube.com/channel/UCwbAMcdzAm1GKKW9xrdDL3Q"
         }
       ]
     },
@@ -1555,16 +1555,16 @@ const data = [
       page: 68,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "function google search",
+          titleLink: "https://www.google.com/search?q=function&oq=function&aqs=chrome..69i57j69i60l2.1307j0j9&sourceid=chrome&ie=UTF-8",
+          by: "Google",
+          byLink: "https://www.google.com"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "OpenAI Plays Hide and Seek…and Breaks The Game! 🤖",
+          titleLink: "https://www.youtube.com/watch?time_continue=6&v=Lu56xVlZ40M&feature=emb_title",
+          by:"Two Minute Papers",
+          byLink:"https://www.youtube.com/watch?v=3wHbeq61Wn0"
         }
       ]
     },
@@ -1608,16 +1608,16 @@ const data = [
       page: 69,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "From Tiffany Blue to Louboutin Red: The Power of Owning a Colour",
+          titleLink: "https://www.businessoffashion.com/articles/luxury/from-tiffany-blue-to-louboutin-red-the-power-of-owning-a-colour/",
+          by: "Business Of Fashion",
+          byLink: "https://www.businessoffashion.com/"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
+          title: "Barcode Processing Sketch",
+          titleLink: "https://openprocessing.org/sketch/1311095",
           by:"Warren C. Longmire",
-          byLink:"#"
+          byLink:"https://openprocessing.org/user/30859?view=sketches"
         }
       ]
     },
@@ -1659,16 +1659,16 @@ const data = [
       page: 71,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: '"what is an object in programming" Google Search',
+          titleLink: "https://www.google.com/search?q=what+is+an+object+in+programming&sxsrf=AOaemvJijl9BkH39ziU4O_7UMkXQ07bqDg%3A1634346263254&ei=FyVqYZb_DvCpytMPsI-VqAc&oq=what+is+an+object+in+programming&gs_lcp=Cgdnd3Mtd2l6EAMYADIECAAQQzIECAAQQzIKCAAQgAQQhwIQFDIECAAQQzIFCAAQgAQyBAgAEEMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6BAgjECc6BQgAEJECOggIABCxAxCRAjoICAAQgAQQsQM6BQgAELEDOgsIABCABBCxAxCDAToHCAAQgAQQCjoECAAQCkoECEEYAFCecFjNkAFg7ZgBaAhwAngAgAHdAYgB4RaSAQY2LjE1LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz",
+          by: "Google",
+          byLink: "https://www.google.com"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Daniel Rozin: Penguins Mirror",
+          titleLink: "https://www.youtube.com/watch?v=QlrnjjfLkTI",
+          by:"Lawrence Arts Center",
+          byLink:"https://www.youtube.com/channel/UCqoea-RRK1W8EiRk4g8aPyQ"
         }
       ]
     },
@@ -1711,15 +1711,15 @@ const data = [
       page: 72,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          title: "Series C Funding Gif / Google Search",
+          titleLink: "https://www.google.com/search?q=series+c+funding&oq=series+c+funding&aqs=chrome..69i57j69i60l2.3050j0j4&sourceid=chrome&ie=UTF-8",
           by: "Google Maps",
           byLink: "https://www.google.com/maps"
         },
         {
-          title: "Photo of Former Francisville Apartment",
+          title: "Bill Gates Quote",
           titleLink: "#",
-          by:"Warren C. Longmire",
+          by:"Bill Gates",
           byLink:"#"
         }
       ]
@@ -1763,16 +1763,10 @@ const data = [
       page: 73,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Steve Ballmer: Developers x 3",
+          titleLink: "https://www.youtube.com/watch?v=Vhh_GeBPOhs",
+          by: "MrWueb007",
+          byLink: "https://www.youtube.com/channel/UCHQybm5RUV-GGGsleh7fTMw"
         }
       ]
     },
@@ -1825,16 +1819,16 @@ const data = [
       page: 75,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Sam Aaron live coding an ambient electro set w/ Sonic Pi",
+          titleLink: "https://www.youtube.com/watch?v=G1m0aX9Lpts&t=118s",
+          by: "Sam Aaron",
+          byLink: "https://www.youtube.com/channel/UCQB04t2hxSBVTjxpbIHdI-w"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Tribal African Inspired Pattern in Adobe Illustrator",
+          titleLink: "https://www.youtube.com/watch?v=KvBfld47Mmg",
+          by:"Muka's Corner",
+          byLink:"https://www.youtube.com/channel/UCaVoxIYBwCBAYpzD7fF85IQ"
         }
       ]
     },
@@ -1877,15 +1871,15 @@ const data = [
       page: 77,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Math is RACIST? Glenn Loury and John McWhorter Respond",
+          titleLink: "https://www.youtube.com/watch?v=hiLNdsggbqg",
+          by: "Common Sense Productions",
+          byLink: "https://www.youtube.com/channel/UCgT9T9gBmd0lIjai00VdScg"
         },
         {
-          title: "Photo of Former Francisville Apartment",
+          title: "Robot Gif",
           titleLink: "#",
-          by:"Warren C. Longmire",
+          by:"Gif",
           byLink:"#"
         }
       ]
@@ -1935,16 +1929,16 @@ const data = [
       page: 79,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
+          title: "Reclaim your freedom with free libre software now - Richard Stallman of Free Software Movement",
+          titleLink: "https://www.youtube.com/watch?v=n9YDz-Iwgyw",
           by: "Google Maps",
           byLink: "https://www.google.com/maps"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Burning Down an Entire Virtual Forest! 🌲🔥",
+          titleLink: "https://www.youtube.com/watch?v=AGCH1GR7pPU",
+          by:"Two Minute Papers",
+          byLink:"https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg"
         }
       ]
     },
@@ -1988,13 +1982,13 @@ const data = [
       page: 87,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Photo of West Philly Home",
+          titleLink: "#",
+          by: "Warren C. Longmire",
+          byLink: "#"
         },
         {
-          title: "Photo of Former Francisville Apartment",
+          title: "Muted Video Journey Entry",
           titleLink: "#",
           by:"Warren C. Longmire",
           byLink:"#"
@@ -2040,13 +2034,19 @@ const data = [
       page: 89,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Three ways people are reacting to coronavirus: ‘accepting’, ‘suffering’ and ‘resisting’",
+          titleLink: "https://theconversation.com/three-ways-people-are-reacting-to-coronavirus-accepting-suffering-and-resisting-137345",
+          by: "Bobby Duffy | The Conversation",
+          byLink: "https://theconversation.com/profiles/bobby-duffy-98570"
         },
         {
-          title: "Photo of Former Francisville Apartment",
+          title: "Muted Video Journey Entry",
+          titleLink: "#",
+          by:"Warren C. Longmire",
+          byLink:"#"
+        },
+        {
+          title: "Pandemic TV Compilation",
           titleLink: "#",
           by:"Warren C. Longmire",
           byLink:"#"
@@ -2103,13 +2103,7 @@ const data = [
       page: 90,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
+          title: "Photo of South West Philly Backyard",
           titleLink: "#",
           by:"Warren C. Longmire",
           byLink:"#"
@@ -2158,13 +2152,7 @@ const data = [
       page: 92,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
+          title: "Video Journey Entry",
           titleLink: "#",
           by:"Warren C. Longmire",
           byLink:"#"
@@ -2225,16 +2213,10 @@ const data = [
       page: 94,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
+          title: "Things to do when you're alone",
+          titleLink: "https://www.youtube.com/watch?v=9ZcXBYnOafI",
           by:"Warren C. Longmire",
-          byLink:"#"
+          byLink:"https://www.youtube.com/channel/UCN_EevFPOuc-jiZRqWr24eg"
         }
       ]
     },
@@ -2270,16 +2252,28 @@ const data = [
       page: 96,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Astrology Secrets: PISCES Energy #Astrology #Pisces #Energy #AstroFinesse",
+          titleLink: "https://www.youtube.com/watch?time_continue=510&v=9Z0hHqoF26E",
+          by: "Astro Finesse",
+          byLink: "https://www.youtube.com/channel/UCZKEpiJE91G5nKGxQPdLbQA"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: 'PISCES JUNE 2020 - "Not Letting Fear Lead the Way"',
+          titleLink: "https://www.youtube.com/watch?v=75rDdXQGbaI&t=932s",
+          by:"ALI's Tarot",
+          byLink:"https://www.youtube.com/channel/UCGS9evApv_T-ZZbSmHi4oBA"
+        },
+        {
+          title: 'PISCES - "WHY ARE YOU ON MY MIND AGAIN?” 🦋🙄 JULY 2020 TAROT READING!',
+          titleLink: "https://www.youtube.com/watch?v=bSXEVmEWYV4&t=1093s",
+          by:"CancerMoons Tarot",
+          byLink:"https://www.youtube.com/channel/UCAe7WnQtaik7JPefZsh2TsQ"
+        },
+        {
+          title: 'PISCES "ON YOUR WAY TO VICTORY" | TIMELESS',
+          titleLink: "https://www.youtube.com/watch?v=WVc1nkgKYDw&t=90s",
+          by:"The Birthday Gift",
+          byLink:"https://www.youtube.com/channel/UCArQQ39CH3BcQuE_0ZZo0zw"
         }
       ]
     },
@@ -2351,16 +2345,10 @@ const data = [
       page: 102,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Aretha Franklin - Something He Can Feel",
+          titleLink: "https://www.youtube.com/watch?v=Fj8pY4IFoeU",
+          by: "#ManILoveThatSong",
+          byLink: "https://www.youtube.com/channel/UCzqbM12tl0PXmhINgRgMlZw"
         }
       ]
     },
@@ -2396,16 +2384,10 @@ const data = [
       page: 103,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Drake as a Sad Indie song",
+          titleLink: "https://www.youtube.com/watch?v=Eru6INv-hSw",
+          by: "Nick Lutsko",
+          byLink: "https://www.youtube.com/channel/UCGHiFqlkj6T7z2sW9xz8d_Q"
         }
       ]
     },
@@ -2441,16 +2423,10 @@ const data = [
       page: 104,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "'I Almost Killed My Daughter': Kanye West Cries at Campaign Rally During Abortion Diatribe",
+          titleLink: "https://www.youtube.com/watch?v=eRAXruayAto",
+          by: "Storyful Rights Management",
+          byLink: "https://www.youtube.com/channel/UC5ovaFtNA0Jbq7mf0vdKYjg"
         }
       ]
     },
@@ -2486,16 +2462,10 @@ const data = [
       page: 107,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
-        },
-        {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: 'Video from "Black Art: In the Absence of Light"',
+          titleLink: "https://www.hbo.com/documentaries/black-art-in-the-absence-of-light",
+          by: "Warren C. Longmire",
+          byLink: "#"
         }
       ]
     },
@@ -2680,7 +2650,7 @@ const data = [
       modules:[
         {
           type:VIDEO_TYPE,
-          id: "J_a3Lyy1uIM",
+          id: "F-xLBNYxdlk",
           muted: false,
           loop: true,
           img_pos:{x: 0, y:0},
