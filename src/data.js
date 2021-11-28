@@ -522,16 +522,16 @@ const data = [
       page: 7,
       attributions: [
         {
-          title: "Map of 1618 Brown St",
-          titleLink: "https://www.google.com/maps?ll=39.96824,-75.164194&z=15&t=m&hl=en&gl=US&mapclient=embed&q=1618+Brown+St+Philadelphia,+PA+19130",
-          by: "Google Maps",
-          byLink: "https://www.google.com/maps"
+          title: "Asthma rates among Philadelphia Boys",
+          titleLink: "https://www.phila.gov/media/20190314105459/Brotherly-Love_Health-Of-Black-Men-And-Boys_3_19.pdf",
+          by: "Brotherly Love: Health Of Black Men and Boys in Philadelphia",
+          byLink: "https://www.phila.gov/media/20190314105459/Brotherly-Love_Health-Of-Black-Men-And-Boys_3_19.pdf"
         },
         {
-          title: "Photo of Former Francisville Apartment",
-          titleLink: "#",
-          by:"Warren C. Longmire",
-          byLink:"#"
+          title: "Asthma Disparities and Differential Responses to Therapy",
+          titleLink: "https://www.youtube.com/watch?v=9pAUe2k7uKI&t=403s",
+          by:"breatherville",
+          byLink:"https://www.youtube.com/channel/UCDJNzwnvP_Mit8bOQZ0nl_g"
         }
       ]
     },
@@ -552,7 +552,7 @@ const data = [
         },
         {
           type:IMAGE_TYPE,
-          src: "footnote9.2.png",
+          src: "footnote9.3.png",
           href: "https://www.pulmonologyadvisor.com/home/topics/asthma/exploring-autoimmunity-in-asthma-a-clinical-overview-plus-qa/",
           img_pos:{x: 0, y:0},
           img_size: 100,
