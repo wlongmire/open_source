@@ -156,7 +156,7 @@ function App() {
       <Redirect to="/opensource/footnote/1"/>
     </Route>
     <Route exact path= "/" render={()=>{
-      window.location.href = 'https://linktr.ee/alongmirewriter';
+      window.location.href = 'https://alongmirewriter.squarespace.com/';
     }}/>
     <Route exact path= "/opensource" render={()=>{
       window.location.href = 'https://www.radiatorpress.com/product/open-source-by-warren-c-longmire';
