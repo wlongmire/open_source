@@ -1,5 +1,4 @@
 import {  MAP_TYPE, VIDEO_TYPE, GIPHY_TYPE, IMAGE_TYPE, PROCESSING_TYPE} from './ContentGrid/constants';
-// import {  COLOR_TYPE} from './ContentGrid/constants';
 
 const data = [
   {
@@ -2721,3 +2720,62 @@ export const sections = [
 export const TOTAL_FOOTNOTES = 45;
 
 export default data;
+
+export const birdDiz = {
+  citations:[
+    {
+      id:1,
+      section: "Prelude",
+      title: "Swing to Bop (1941) By Charlie Christain",
+      url: "https://www.youtube.com/watch?v=Ce9Jtl9D6FQ"
+    },
+    {
+      id:2,
+      section: "Prelude",
+      title: "Dizzy Gillespie 1946 “Oop Bop Sh’Bam”",
+      url: "https://www.youtube.com/watch?v=Qj_8A0CAGNM"
+    },
+    {
+      id:3,
+      section: "Bridge",
+      title: "Charlie Parker Interview",
+      url: "https://m.youtube.com/watch?v=UvsqYo9r_dE"
+    },
+    {
+      id:4,
+      section: "Bridge",
+      title: "Playboy’s Penthouse",
+      url: "https://m.youtube.com/watch?v=V3ctq8ETa2A"
+    },
+    {
+      id:5,
+      section: "Bridge",
+      title: "Bud Powell",
+      url: "https://m.youtube.com/watch?v=VP4X7rhpec0"
+    },
+    {
+      id:6,
+      section: "Verse",
+      title: "Max Roach & Abbey Lincoln",
+      url: "https://m.youtube.com/watch?v=YTeacoeAm9o"
+    },
+    {
+      id:7,
+      section: "Verse",
+      title: "Thelonious Monk Quartet",
+      url: "https://m.youtube.com/watch?v=jgPQkMX75pY"
+    },
+    {
+      id:8,
+      section: "Chorus",
+      title: "Interview with Dizzy",
+      url: "https://m.youtube.com/watch?v=oqzidQ-rKSY"
+    },
+    {
+      id:9,
+      section: "Chorus",
+      title: "Dizzy Gillespie: Unicorn",
+      url: "https://m.youtube.com/watch?v=5UxeSyv55mg"
+    },
+  ]
+}

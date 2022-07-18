@@ -10,7 +10,7 @@ import { Container, Header, MenuSliderStyle, FootnoteSection, MenuHeader, Attrib
 
 import ContentGrid from './ContentGrid';
 
-import data, {sections, TOTAL_FOOTNOTES} from './data';
+import data, {sections, TOTAL_FOOTNOTES, birdDiz} from './data';
 
 
 const MenuContext = createContext();
@@ -152,12 +152,14 @@ function App() {
   });
 
   return (<Container>
-    <Route exact path="/">
-      <Redirect to="/opensource/footnote/1"/>
-    </Route>
     <Route exact path= "/" render={()=>{
       window.location.href = 'https://alongmirewriter.squarespace.com/';
     }}/>
+
+    <Route exact path= "/birddiz/:id" render={(e)=>{
+      window.location.href = birdDiz.citations[parseInt(e.match.params.id) -1].url;
+    }}/>
+    
     <Route exact path= "/opensource" render={()=>{
       window.location.href = 'https://www.radiatorpress.com/product/open-source-by-warren-c-longmire';
     }}/>
