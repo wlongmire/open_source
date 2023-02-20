@@ -815,8 +815,8 @@ const data = [
       page: 35,
       attributions: [
         {
-          title: "White Zaddy Explains Why Black Men Can't Be High Value & Guess Who's Mad?",
-          titleLink: "https://www.youtube.com/watch?v=SXCMdxvu5Sk",
+          title: "Black Men Have Never Been High Value Men",
+          titleLink: "https://www.youtube.com/watch?v=hgT4qKY-Zzk&t=300s",
           by: "Cynthia G",
           byLink: "https://www.youtube.com/channel/UC5ksavsuuri0tJpcVS2gCBg"
         },

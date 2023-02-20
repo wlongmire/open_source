@@ -134,7 +134,7 @@ const GridContainer = (props)=> {
           <a className={(src.id >= TOTAL_FOOTNOTES || src.sectionHeading) && "inactive"} data-direction="forward" href={forwardHref}><BsFillArrowRightSquareFill /></a>
         </div>
       </div>
-      <a href=""><img onClick={handleMenu} width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/></a>
+      <a target="_blank" href="https://www.radiatorpress.com/product/open-source-by-warren-c-longmire"><img onClick={handleMenu} width="100px" height="100px" src={process.env.PUBLIC_URL + '/assets/open.png'} alt="open"/></a>
     </Header>
 
     <MenuContext.Provider value={{setShowMenu}}>
@@ -168,9 +168,6 @@ function App() {
     </Route>
     <Route exact path= "/services">
       <h2>Services</h2>
-    </Route>
-    <Route exact path= "/opensource">
-      <h2>Open Source</h2>
     </Route>
     <Route exact path= "/contact">
       <h2>Contact</h2>
