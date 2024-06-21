@@ -16,10 +16,10 @@ const data = [
           byLink: "https://www.google.com/maps"
         },
         {
-          title: "North Philadelphia Strawberry Mansion - 23rd & Diamond",
-          titleLink: "https://www.youtube.com/watch?v=SGGW51EGUrA&t=312s",
-          by:"HoodTime",
-          byLink:"https://www.youtube.com/channel/UC1MveHv1lTVBzdM5VYZkcBQ"
+          title: "PHILADELPHIA HOODS | Strawberry Mansion on a Spring Day",
+          titleLink: "https://www.youtube.com/watch?v=lKwAs-IAegQ&t=33s",
+          by:"TOON215",
+          byLink:"https://www.youtube.com/@TOON215"
         }
       ]
     },
@@ -272,10 +272,10 @@ const data = [
           byLink:"#"
         },
         {
-          title:"Real Estate Investors in Philadelphia- How To Find Houses Under 5000 in Philadelphia- RJB Capital",
-          titleLink:"https://www.youtube.com/watch?v=5S6oVOpqNDQ",
-          by:"RJB Capital Funding",
-          byLink:"https://www.youtube.com/channel/UCJKuBhLjmIouWEf3ZNas6eA"
+          title:"Exploring Fairmount: A Real Estate Tour of Philly",
+          titleLink:"https://www.youtube.com/watch?v=kUvoJMw8Ngo&t=37s",
+          by:"LIVING IN PHILADELPHIA",
+          byLink:"https://www.youtube.com/@realestatebul"
         }
       ]
     },
