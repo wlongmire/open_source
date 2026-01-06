@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import Source from './utils/Source';
 
 import Home from './Home/Home';
-import GridContainer from './OpenSource';
+import OpenSource from './OpenSource';
 
 import data, { birdDiz } from './data';
 
@@ -33,7 +33,7 @@ function App() {
       sources.map(src => <Route key={src.id} path={src.getRoute()} render={
         () => {
           if (src.isGrid) {
-          return(<GridContainer src={src}/>);
+            return(<OpenSource src={src}/>);
           } else {
             window.location.href = `${src.getURL()}`
           }
