@@ -17,9 +17,13 @@ function App() {
   });
 
   return (<Container>
+    <Route exact path= "/" render={()=>{
+      window.location.href = 'https://alongmirewriter.squarespace.com/';
+    }}/>
+{/* 
     <Route exact path= "/">
         <Home />
-    </Route>
+    </Route> */}
 
     <Route exact path= "/birddiz/:id" render={(e)=>{
       window.location.href = birdDiz.citations[parseInt(e.match.params.id) -1].url;
