@@ -161,17 +161,9 @@ function App() {
     }}/>
     
     <Route exact path= "/opensource" render={()=>{
-      window.location.href = 'https://www.radiatorpress.com/product/open-source-by-warren-c-longmire';
+      window.location.href = 'https://radiatorpress.org/product/open-source-by-warren-longmire/';
     }}/>
-     <Route exact path= "/publications">
-      <h2>Publications</h2>
-    </Route>
-    <Route exact path= "/services">
-      <h2>Services</h2>
-    </Route>
-    <Route exact path= "/contact">
-      <h2>Contact</h2>
-    </Route>
+
     {
          sources.map(src => <Route key={src.id} path={src.getRoute()} render={
            () => {
